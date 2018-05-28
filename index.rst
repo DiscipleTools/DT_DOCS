@@ -8,14 +8,9 @@ Welcome to Disciple Tools's documentation!
 This is the home for all documentation for disciple tools.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :titlesonly:
    :caption: Contents:
 
 	Disciple Tools Theme <./Disciple_Tools_Theme/disciple-tools-theme-index>
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
