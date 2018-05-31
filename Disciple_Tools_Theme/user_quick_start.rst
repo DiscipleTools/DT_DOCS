@@ -21,7 +21,7 @@ Contacts
 
 A contact is someone that you are trying to reach. When a contact is first met it is important to add them to the database. To do this use the "Create new contact" button found under the "Contacts" page. More info can be found on the User_Create_Contacts_Page_.
 
-.. _User_Create_Contacts_Page: user_create_contact.rst
+.. _User_Create_Contacts_Page: user_create_contact
 
 .. toctree::
     :maxdepth: 2
