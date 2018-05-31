@@ -14,7 +14,7 @@ There are many different types of roles each user can be a more detailed list ca
 * **Prayer supporter**: Currently unimplemented.
 * **Project supporter**: Currently unimplemented.
 * **Strategist**: Currently unimplemented. A strategist is a role that allows leadership to view and think through the statistics and where the coalition is going. He/she is not necessarily receiving and routing contacts.
-* **Subscriber/Registered **: A default WordPress role.
+* **Subscriber/Registered**: A default WordPress role.
 
 Contacts
 --------
