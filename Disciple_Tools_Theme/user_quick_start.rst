@@ -25,7 +25,6 @@ A contact is someone that you are trying to reach. When a contact is first met i
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
     :titlesonly:
     :glob:
     :hidden:
