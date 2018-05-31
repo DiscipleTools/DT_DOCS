@@ -30,4 +30,4 @@ A contact is someone that you are trying to reach. When a contact is first met i
     :glob:
     :hidden:
 
-    user_create_contact.rst
+    user_create_contact
