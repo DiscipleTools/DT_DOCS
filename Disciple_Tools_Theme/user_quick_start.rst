@@ -19,12 +19,12 @@ There are many different types of roles each user can be a more detailed list ca
 Contacts
 --------
 
-A contact is someone that you are trying to reach. When a contact is first met it is important to add them to the database. To do this use the "Create new contact" button found under the "Contacts" page. More info can be found on the User_Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the custom filter button.
+A contact is someone that you are trying to reach. When a contact is first met it is important to add them to the database. To do this use the "Create new contact" button found under the "Contacts" page. More info can be found on the User_Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the "Add new filter" button.
 
 Groups
 ------
 
-A group is a collection of contacts.
+A group is a collection of contacts. To create a new group click on "Create new group," then when the page loads, name and save it. Much like the contacts page, you can search groups based off of filters.  Also, like the contacts page, you can create filters with the "Add new filter" button.
 
 Metrics
 -------
