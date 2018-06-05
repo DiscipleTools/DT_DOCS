@@ -66,6 +66,6 @@ The list of elements is as follows:
 * Covenant
 
 Comments/Activity
-=================
+-----------------
 
 Here you can write comments about activity for the group. The format for the comments is to typing, to link someone type @[name], for the full list of comment actions go to the comment page at (TODO). This section also includes the history of activity such as when the group status became active. You can filter this section either by "All,"Comments," or "Activity." 
