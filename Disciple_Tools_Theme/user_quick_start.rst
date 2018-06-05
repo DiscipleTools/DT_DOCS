@@ -37,7 +37,6 @@ The metrics tab is where you can see an overview of stats for the project.  Upon
 .. toctree::
     :maxdepth: 2
     :titlesonly:
-    :glob:
     :hidden:
     
     Create Contact <./user_create_contact>
