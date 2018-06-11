@@ -1,6 +1,7 @@
-===
+***
 FAQ
-===
+***
+
 
 The Difference Between Assigning, Sub Assigning, Following, and Sharing. 
 ========================================================================
