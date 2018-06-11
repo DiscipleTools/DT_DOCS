@@ -18,7 +18,6 @@ This is the index page for the documentation referencing the Disciple Tools Them
 
 .. toctree::
     :maxdepth: 2
-    :titlesonly:
     
     User Start <./user_quick_start>
     User FAQ <./user_faq>
