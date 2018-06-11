@@ -21,4 +21,5 @@ This is the index page for the documentation referencing the Disciple Tools Them
     :titlesonly:
     
     User Start <./user_quick_start>
+    User FAQ <./user_faq>
     Dev Start <./dev_quick_start>
