@@ -4,7 +4,7 @@ Disciple Tools Documentation
 Roles
 -----
 
-There are many different types of roles each user can be a more detailed list can be found here //TODO//. 
+There are many different types of roles, each role is assigned upon account creation and can be changed later in the admin area. 
 
 * **Administrator**: Users with this role can access all functionality, including the WordPress admin interface. They can invite other users, and they can modify the roles of other users.
 * **DT Admin**: Manage users and DT settings. Can't manage plugins
@@ -19,7 +19,7 @@ There are many different types of roles each user can be a more detailed list ca
 Contacts
 --------
 
-A contact is someone that you are trying to reach. When a contact is first met it is important to add them to the database. To do this use the ``Create new contact`` button found under the ``Contacts`` page. More info can be found on the Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the ``Add new filter`` button.
+A contact is someone that you are trying to reach. When contact is first met, it is important to add them to the database. To do this use the ``Create new contact`` button found under the ``Contacts`` page. More info can be found on the Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, and the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the ``Add new filter`` button.
 
 Groups
 ------
@@ -29,10 +29,19 @@ A group is a collection of contacts. To create a new group click on ``Create new
 Metrics
 -------
 
-The metrics tab is where you can see an overview of stats for the project.  Upon clicking the metrics tab you will be presented with your personal statistics.  Clicking project then clicking overview from the now expanded subfolder will show the stats for the entire project.
+The metrics tab is where you can see an overview of stats for the project.  Upon clicking the metrics tab, you will be presented with your personal statistics.  Clicking ``project`` then clicking ``overview`` from the now expanded subfolder will show the stats for the entire project.
+
+Filters
+-------
+
+Filters are a way to search for contacts in either the contacts tab or the group's tab. There are many default filters already included.
+The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs, 
+you can also make your own filters. More information about custom filters can be found on the Custom_Filters page.
+Note that you can only have one filter active at a time.
 
 .. _Create_Contacts_Page: user_create_contact.html
 .. _Group_Page: user_group.html
+.. _Custom_Filters: ./user_custom_filters.html
 
 .. toctree::
     :titlesonly:
