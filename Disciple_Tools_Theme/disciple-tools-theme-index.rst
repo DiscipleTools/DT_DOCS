@@ -18,6 +18,6 @@ This is the index page for the documentation referencing the Disciple Tools Them
 
 .. toctree::
 
-    User Start <./user_quick_start>
     User FAQ <./user_faq>
+    User Start <./user_quick_start>
     Dev Start <./dev_quick_start>
