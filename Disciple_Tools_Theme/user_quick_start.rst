@@ -44,8 +44,7 @@ Note that you can only have one filter active at a time.
 .. _Custom_Filters: ./user_custom_filters.html
 
 .. toctree::
-    :titlesonly:
-    
+
     Create Contact <./user_create_contact>
     Group <./user_group>
     Custom Filters <./user_custom_filters.rst>
