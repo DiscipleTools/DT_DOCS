@@ -35,9 +35,8 @@ The metrics tab is where you can see an overview of stats for the project.  Upon
 .. _Group_Page: user_group.html
 
 .. toctree::
-    :maxdepth: 2
     :titlesonly:
-    :hidden:
     
     Create Contact <./user_create_contact>
     Group <./user_group>
+    Custom Filters <./user_custom_filters.rst>
