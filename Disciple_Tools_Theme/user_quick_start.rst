@@ -36,7 +36,7 @@ Filters
 
 Filters are a way to search for contacts in either the contacts tab or the group's tab. There are many default filters already included.
 The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs, 
-you can also make your own filters. More information about custom filters can be found on the Custom_Filters page.
+you can also make your own filters. More information about custom filters can be found on the Custom_Filters_ page.
 Note that you can only have one filter active at a time.
 
 .. _Create_Contacts_Page: user_create_contact.html
