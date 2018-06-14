@@ -55,3 +55,14 @@ Follow a Contact to Get Notifications
 
 On the contact's page that you want to follow. There is a slider on the top right called ``Follow`` with the options next to it being ``No``, and ``Yes``. 
 Clicking on the slider will switch between following (Yes) and not follwoing (No) a contact.
+
+
+Lost Your Password
+==================
+
+If you have lost your password go to the homepage. Once there click on the link called ``Lost your password?``. You will then be taken to a page where you will enter your email address associated with your account.  An email will be sent to this account, follow the steps in the email to reset your password.
+
+I Can't Write My Own Custom Reason For The Contact Being Closed
+=============================================================== 
+
+This is not a current feature. Just select unknown and then write a comment with the reason.
