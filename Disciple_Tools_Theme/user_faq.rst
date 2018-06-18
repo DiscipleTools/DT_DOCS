@@ -69,5 +69,4 @@ This is not a current feature. Just select unknown and then write a comment with
 
 I don't see all my contacts
 =========================== 
-* It may be that some are shared with you, but you aren't assigned to them. 
-* If it only shows up under 'contacts shared with me'; you were not assigned to a contact, but you chose to 'follow' them. This does not put them in your contacts list, but it does allow you to get a notification for any changes made to that contact.
+It may be that some are shared with you, but you aren't assigned to them. If it only shows up under 'contacts shared with me'; you were not assigned to a contact, but you chose to 'follow' them. This does not put them in your contacts list, but it does allow you to get a notification for any changes made to that contact.
