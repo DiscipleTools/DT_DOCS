@@ -19,7 +19,7 @@ There are many different types of roles, each role is assigned upon account crea
 Contacts
 --------
 
-A contact is someone that you are trying to reach. When contact is first met, it is important to add them to the database. To do this use the ``Create new contact`` button found under the ``Contacts`` page. More info can be found on the Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, and the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the ``Add new filter`` button.
+A contact is someone that you are trying to reach. When contact is first met, it is important to add them to the database. To do this use the ``Create new contact`` button found under the ``Contacts`` page. More info can be found on the Create_Contacts_Page_. On the contacts page, you will be able to search contacts based off of filters, and the default filter is your personal contacts. Other filters include all contacts and contacts shared with me. You can also create your own filters by pressing the ``Add new filter`` button. If you need to do a mass CSV import for contacts go to the Mass_CSV_Contacts_Import_.
 
 Groups
 ------
@@ -42,9 +42,11 @@ Note that you can only have one filter active at a time.
 .. _Create_Contacts_Page: user_create_contact.html
 .. _Group_Page: user_group.html
 .. _Custom_Filters: ./user_custom_filters.html
+.. _Mass_CSV_Contacts_Import: user_mass_contacts_csv_import.html
 
 .. toctree::
 
     Create Contact <./user_create_contact>
     Group <./user_group>
     Custom Filters <./user_custom_filters.rst>
+    Mass CSV Contacts Import <./user_mass_contacts_csv_import.rst>
