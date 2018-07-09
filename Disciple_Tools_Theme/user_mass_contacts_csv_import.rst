@@ -7,8 +7,7 @@ For the csv file the format is as follows; [``Name``], [``Contact Phone``], [``C
 If you can't fill a space then leave it blank. For notes it will take all of the remaining columns after gender.
 
 Once you have the file go to your ``admin page`` then go to the tab ``Extensions``. Once there click on the ``Tools`` tab. 
-You will then see the option for CSV import. Click ``upload file`` then upload your file. Select your ``delimiter`` (by default ``,``),
-select which source all these contacts are coming from. Then choose a user to assign it to.
+You will then see the option for CSV import. Click ``upload file`` then upload your file. Select your ``delimiter`` (by default ``,``), ``header`` (if the first line has contact info or not), and which source all these contacts are coming from. Then choose a user to assign it to.
 
 Clicking  ``submit`` will bring you to a validation page. This will show you the first contact that you will create 
 (Note that the notes tab will only show the first note). If it looks correct click ``Yes``. Then your contacts will be created. NOTE DEPENDING ON THE SIZE OF THE IMPORT IT MAY TAKE SOME TIME.
