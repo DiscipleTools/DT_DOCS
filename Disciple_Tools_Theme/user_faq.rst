@@ -6,9 +6,7 @@ FAQ
 The Difference Between Assigning, Sub Assigning, Following, and Sharing. 
 ========================================================================
 
-Contacts can only be assigned to one person (in this case, 'LD'), and that person is responsible for them. 
-The ``sub-assigned`` field, is usually for those who go out in twos, so for example, Sam could be assigned to a contact, 
-and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the share button when you want to give someone access so they can see the contact, without giving responsibility.
+Contacts can only be assigned to one person and that person is responsible for them. The ``sub-assigned`` field, is usually for those who go out in twos. For example, Sam could be assigned to a contact and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the share button |SHARE| when you want to give someone access so they can see the contact, without giving responsibility.
 
 Create a Contact
 ================
@@ -68,3 +66,5 @@ I Don't See All of My Contacts
 ==============================
  
 The reason may be that some contacts are shared with you, but you aren't assigned to them. If the contact only shows up under ``Contacts shared with me``, then that contact was shared with you and not assigned to you. This does not put them in your contacts list, but it does allow you to get a notification for any changes made to that contact.
+
+.. |SHARE| image:: /Disciple_Tools_Theme/images/share.PNG
