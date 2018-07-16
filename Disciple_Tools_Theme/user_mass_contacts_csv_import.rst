@@ -6,6 +6,8 @@ To import contacts with a CSV file you must first have a CSV file to import.
 For the csv file the format is as follows; [``Name``], [``Contact Phone``], [``Contact Email``], [``Contact Address``], [``Gender``], [``Notes``].
 If you can't fill a space then leave it blank. ``Notes`` will take all of the remaining columns after gender.
 
+Note: UTF-8 is the recommended file format, to guarantee all contacts import correctly.
+
 Once you have the file, go to your ``admin page``. Next,  click on ``Extensions`` on the left menu. Then click on the ``Tools`` tab. 
 You will then see the option for CSV import. Click ``upload file``, then upload your file. Select your ``delimiter`` (by default ``,``), ``header`` (if the first line has contact info or not), and which source all these contacts are coming from. Then choose a user to assign it to.
 
