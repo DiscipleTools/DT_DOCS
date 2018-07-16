@@ -25,7 +25,7 @@ Members
 This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name.
 
 Groups
-------
+-------
 
 If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
