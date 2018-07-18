@@ -1,5 +1,5 @@
-Disciple Tools Theme
-====================
+Disciple.Tools
+==============
 
 Disciple.Tools is a customized WordPress installer that will have the following components:
 
@@ -18,6 +18,6 @@ This is the index page for the documentation referencing the Disciple Tools Them
 
 .. toctree::
 
-    User FAQ <./user_faq>
+    Step by Step <./user_step_by_step>
     User Start <./user_quick_start>
     Dev Start <./dev_quick_start>
