@@ -23,12 +23,12 @@ A contact is someone that you are trying to reach. When a contact is first met i
 
 
 Groups
-======
+------
 
 A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the group under the URL structure of https://[url]/groups/[group_num].
 
 Details
--------
+~~~~~~~
 
 In this area is the following set of data:
 
@@ -44,19 +44,19 @@ In this area is the following set of data:
 You can edit any of this data by clicking the ``Edit`` button located on the top right.
 
 Members
--------
+~~~~~~~
 
 This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name.
 
 Multiplied Groups
--------
+~~~~~~~~~~~~~~~~~
 
 If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
 If this group has multiplied into another group, you can add that under ``Child Groups``.
 
 Progress
---------
+~~~~~~~~
 
 In this area, you can keep track of the overall health and progress of the group. 
 
@@ -90,7 +90,7 @@ The list of elements is as follows:
 * Covenant
 
 Comments/Activity
------------------
+~~~~~~~~~~~~~~~~~
 
 Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click ``Submit comment`` to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
 
@@ -106,7 +106,7 @@ Filters are a way to search for contacts in either the ``Contacts`` page or grou
 Note, you can only have one filter active at a time.
 
 Assigning, Sub-Assigning, Following, and Sharing. 
-------------------------------------------------------------------------
+-------------------------------------------------
 
 Contacts can only be assigned to one person and that person is responsible for them. The ``sub-assigned`` field, is usually for those who go out in twos. For example, Sam could be assigned to a contact and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the share button |SHARE| when you want to give someone access so they can see the contact, without giving responsibility.
 
