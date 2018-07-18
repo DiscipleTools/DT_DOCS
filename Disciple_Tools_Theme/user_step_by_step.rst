@@ -1,30 +1,45 @@
-************
 Step by Step
-************
+============
 
 
 Create a Contact
-================
+----------------
 
-To create a contact, go to the contacts page located at https://[your_url]/contacts/ or by clicking the ``Contacts`` tab.  
-Once there, click the green button ``Create new contact`` located at the top of the screen. Then fill out the information and then click 
-``Save and continue editing``.
+The ``Create new contact`` button is located at the top of the "Contacts" page, found under *https://[your url]/contacts/*. Clicking this will bring you to a new page *https://[your url]/contacts/new*.  On this page you will be presented with options for creating a new contact.  The list of options is below:
+
+* **Name of contact:** A required field that is the name of the contact.
+* **Phone number:** A phone number to reach the contact.
+* **Email:** A email to reach the contact.
+* **Source:** Where this contact came from. Clicking this will bring up a list of the current options.
+
+  + Web
+  + Phone
+  + Facebook
+  + Twitter
+  + Linkedin
+  + Referral
+  + Advertisment
+  
+* **Location:** Where are the contact lives. Clicking this will bring up a list of saved locations. Optionally, you can type a new location instead.
+* **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the comments section of the contact on their page.
+
+After filling out the options click on ``Save and continue editing``.
 
 Assign a Contact
-================
+----------------
 
 Go to the contacts page that can be found either by its id or by searching for it on the ``contacts`` tab.  Once on the contacts page go to the ``Assigned to`` section located on the top right.  Click the text box and start typing the name of the person you want to assign to.
 Once found click on their name.  The ``Status`` section should change to active, if it does not click on the drop-down and select active.
 
 Edit a Contact
-==============
+--------------
 
 Each section of the contact can be edited.  
 The details section can be edited by clicking the ``Edit`` button located on the top right off the panel.
 The other panels, such as the ``Connections`` panel, can be edited by clicking on the field that you want to edit.
 
 Delete a Contact
-================
+----------------
 
 There are two ways to delete a contact. The first way is to go to the contacts page and click the drop-down menu under ``Status``. 
 Then, select ``Closed``. Doing this will bring up a menu asking for the reason you are closing the contact. Once that is filled out the contact will be closed.
@@ -37,28 +52,158 @@ Find the panel called ``Publish``, which is usually on the upper right. Click on
 Find the option ``Move to Trash`` and click it. This deletes the contact from the database and can not be recovered.
 
 Share a Contact
-===============
+---------------
 
 On the contact's page that you want to share, there is a button on the top right of the screen with the word ``Share``. 
 Clicking on this button will show you with whom it is currently shared. If you want to share this contact, click on the ``Search Users`` field and begin typing their name. Then, click on the name of the person you want to share that contact with.
 
 Follow a Contact to Get Notifications
-=====================================
+-------------------------------------
 
 On the contact's page that you want to follow there is a slider on the top right called ``Follow`` with the options next to it being ``No``, and ``Yes``.  Clicking on the slider will toggle it between following (Yes) and not follwoing (No) the contact.
 
+Create a Group
+--------------
+
+A group is a collection of contacts (e.g., a church, Bible study, etc.) To create a new group click on ``Create new group``. After the page loads, name the group and save it. Much like the contacts page, you can search groups based off of filters.  Also, like the contacts page, you can create filters with the ``Add new filter`` button.
+
+Adding Custom Filters
+---------------------
+
+Add
+~~~
+To add a filter, go to either the ``contacts`` page or the ``groups`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
+
+Save
+~~~~
+
+To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter``.
+
+Edit
+~~~~
+
+To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
+
+Delete
+~~~~~~
+To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
+
+
+Contacts Filter Options
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**Assigned To**
+
+* This option will allow you to add names of people who have been assigned a contact.
+* You can add names by searching for them and then clicking on the name in the search field.
+
+**Sub Assigned**
+
+* This option will allow you to add names of people who have been sub-assigned a contact.
+* You can add names by searching for them and then clicking on the name in the search field.
+
+**Locations**
+
+* This option will allow you to add locations of contacts to filter for.
+* You can add a location by searching for it and then clicking on the location in the search field.
+
+**Overall Status**
+
+* This tab will allow you to filter based on a contact's overall status.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* Status filters are as follows:
+  
+  - Unassigned
+  - Assigned
+  - Active
+  - Paused
+  - Closed
+  - Unassignable
+
+**Seeker Path**
+
+* This tab will allow you to filter based on a contact's seeker path.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* Seeker path filters are as follows:
+  
+  - Contact Attempt Needed
+  - Contact Attempted
+  - Contact Established
+  - First Meeting Scheduled
+  - First Meeting Complete
+  - Ongoing Meetings
+  - Being Coached
+  
+**Faith milestones**
+
+* This tab will allow you to filter based on a contact's faith milestones.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* Faith milestone filters are as follows:
+  
+  - Has Bible
+  - Reading Bible
+  - States Belief
+  - Can Share Gospel/Testimony
+  - Sharing Gospel/Testimony
+  - Baptized
+  - Baptizing
+  - In Church/Group
+  - Starting Churches
+  
+**Requires Update**
+
+* This tab will allow you to filter based on if a contact requires an update.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* There are two options:
+
+  - Yes 
+  - No 
+  
+Groups Filter Options
+~~~~~~~~~~~~~~~~~~~~~
+
+**Assigned To**
+
+* This tab will allow you to add names of people that have been assigned to a group.
+* You can add names by searching for them and then clicking on the name in the search field.
+
+**Group Status**
+
+* This tab will allow you to filter based on if a group is active.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* There is two options:
+
+  - Yes 
+  - No 
+
+**Group Type**
+
+* This tab will allow you to filter based on the type of group.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* Group type filters are as follows:
+
+  - Pre-Group
+  - Group
+  - Church 
+  
+**Locations**
+
+* This tab will allow you to add locations of groups to filter for.
+* You can add a location by searching for it and then clicking on the location in the search field.
+
+
 Lost Your Password
-==================
+------------------
 
 If you have lost your password, go to the homepage. Once there, click on the link called ``Lost your password?``. You will then be taken to a page where you will enter your email address associated with your account.  An email will be sent to this account. Follow the steps in the email to reset your password.
 
 I Can't Write My Own Custom Reason for the Contact Being Closed
-=============================================================== 
+---------------------------------------------------------------
 
 This is currently not a feature. Instead, you can select ``Unknown`` and then write a comment in the comments panel with the reason why the contact is closed.
 
 I Don't See All of My Contacts
-==============================
+------------------------------
  
 The reason may be that some contacts are shared with you, but you aren't assigned to them. If the contact only shows up under ``Contacts shared with me``, then that contact was shared with you and not assigned to you. This does not put them in your contacts list, but it does allow you to get a notification for any changes made to that contact.
 
