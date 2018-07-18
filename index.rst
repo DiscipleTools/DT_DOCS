@@ -17,11 +17,16 @@ Disciple.Tools is a customized WordPress installer that will have the following 
 This is the index page for the documentation referencing the Disciple Tools Theme. Below is a list of links.
 
 .. toctree::
+	:caption: General
+	:name: dt-general
+	
+	About <./Disciple_Tools_Theme/user_about>
+
+.. toctree::
 	:caption: Getting Started
 	:name: dt-user-start
 
 	Step by Step <./Disciple_Tools_Theme/user_step_by_step>
-	User Start <./Disciple_Tools_Theme/user_quick_start>
 
 .. toctree::    
 	:caption: Development
