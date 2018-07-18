@@ -26,6 +26,8 @@ Groups
 
 A group is a collection of contacts (e.g., a church, Bible study, etc.) To create a new group click on ``Create new group``. After the page loads, name the group and save it. Much like the contacts page, you can search groups based off of filters.  Also, like the contacts page, you can create filters with the ``Add new filter`` button. For more information about ``Groups``, go to the Group_Page_.
 
+.. _Group_Page: user_group.html
+
 Metrics
 -------
 
