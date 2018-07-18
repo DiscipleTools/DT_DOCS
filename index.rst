@@ -1,16 +1,30 @@
-.. Disciple Tools documentation master file, created by
-   sphinx-quickstart on Mon May 28 10:58:32 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Disciple Tools Theme
+====================
 
-Welcome to Disciple Tools's documentation!
-==========================================
-This is the home for all documentation for disciple tools.
+Disciple.Tools is a customized WordPress installer that will have the following components:
+
+* Contact tracking and follow-up management
+* Paptism and multiplication generations
+* Mobile-first web design
+* User management and communication for coordinating a coalition
+* Reporting integration to Facebook, Google Analytics, Mailchimp, Twitter, and more
+* Prayer network tracking, reporting, and prayer guide publishing
+* Partner network communication and updates publishing
+* Dashboards, charts, and maps to show health and progress of the outreach
+* Extendability through the 40k plugins on the WordPress
+* Marketplace open source, preconfigured, low-tech skills required, cheap hosting options
+
+This is the index page for the documentation referencing the Disciple Tools Theme. Below is a list of links.
 
 .. toctree::
-   :maxdepth: 1
-   :titlesonly:
-   :caption: Contents:
+	:caption: Start
+	:name: dt-user-start
 
-	Disciple Tools Theme <./Disciple_Tools_Theme/disciple-tools-theme-index>
+	User FAQ <./Disciple_Tools_Theme/user_faq>
+	User Start <./Disciple_Tools_Theme/user_quick_start>
 
+.. toctree::    
+	:caption: Dev
+	:name: dev-docs
+
+    	Dev Start <./Disciple_Tools_Theme/dev_quick_start>
