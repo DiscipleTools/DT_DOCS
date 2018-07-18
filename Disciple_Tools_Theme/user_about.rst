@@ -1,5 +1,5 @@
-Disciple Tools Documentation
-============================
+About
+=====
 
 Roles
 -----
