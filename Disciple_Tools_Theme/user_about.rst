@@ -41,3 +41,5 @@ Assigning, Sub-Assigning, Following, and Sharing.
 ------------------------------------------------------------------------
 
 Contacts can only be assigned to one person and that person is responsible for them. The ``sub-assigned`` field, is usually for those who go out in twos. For example, Sam could be assigned to a contact and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the share button |SHARE| when you want to give someone access so they can see the contact, without giving responsibility.
+
+.. |SHARE| image:: /Disciple_Tools_Theme/images/share.PNG
