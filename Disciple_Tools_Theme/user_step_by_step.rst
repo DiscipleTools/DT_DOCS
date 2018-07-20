@@ -200,7 +200,7 @@ If you have lost your password, go to the homepage. Once there, click on the lin
 I Can't Write My Own Custom Reason for the Contact Being Closed
 ---------------------------------------------------------------
 
-This is currently not a feature. Instead, you can select ``Unknown`` and then write a comment in the comments panel with the reason why the contact is closed.
+Go to create_custom_lists_ page for the step by step of doing this.
 
 I Don't See All of My Contacts
 ------------------------------
@@ -211,6 +211,7 @@ The reason may be that some contacts are shared with you, but you aren't assigne
 .. _Group_Page: user_group.html
 .. _Custom_Filters: ./user_custom_filters.html
 .. _Mass_CSV_Contacts_Import: user_mass_contacts_csv_import.html
+.. _create_custom_lists: user_custom_list_settings.html
 
 .. toctree::
 
