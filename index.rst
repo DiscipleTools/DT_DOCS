@@ -4,7 +4,7 @@ Disciple.Tools
 Disciple.Tools is a customized WordPress installer that will have the following components:
 
 * Contact tracking and follow-up management
-* Paptism and multiplication generations
+* Baptism and multiplication generations
 * Mobile-first web design
 * User management and communication for coordinating a coalition
 * Reporting integration to Facebook, Google Analytics, Mailchimp, Twitter, and more
