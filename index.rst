@@ -35,3 +35,9 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:name: dev-docs
 
     	Dev Start <./Disciple_Tools_Theme/dev_quick_start>
+	
+.. toctree::
+        :caption: Development_Contacts
+        :name: Contacts
+
+        Dev Start <./Disciple_Tools_Theme/dev_create_contact>
