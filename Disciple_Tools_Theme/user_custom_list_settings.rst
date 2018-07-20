@@ -4,14 +4,14 @@ Custom List Settings
 This page allows you to customize the fields used in the contacts page.
 
 Where to Find the Page
-======================
+----------------------
 Open up the admin backend, by clicking on the ``gear`` on the top right then clikcing ``Admin``. Once in the backend click on ``Settings``,
 then click on ``Custom Lists``.
 
 Alternatively go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
 
 User (Worker) Contact Profile
-=============================
+-----------------------------
 
 Has the fields:
 
@@ -37,7 +37,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Sources
-=======
+-------
 
 Has the fields:
 
@@ -52,7 +52,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Status
-======
+------
 
 Has the fields:
 
@@ -65,7 +65,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Milestones
-==========
+----------
 
 Has the fields:
 
@@ -78,7 +78,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Seeker Path
-===========
+-----------
 
 Has the fields:
 
@@ -93,7 +93,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Reason Closed
-=============
+-------------
 
 Has the fields:
 
@@ -107,7 +107,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Reason Paused
-=============
+-------------
 
 Has the fields:
 
@@ -121,7 +121,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Reason Unassignable
-===================
+-------------------
 
 Has the fields:
 
@@ -135,7 +135,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Health
-======
+------
 
 Has the fields:
 
@@ -149,7 +149,7 @@ Has the actions:
 * ``Save`` - Saves the current changes.
 
 Custom Dropdown Field
-=====================
+---------------------
 
 Has the fields:
 
