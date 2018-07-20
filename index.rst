@@ -27,6 +27,7 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:name: dt-user-start
 
 	Step by Step <./Disciple_Tools_Theme/user_step_by_step>
+	Customize List Settings <./Disciple_Tools_Theme/user_custom_list_settings>
 
 .. toctree::    
 	:caption: Development
