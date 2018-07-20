@@ -17,12 +17,11 @@ Platform
 We are building on the Wordpress platform because of its open-source availability, simplicity of installation, numerous low cost hosting options, multi-lingual support, substantial configurability and customization, giant development community and resources, native REST API, mobile readiness, and healthy market place for distributing themes and plugins.
 
 
-Contacts
---------
-1. [[Create Contact|Create-Contact]]
-2. [[Update Contact]]
-3. [[Delete Contact]]
-4. [[Contact Fields Format]]
+.. toctree::
+        :caption: Development_Contacts
+        :name: Contacts
+
+        Dev Start <./Disciple_Tools_Theme/dev_create_contact>
 
 Groups
 -----
