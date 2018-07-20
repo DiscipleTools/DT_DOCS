@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Disciple Tools'
-copyright = '2018, Samuel Twain'
-author = 'Samuel Twain'
+copyright = '2018, Disciple Tools'
+author = 'Disciple Tools'
 
 # The short X.Y version
 version = ''
