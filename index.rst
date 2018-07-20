@@ -41,4 +41,5 @@ This is the index page for the documentation referencing the Disciple Tools Them
         :name: Contacts
 
         Create Contacts <./Disciple_Tools_Theme/dev_create_contact>
-	Update Contact <./Disciple_Tools_Theme/dev_update_contact.rst>
+	Update Contact <./Disciple_Tools_Theme/dev_update_contact>
+	Contact Fields Format <./Disciple_Tools_Theme/dev_contact_fields_format>
