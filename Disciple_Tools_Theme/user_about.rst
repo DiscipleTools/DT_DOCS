@@ -19,13 +19,12 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 Contacts
 --------
 
-A contact is someone that you are trying to reach. When a contact is first met it is important to add them to the database. To do this use the ``Create new contact`` button found under the ``Contacts`` page. More info can be found on the Create_Contacts_Page_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the ``Add new filter`` button. If you need to do a mass CSV import for contacts, go to the Mass_CSV_Contacts_Import_.
-
+A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the ``Add new filter`` button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
 
 Groups
 ------
 
-A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the group under the URL structure of https://[url]/groups/[group_num].
+A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the groups under the URL structure of https://[url]/groups/[group_num].
 
 Details
 ~~~~~~~
@@ -102,8 +101,9 @@ The metrics tab is where you can see an overview of stats for the project.  Upon
 Filters
 -------
 
-Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about custom filters can be found on the Custom_Filters_ page.
-Note, you can only have one filter active at a time.
+Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about creating custom filters can be found `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#adding-custom-filters>`_.
+
+.. note:: You can only have one filter active at a time.
 
 Assigning, Sub-Assigning, Following, and Sharing. 
 -------------------------------------------------
