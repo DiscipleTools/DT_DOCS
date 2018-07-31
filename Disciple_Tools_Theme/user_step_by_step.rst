@@ -207,10 +207,27 @@ I Don't See All of My Contacts
  
 The reason may be that some contacts are shared with you, but you aren't assigned to them. If the contact only shows up under ``Contacts shared with me``, then that contact was shared with you and not assigned to you. This does not put them in your contacts list, but it does allow you to get a notification for any changes made to that contact.
 
+
+Mass Contacts CSV Import
+------------------------
+
+To import contacts with a CSV file you must first have a CSV file to import.  
+For the csv file the format is as follows; [``Name``], [``Contact Phone``], [``Contact Email``], [``Contact Address``], [``Gender``], [``Notes``].
+If you can't fill a space then leave it blank. ``Notes`` will take all of the remaining columns after gender.
+
+Note: UTF-8 is the recommended file format, to guarantee all contacts import correctly.
+
+Once you have the file, go to your ``admin page``. Next,  click on ``Extensions`` on the left menu. Then click on the ``Tools`` tab. 
+You will then see the option for CSV import. Click ``upload file``, then upload your file. Select your ``delimiter`` (by default ``,``), ``header`` (if the first line has contact info or not), and which source all these contacts are coming from. Then choose a user to assign it to.
+
+Clicking  ``submit`` will bring you to a validation page. This will show you the first contact that you will create 
+(Note that the notes tab will only show the first note). If it looks correct, click ``Yes``. Then your contacts will be created. 
+
+Note: Depending on the size of the import, it may take some time.
+
 .. _Create_Contacts_Page: user_create_contact.html
 .. _Group_Page: user_group.html
 .. _Custom_Filters: ./user_custom_filters.html
-.. _Mass_CSV_Contacts_Import: user_mass_contacts_csv_import.html
 .. _create_custom_lists: user_custom_list_settings.html
 
 .. toctree::
@@ -218,4 +235,3 @@ The reason may be that some contacts are shared with you, but you aren't assigne
     Create Contact <./user_create_contact>
     Group <./user_group>
     Custom Filters <./user_custom_filters.rst>
-    Mass CSV Contacts Import <./user_mass_contacts_csv_import.rst>
