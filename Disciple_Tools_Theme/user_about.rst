@@ -19,12 +19,12 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 Contacts
 --------
 
-A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the ``Add new filter`` button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
+A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. |FILTERS| You can also create your own filters by pressing the |ADD-FILTER| button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
 
 Groups
 ------
 
-A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the groups under the URL structure of https://[url]/groups/[group_num].
+A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the groups by clicking the |GROUPS| button at the top in the navigation menu.
 
 Details
 ~~~~~~~
@@ -40,12 +40,14 @@ In this area is the following set of data:
 * People Groups - The people groups that are a part of this group.
 * Locations - A more general idea of locations (e.g., South_City or West_Region).
 
-You can edit any of this data by clicking the ``Edit`` button located on the top right.
+You can edit any of this data by clicking the |EDIT| button located on the top right of the details panel.
 
 Members
 ~~~~~~~
 
-This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name.
+|MEMBERS|
+
+This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them. To delete a contact click on the |X| next to their name.
 
 Multiplied Groups
 ~~~~~~~~~~~~~~~~~
@@ -111,3 +113,9 @@ Assigning, Sub-Assigning, Following, and Sharing.
 Contacts can only be assigned to one person and that person is responsible for them. The ``sub-assigned`` field, is usually for those who go out in twos. For example, Sam could be assigned to a contact and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the share button |SHARE| when you want to give someone access so they can see the contact, without giving responsibility.
 
 .. |SHARE| image:: /Disciple_Tools_Theme/images/share.PNG
+.. |ADD-FILTER| image:: /Disciple_Tools_Theme/images/add-filter.PNG
+.. |FILTERS| image:: /Disciple_Tools_Theme/images/filters.PNG
+.. |GROUPS| image:: /Disciple_Tools_Theme/images/groups-button.PNG
+.. |EDIT| image:: /Disciple_Tools_Theme/images/edit.PNG
+.. |MEMBERS| image:: /Disciple_Tools_Theme/images/members-panel.PNG
+.. |X| image:: /Disciple_Tools_Theme/images/x.PNG
