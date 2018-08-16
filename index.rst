@@ -21,6 +21,7 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:name: dt-general
 	
 	About <./Disciple_Tools_Theme/user_about>
+	Frequently Asked Questions <./Disciple_Tools_Theme/user_faq>
 
 .. toctree::
 	:caption: Getting Started
