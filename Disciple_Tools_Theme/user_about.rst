@@ -52,6 +52,8 @@ This is the area where you list the contacts that are apart of the group. To add
 Multiplied Groups
 ~~~~~~~~~~~~~~~~~
 
+|MULTIGROUPS|
+
 If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
 If this group has multiplied into another group, you can add that under ``Child Groups``.
@@ -73,7 +75,7 @@ The first thing you should do is define what type of group it is. Do this by cli
 
 Here you can track the progress of a pre-group/group/church.
 
-If the group has committed to be a church, click the ``Covenant`` button to make the dotted line circle solid.
+If the group has committed to be a church, click the |COVENANT| button to make the dotted line circle solid.
 
 If the group/church regularly practices any of the following elements, then click each element to add them inside the circle.
 
@@ -93,7 +95,7 @@ The list of elements is as follows:
 Comments/Activity
 ~~~~~~~~~~~~~~~~~
 
-Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click ``Submit comment`` to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
+Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click |SUBMIT| to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
 
 Metrics
 -------
@@ -119,3 +121,6 @@ Contacts can only be assigned to one person and that person is responsible for t
 .. |EDIT| image:: /Disciple_Tools_Theme/images/edit.PNG
 .. |MEMBERS| image:: /Disciple_Tools_Theme/images/members-panel.PNG
 .. |X| image:: /Disciple_Tools_Theme/images/x.PNG
+.. |MULTIGROUPS| image:: /Disciple_Tools_Theme/images/multi-groups.PNG
+.. |COVENANT| image:: /Disciple_Tools_Theme/images/covenant.PNG
+.. |SUBMIT| image:: /Disciple_Tools_Theme/images/submit-comment.PNG
