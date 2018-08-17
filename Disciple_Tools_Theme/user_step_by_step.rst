@@ -28,7 +28,7 @@ After filling out the options click on |SAVE|.
 Assign a Contact
 ----------------
 
-Go to the contacts page that can be found either by its id or by searching for it on the ``contacts`` tab.  Once on the contacts page go to the ``Assigned to`` section located on the top right.  Click the text box and start typing the name of the person you want to assign to.
+Go to the contact's page that can be found either by its id or by searching for it on the ``contacts`` tab.  Once on the contact's page, go to the ``Assigned to`` section located on the top right.  Click the text box and start typing the name of the person you want to assign to.
 Once found click on their name.  The ``Status`` section should change to active, if it does not click on the drop-down and select active.
 
 Edit a Contact
