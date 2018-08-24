@@ -20,13 +20,13 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:caption: General
 	:name: dt-general
 	
-	About <./Disciple_Tools_Theme/user_about>
 	Frequently Asked Questions <./Disciple_Tools_Theme/user_faq>
 
 .. toctree::
 	:caption: Getting Started
 	:name: dt-user-start
 
+	Disciple.Tools Manual <./Disciple_Tools_Theme/user_about>
 	Step by Step <./Disciple_Tools_Theme/user_step_by_step>
 	Extensions Page <./Disciple_Tools_Theme/user_extensions_page>
 	Customize List Settings <./Disciple_Tools_Theme/user_custom_list_settings>
