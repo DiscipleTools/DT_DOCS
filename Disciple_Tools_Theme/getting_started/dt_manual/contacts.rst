@@ -1,15 +1,15 @@
 Contacts
-========
+********
 
 A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
 
 
 
 Contacts List Page
-========
+==================
 
 Create a Contact
--------
+----------------
 
 The |CREATE| button is located at the top of the ``Contacts`` page, found under *https://[your url]/contacts/*. Clicking this will bring you to a new page *https://[your url]/contacts/new*.  On this page you will be presented with options for creating a new contact.  The list of options is below:
 
@@ -50,24 +50,26 @@ These are contacts that other users have shared with you.
 
 
 Adding Custom Filters
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 Add
-""""""""
+"""
+
 To add a filter, go to either the ``contacts list`` page or the ``groups list`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
 
 Save
-"""""""
+""""
 
 To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter`` and refresh the page.
 
 Edit
-""""""
+""""
 
 To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
 
 Delete
-"""""""
+""""""
+
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
 
@@ -233,7 +235,9 @@ Contacts Filter Options
 
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
  
- .. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
+ .. note:: The Load more contacts is always present even if there are no more contacts to load.
+
+
 
 
 Contacts Profile Page
