@@ -52,23 +52,19 @@ These are contacts that other users have shared with you.
 Adding Custom Filters
 ~~~~~~~~~~~~~~~~~~~~~
 
-Add
-"""
+**Add**
 
 To add a filter, go to either the ``contacts list`` page or the ``groups list`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
 
-Save
-""""
+**Save**
 
 To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter`` and refresh the page.
 
-Edit
-""""
+**Edit**
 
 To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
 
-Delete
-""""""
+**Delete**
 
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
@@ -143,7 +139,7 @@ Contacts Filter Options
   - Yes 
   - No 
   
- **Tags**
+**Tags**
 
 * This tab will allow you to filter based on custom tags you have created. (e.g. hostile)
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -158,7 +154,7 @@ Contacts Filter Options
   - Male
   - Female
   
-  **Age**
+**Age**
 
 * This tab will allow you to filter based on a contact's age range
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -169,7 +165,7 @@ Contacts Filter Options
   - 26-40 years old
   - Over 40 years old
   
-  **Reason Unassignable**
+**Reason Unassignable**
 
 * This tab will allow you to filter based on why a contact is labeled as Unassignable
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -182,7 +178,7 @@ Contacts Filter Options
  - Needs Review
  - Waiting for Confirmation
   
-  **Reason Paused**
+**Reason Paused**
 
 * This tab will allow you to filter based on why a contact is labeled as Paused
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -191,7 +187,7 @@ Contacts Filter Options
  - On Vacation
  - Not Responding
  
-  **Reason Closed**
+**Reason Closed**
 
 * This tab will allow you to filter based on why a contact is labeled as Closed
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -210,7 +206,7 @@ Contacts Filter Options
  - Unknown
  - Closed from Facebook
  
-   **Accepted**
+**Accepted**
 
 * This tab will allow you to filter based on whether or not contacts have been accepted by a multiplier
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -219,7 +215,7 @@ Contacts Filter Options
  - No
  - Yes
  
-  **Contact Type**
+**Contact Type**
 
 * This tab will allow you to filter based on the type of contact
 * To add a filter option click on the checkbox next to the filter options you want to add.
@@ -230,18 +226,16 @@ Contacts Filter Options
  - User
  - Partner
  
- Search
- ------
+Search
+------
 
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
  
- .. note:: The Load more contacts is always present even if there are no more contacts to load.
-
-
+.. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
 
 
 Contacts Profile Page
-============
+=====================
 
 Assign a Contact
 ----------------
