@@ -230,7 +230,8 @@ Contacts Filter Options
  
  Search
  ------
- Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
+
+Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
  
  .. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
 
