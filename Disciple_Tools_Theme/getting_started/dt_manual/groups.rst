@@ -70,3 +70,35 @@ Comments/Activity
 
 Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click ``Submit comment`` to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
 
+
+Groups Filter Options
+--------------------
+
+**Assigned To**
+
+* This tab will allow you to add names of people that have been assigned to a group.
+* You can add names by searching for them and then clicking on the name in the search field.
+
+**Group Status**
+
+* This tab will allow you to filter based on if a group is active.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* There is two options:
+
+  - Yes 
+  - No 
+
+**Group Type**
+
+* This tab will allow you to filter based on the type of group.
+* To add a filter option click on the checkbox next to the filter options you want to add.
+* Group type filters are as follows:
+
+  - Pre-Group
+  - Group
+  - Church 
+  
+**Locations**
+
+* This tab will allow you to add locations of groups to filter for.
+* You can add a location by searching for it and then clicking on the location in the search field.
