@@ -30,7 +30,8 @@ This is the index page for the documentation referencing the Disciple Tools Them
 
 
 .. toctree::    
-	:caption: Development
+	:caption: Developers
 	:name: dev-docs
 
+	Dev Quick Start <./Disciple_Tools_Theme/development/dev_quick_start>
 	Contacts Dev <./Disciple_Tools_Theme/development/contacts/index>
