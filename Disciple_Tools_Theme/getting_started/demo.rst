@@ -79,12 +79,12 @@ Because you were giving a temporary password, go ahead and create a new one.
 Add Sample Content Later
 ===================
 
-**When you are ready to add the demo data follow these instructions:**
+**When you are ready to add the sample content data follow these instructions:**
 
 1. Click the gear icon |Gear| and select ``Admin``
 
 
-2. Click on ``Extensions`` in the menu on the left-hand side.
+2. Click on |Extensions| in the menu on the left-hand side.
 
 |Extensions|
 
@@ -94,7 +94,7 @@ Add Sample Content Later
 |DT Plugins|
 
 
-4. Under the ``Extensions`` menu on the left-hand side, click ``Demo Content``
+4. Under the |Extensions| menu on the left-hand side, click ``Demo Content``
 
 
 5. Click the button labled ``Install Sample Content``
@@ -103,6 +103,25 @@ Add Sample Content Later
 
 
 6. Return to your site to view and try out the demo data. Click the house icon |House| at the top to return.
+
+
+Remove Sample Content
+=====================
+
+**When you are ready to remove the sample content data follow these instructions:**
+
+1. Click the gear icon |Gear| and select ``Admin``
+
+
+2. Under the |Extensions| menu on the left-hand side, click ``Demo Content``
+
+
+3. Click the button labled ``Delete Sample Content``
+
+|Delete Sample Content Button|
+
+
+6. Return to your site to view it without the sample demo content. Click the house icon |House| at the top to return.
 
 
 
@@ -117,3 +136,4 @@ Add Sample Content Later
 .. |DT Plugins| image:: /Disciple_Tools_Theme/images/DT_Plugins.png
 .. |Install Sample Content Button| image:: /Disciple_Tools_Theme/images/Install_Sample_Content_Button.png
 .. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
+.. |Delete Sample Content Button| image:: /Disciple_Tools_Theme/images/Delete_Sample_Content_Button.png
