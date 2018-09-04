@@ -32,7 +32,8 @@ Strategist
 
 This role is in development. 
 
-**Role Description:**  A strategist is a role that allows leadership to view and think through the statistics and where the coalition is going. He/she is not necessarily receiving or routing contacts.
+**Role Description:**
+ A strategist is a role that allows leadership to view and think through the statistics and where the coalition is going. He/she is not necessarily receiving or routing contacts.
 
 **Contacts and Groups Access:**
  None
@@ -95,8 +96,7 @@ Dispatcher
  Users with this role can access the Metrics page
 
 **Admin Privileges:** 
-
-Users with this role has limited admin privileges:
+ Users with this role has limited admin privileges:
 
 * Modify and add ``Locations``
 * Modify and add ``People Groups``
