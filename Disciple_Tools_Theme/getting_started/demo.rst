@@ -1,8 +1,8 @@
-Setup a Demo Account
+Demo
 ===================
 
-Instructions
-------------
+Setup a Demo Account
+------------------
 
 **1. Go to Disciple.Tools**
 
