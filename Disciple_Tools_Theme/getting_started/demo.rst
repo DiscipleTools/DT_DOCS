@@ -37,7 +37,7 @@ Copy your password. Open your new site in a new tab/window by right-clicking on 
 
 **6. Add the Demo Data**
 
-Click ``Install Sample Content``
+Click ``Install Sample Content``. If you do not want to add the demo right away, you can add it later. Click ``Hide this screen. I'll do this later.``
 
 |Download Demo Data|
 
@@ -68,6 +68,34 @@ Because you were giving a temporary password, go ahead and create a new one.
 * Type in your username or email and new password and click ``Log in``. You may have to do this twice in a row as the system directs you from disciple.tools to your url (e.g. example.disciple.tools).
 
 
+Add Demo Data Later
+-------------------
+
+**When you are ready to add the demo data follow these instructions:**
+
+1. Click the gear icon |Gear| and select ``Admin``
+
+
+2. Click on ``Extensions`` in the menu on the left-hand side.
+
+|Extensions|
+
+
+3. Next to ``Disciple Tools - Demo Content`` click ``Activate``
+
+|DT Plugins|
+
+
+4. Under the ``Extensions`` menu on the left-hand side, click ``Demo Content``
+
+
+5. Click the button labled ``Install Sample Content``
+
+|Install Sample Content Button|
+
+
+6. Return to your site to view and try out the demo data. Click the house icon |House| at the top to return.
+
 
 
 .. |DT Home Page| image:: /Disciple_Tools_Theme/images/DT_Home_Page.png
@@ -77,3 +105,7 @@ Because you were giving a temporary password, go ahead and create a new one.
 .. |Starting Demo Contacts| image:: /Disciple_Tools_Theme/images/Starting_Contacts_Page.png
 .. |Get New Password| image:: /Disciple_Tools_Theme/images/Get_New_Password.png
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+.. |Extensions| image:: /Disciple_Tools_Theme/images/Extensions.png
+.. |DT Plugins| image:: /Disciple_Tools_Theme/images/DT_Plugins.png
+.. |Install Sample Content Button| image:: /Disciple_Tools_Theme/images/Install_Sample_Content_Button.png
+.. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
