@@ -26,6 +26,7 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:caption: Getting Started
 	:name: dt-user-start
 
+	Demo <./Disciple_Tools_Theme/getting_started/demo>
 	Disciple.Tools Manual <./Disciple_Tools_Theme/getting_started/dt_manual/index>
 
 
