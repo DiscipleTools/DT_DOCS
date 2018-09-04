@@ -1,3 +1,6 @@
+Contacts Dev
+============
+
 .. toctree::
    :maxdepth: 1
    :name: contacts
