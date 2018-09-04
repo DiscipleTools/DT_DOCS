@@ -33,12 +33,4 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:caption: Development
 	:name: dev-docs
 
-    	Dev Start <./Disciple_Tools_Theme/dev_quick_start>
-	
-.. toctree::
-        :caption: Development Contacts
-        :name: Contacts
-
-        Create Contacts <./Disciple_Tools_Theme/dev_create_contact>
-	Update Contact <./Disciple_Tools_Theme/dev_update_contact>
-	Contact Fields Format <./Disciple_Tools_Theme/dev_contact_fields_format>
+	Contacts Dev <./Disciple_Tools_Theme/development/contacts/index>
