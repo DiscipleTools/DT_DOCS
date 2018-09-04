@@ -39,6 +39,8 @@ This role is underdevelopment.
 **Multiplier**
 ---------------
 
+
+
 **Role Description:**
  A multiplier is normally tasked with making face-to-face meetings with any contacts they have been assigned to. They are expected to keep their contacts’ profiles up-to-date in the system to accurately reflect the contacts' unique spiritual journeys. 
  
@@ -55,6 +57,7 @@ This role is underdevelopment.
 **Marketer**
 --------------
 
+|Responder|
 
 **Role Description:**
  This role is under developement. It will be eventually renamed to "Responder." The "Responder" role is normally tasked with moderating and administrating any social media interaction and may have the first conversation with a contact. 
@@ -71,6 +74,7 @@ This role is underdevelopment.
 
 **Dispatcher**
 ----------------
+
 
 
 **Role Description:**
@@ -139,4 +143,5 @@ Currently unimplemented.
 
 
 
+.. |Responder| image:: /Disciple_Tools_Theme/images/responder.png
 
