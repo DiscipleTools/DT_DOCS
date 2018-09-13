@@ -16,7 +16,7 @@ Alternatively, go to the url https://[your_url]/wp-admin/admin.php?page=dt_exten
 Install
 ~~~~~~~
 
-To install a plugin, click on the button ``Install`` under the ``Actions`` section.  Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
+To install a plugin, click on ``Install`` under the ``Actions`` section.  Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
 Our Plugins
 ~~~~~~~~~~~
@@ -30,7 +30,7 @@ These are plugins we built for Disciple.Tools.  Currently, we have the following
 Recommended Plugins
 ~~~~~~~~~~~~~~~~~~~
 
-These are our recommended plugins that we did not develop:
+The are plugins we recommend, but did not develop:
 
 * ``UpdraftPlus Backup/Restore`` - Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms    
@@ -44,9 +44,9 @@ This page allows you to customize the fields used in the contacts page.
 
 Where to Find the Page
 ~~~~~~~~~~~~~~~~~~~~~~
-Open up the admin backend, by clicking on the ``gear`` on the top right then clikcing ``Admin``. Once in the backend click on ``Settings (DT)``, then click on ``Custom Lists``.
+First, open up the admin backend by clicking on the ``gear`` on the top right, then click ``Admin``. Once in the backend, click on ``Settings (DT)``, then click on ``Custom Lists``.
 
-Alternatively go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
+Alternatively, go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
 
 User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -70,7 +70,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -85,7 +85,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -140,7 +140,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -154,7 +154,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -168,7 +168,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -182,7 +182,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
