@@ -18,7 +18,7 @@ In either case: If there is already a contact in the system that represents the 
 ``Corresponds to Contact`` box.
 
 
-Note: in the case the user is already a contact in the system see the section "Creating users from a contact" below.
+Note: in the case the user is already a contact in the system see the section "Inviting a user from a contact" below.
 
 
 Inviting a user from a contact
