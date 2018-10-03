@@ -28,7 +28,7 @@ If there is already a contact for the user you want to add there is an easy opti
 
 Linking and existing contact to a user
 --------------------------------------
-If you realize that you have a contact the should be linked with a user, then on the contact record click the ``tools` menu in the top bar and then the ``Link to an existing user`` option.
+If you realize that you have a contact the should be linked with a user, then on the contact record click the ``tools`` menu in the top bar and then the ``Link to an existing user`` option.
 
 
 .. target-notes::
