@@ -5,6 +5,7 @@ Disciple.Tools Manual
    :maxdepth: 1
    :name: dt-manual
 
+   users
    roles
    contacts
    groups
