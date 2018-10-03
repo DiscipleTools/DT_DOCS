@@ -33,4 +33,4 @@ If you realize that you have a contact the should be linked with a user, then on
 
 .. target-notes::
 
-.. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html#about-the-roles
+.. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
