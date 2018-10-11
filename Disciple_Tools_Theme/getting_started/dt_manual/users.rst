@@ -2,33 +2,38 @@ Users
 =====
 
 
-Only Users with the role `DT Admin` can manage other users. Managing users inclues inviting, creating, updating and deleting users.
+Only Users with the role `DT Admin` can manage other users. Managing users includes inviting, creating, updating and deleting users.
 
 Inviting Users
 --------------
-Here is how you invite someone to be a user and D.T. Open the wp admin page ( by clicking admin from the settings gear in the top right).
-Next click the users tab on the left. Next click ``Add New``. 
+Here is how you invite someone to be a user within Disciple.Tools
 
-Here you might have one option ( Add New User ), or you might have two ( Add Existing User and Add New User ).
+1. Open the wp-admin page by clicking ``Admin`` from the Settings gear |Gear| in the top right of the page
+.. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+
+2. Click the ``Users`` tab on the left. Next click ``Add New``. 
+
+3. Here you might have one option ( Add New User ), or you might have two options ( Add Existing User and Add New User ).
+
+**Add Existing User**
 If you have the Add Existing User option, enter the email address and see if the user already exists. 
 
-If the user does not already exist or you only have one option fill out the required info and click the ```Add New User`` button. For the Roles option see `Roles`_.
+**Add New User**
+If the user does not already exist or you only have Add New User option, fill out the required info and click the ```Add New User`` button. To learn more about Roles see `Roles`_.
 
-In either case: If there is already a contact in the system that represents the user you want to add, then search for that cantact's name in the 
-``Corresponds to Contact`` box.
-
-
-Note: in the case the user is already a contact in the system see the section "Inviting a user from a contact" below.
+In either case: If there is already a Contact Record in your Disciple.Tools system that represents the user you want to add, then search for that cantact's name in the ``Corresponds to Contact`` box. If the user is already a contact in the system see the section "Inviting a user from a contact" below.
 
 
-Inviting a user from a contact
-------------------------------
-If there is already a contact for the user you want to add there is an easy option. On the contact record click the ``tools`` menu in the top bar then the ``Make a user from this contact`` option.
+
+
+Inviting a user from a Contact Record
+------------------------------------
+If there is already a contact for the user you want to add, there is an easy option. In the Contact Record, click the ``Dispatcher actions`` menu in the top bar then click the ``Make a user from this contact`` option.
 
 
 Linking and existing contact to a user
 --------------------------------------
-If you realize that you have a contact the should be linked with a user, then on the contact record click the ``tools`` menu in the top bar and then the ``Link to an existing user`` option.
+If you realize that you have a contact that should be linked with a user account, then in the Contact Record click the ``Dispatcher actions`` menu in the top bar and then the ``Link to an existing user`` option.
 
 
 .. target-notes::
