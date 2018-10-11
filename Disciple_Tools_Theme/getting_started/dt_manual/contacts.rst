@@ -234,7 +234,7 @@ Type a contact's name to quickly search for him or her. This will search all the
 .. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
 
 
-Contacts Profile Page
+Contacts Record Page
 =====================
 
 Assign a Contact
