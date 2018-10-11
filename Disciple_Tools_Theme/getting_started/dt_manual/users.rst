@@ -8,8 +8,7 @@ Inviting Users
 --------------
 Here is how you invite someone to be a user within Disciple.Tools
 
-1. Open the wp-admin page by clicking ``Admin`` from the Settings gear |Gear| in the top right of the page
-.. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+1. Open the wp-admin page by clicking ``Admin`` from the Settings |Gear| in the top right of the page
 
 2. Click the ``Users`` tab on the left. Next click ``Add New``. 
 
@@ -39,3 +38,5 @@ If you realize that you have a contact that should be linked with a user account
 .. target-notes::
 
 .. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
+
+.. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
