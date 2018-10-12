@@ -122,9 +122,9 @@ Remove Sample Content
 
 4. From the left side menu, click ``Contacts``
 
-5. Hover over each fake contact that you want to remove and click ``Trash``. This will remove them all from the system and put them into a Trash folder. To trash them all, click on the check box next to Title and change ``Bulk Actions`` to ``Move to Trash``. CAUTION! Be sure to uncheck yourself and any other user of your Discple.Tools instance.
+5. Hover over each fake contact that you want to remove and click ``Trash``. This will remove them all from the system and put them into a Trash folder. To trash them all, click on the check box next to Title and change ``Bulk Actions`` to ``Move to Trash``. CAUTION! Be sure to uncheck yourself and any other user of your Disciple.Tools instance.
 
-6. From the left side menu, click ``Groups``and trash the fake groups.
+6. From the left side menu, click ``Groups`` and trash the fake groups.
 
 
 7. To return to your site to view it without the sample demo content, click the house icon |House| at the top to return.
