@@ -62,12 +62,12 @@ Multiplier
 **Admin Privileges:** 
  None
  
-Disciple.Tools Multiplier Guide
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Disciple.Tools Multiplier Guide**
 
 Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools instance.
 
 `DOWNLOAD HERE <https://kingdom.training/wp-content/uploads/2018/10/Disciple-Tools-Multiplier-Guide.pdf>`
+
  
  
 Marketer
