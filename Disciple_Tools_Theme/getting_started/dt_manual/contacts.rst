@@ -409,6 +409,8 @@ Additional: Other Tile
 1. Contact Record Toolbar
 ---------------------
 
+|Contact-Record-Toolbar|
+
 **Update Needed**
 ~~~~~~~~~~~~~~~~~~
 
@@ -636,3 +638,4 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 .. |Progress| image:: /Disciple_Tools_Theme/images/Progress.png
 .. |Add-Group| image:: /Disciple_Tools_Theme/images/Add-Group-Button.png
 .. |Other| image:: /Disciple_Tools_Theme/images/Other.png
+.. |Contact-Record-Toolbar| image:: /Disciple_Tools_Theme/images/Contact-Record-Toolbar-Admin.png
