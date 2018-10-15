@@ -53,6 +53,8 @@ notification preferences, and your availability.
 this you will have to log in again using your email and
 password.
 
+----
+
 2. Contacts List Toolbar
 ------------------------
 |Contact-List-Toolbar|
