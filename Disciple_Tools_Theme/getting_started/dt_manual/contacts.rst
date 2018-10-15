@@ -34,26 +34,32 @@ This will take you to the Groups List Page.
 **Metrics**
 This will take you to the Metrics Page.
 
-**User**
+**User** |User|
 Your name or username will show up here so you will know that you are correctly logged into
 your account.
 
-**Notification Bell**
+**Notification Bell** |Notifications|
 Anytime you receive a notification, a small red number will display here to inform you of the
 number of new notifications you have. You can edit the type of notifications you want to receive
 under Settings.
 
-**Settings Gear**
-By clicking on the settings gear, you will be able to do one of three things:
+**Settings Gear** |Gear|
+
+|Settings|
+
+By clicking on the settings gear, you will be able to:
 
 * Settings: Change your personal profile information, your notification preferences, and your availability.
+* Admin: This option is only available to select Roles (i.e. DT Admin, Dispatcher). It will give them access to wp-admin backend of the Disciple.Tools instance. From here, the DT Admin can modify locations, people groups, custom lists, extensions, users, etc.
 * Help: View the Disciple.Tools’ Documentation Help Guide
+* Add Demo Content: If you are using Disciple.Tools' Demo option, you will see this. Click this to add fake demo data that you can use to practice using Discple.Tools, take our interactive demo tutorial, or train others on how to use the software.
 * Log Off: Log out of Disciple.Tools completely. If you click on this you will have to log in again using your email and password.
 
 
 
 2. Contacts List Toolbar
 ------------------------
+
 |Contact-List-Toolbar|
 
 
@@ -88,8 +94,10 @@ Clicking this button will open up a new page. Within this page you will be prese
 After filling out the options click on |SAVE|.
 
 
-**Filter Contacts**
-~~~~~~~~~~~~~~~~~~~~~
+**Filter Contacts**  
+~~~~~~~~~~~~~~~~~
+
+|Filter-Button|
 
 After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click the Filter contacts button to begin. On the left hand side are the Contact Filter Options. You an multiple items in one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
 
@@ -100,6 +108,8 @@ After a while, you may end up with a pretty long list of contacts all progressin
 
 Contacts Filter Options
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+|New-Filter|
 
 **Assigned To**
 
@@ -275,6 +285,8 @@ Contacts Filter Options
  **Search**
 ~~~~~~~~~~~
 
+|Search|
+
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
  
 
@@ -287,6 +299,8 @@ Filters
 ~~~~~~~~
 
 The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of contacts will change.
+
+|Filters|
 
 **The Default Filters are:**
 
@@ -303,12 +317,18 @@ The default filter options are located on the left of the page under the heading
 
 * **Contacts shared with me:** These are all contacts who other users have shared with you. You do not have responsibility for these contacts but you can access them and comment if needed.
 
+
 Adding Custom Filters
 ~~~~~~~~~~~~~~~~~~~~~
-If the default filters do not fit your needs you can create your own.
+
 **Add**
 
-To add a filter, go to either the ``contacts list`` page or the ``groups list`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
+If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-Button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. 
+
+After clicking ``Filter Contacts``, that Custom Filter option will appear with the word ``Save`` next to it.  
+
+To cancel these Custom Filters, refresh the page
+
 
 **Save**
 
@@ -322,15 +342,27 @@ To edit a filter, click on the ``pencil icon`` next to a saved filter.  This wil
 
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
+
+
 4. Contacts List Tile
 ----------------------
+
+|Example-Contacts|
+
 Contacts
 ~~~~~~~~
 
 Your list of contacts will show up here. Whenever you filter contacts, the list will also be changed
 in this section too. Below are fake contacts to give you an idea of what it will look like.
 
-.. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
+**Sort:** You can sort your contacts by newest, oldest, most recently modified, and least recently modified.
+
+**Load more contacts:** If you have a long list of contacts they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more contacts to load.
+
+**Help Desk:** If you have an issue with the Disciple.Tools system, first try to find your answer in the Documentation How to Guide (found by clicking Help under Settings). 
+
+|Question-Mark| If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
+
 
 
 Contacts Record Page
@@ -388,4 +420,13 @@ On the contact's page that you want to follow there is a slider on the top right
 .. |Contacts-List-Page-Numbers| image:: /Disciple_Tools_Theme/images/Starting_Contacts_Page_numbers.jpg
 .. |Website-Menu-Bar| image:: /Disciple_Tools_Theme/images/website_menu_bar.png
 .. |Contact-List-Toolbar| image:: /Disciple_Tools_Theme/images/Middle-Multiplier-Banner.png
-       
+.. |User| image:: /Disciple_Tools_Theme/images/User.png      
+.. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+.. |New-Filter| image:: /Disciple_Tools_Theme/images/New-Filter.png
+.. |Search| image:: /Disciple_Tools_Theme/images/search.png
+.. |Filters| image:: /Disciple_Tools_Theme/images/Filters_blank.png
+.. |Example-Contacts| image:: /Disciple_Tools_Theme/images/Example_Contacts.png
+.. |Settings| image:: /Disciple_Tools_Theme/images/Gear-Options.png
+.. |Filter-Button| image:: /Disciple_Tools_Theme/images/Filter-contacts-button.png
+.. |Notifications| image:: /Disciple_Tools_Theme/images/Notification-bell.png
+.. |Question-Mark| image:: /Disciple_Tools_Theme/images/Question-mark.png
