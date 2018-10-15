@@ -1,3 +1,6 @@
+Self Hosting
+================================
+
 404 Errors on new install
 -------------------------
 If you installed disciple tools and are getting 404 errors or /contacts or other pages try this:
