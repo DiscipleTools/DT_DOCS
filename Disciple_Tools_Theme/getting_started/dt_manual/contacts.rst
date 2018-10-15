@@ -1,9 +1,13 @@
 Contacts
 ********
 
-A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
+A contact represents a person who is on a spiritual journey. It is someone we pray will discover, share, and obey Christ, start churches, and multiply themselves generationally. 
 
-.. _contacts_list:
+The Contacts Page is made up of two layers: The Contacts List Page and the Contact Record Page. 
+
+You can create new contacts and edit existing ones. If you need to do a mass CSV import for contacts, click `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_ to check out the step by step guide.
+
+
 
 Contacts List Page
 ==================
@@ -14,6 +18,8 @@ Contacts List Page
 2. Contacts List Toolbar
 3. Filters Tile
 4. Contacts List Tile
+
+------------
 
 1. Website Menu Bar
 ------------------
@@ -26,28 +32,34 @@ development and is rapidly evolving. Expect to see changes. We ask for your grac
 patience as you utilize this software.
 
 **Contacts**
+
 By clicking this, you will arrive to the Contacts List Page.
 
 **Groups**
+
 This will take you to the Groups List Page.
 
 **Metrics**
+
 This will take you to the Metrics Page.
 
 **User** |User|
+
 Your name or username will show up here so you will know that you are correctly logged into
 your account.
 
+
 **Notification Bell** |Notifications|
+
 Anytime you receive a notification, a small red number will display here to inform you of the
 number of new notifications you have. You can edit the type of notifications you want to receive
 under Settings.
 
 **Settings Gear** |Gear|
 
-|Settings|
-
 By clicking on the settings gear, you will be able to:
+
+|Settings|
 
 * Settings: Change your personal profile information, your notification preferences, and your availability.
 * Admin: This option is only available to select Roles (i.e. DT Admin, Dispatcher). It will give them access to wp-admin backend of the Disciple.Tools instance. From here, the DT Admin can modify locations, people groups, custom lists, extensions, users, etc.
@@ -55,6 +67,7 @@ By clicking on the settings gear, you will be able to:
 * Add Demo Content: If you are using Disciple.Tools' Demo option, you will see this. Click this to add fake demo data that you can use to practice using Discple.Tools, take our interactive demo tutorial, or train others on how to use the software.
 * Log Off: Log out of Disciple.Tools completely. If you click on this you will have to log in again using your email and password.
 
+----------------------
 
 
 2. Contacts List Toolbar
@@ -69,9 +82,10 @@ By clicking on the settings gear, you will be able to:
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
 responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools roles and their varying permission levels by clicking here.
 
-Note: Disciple.Tools values the security and safety of all users and contacts.
+.. note:: Disciple.Tools values the security and safety of all users and contacts.
 
-Clicking this button will open up a new page. Within this page you will be presented with options for creating a new contact.  The list of options is below:
+Clicking this button will open up a modal. Within this modal you will be presented with options for creating a new contact.  
+
 
 * **Name of contact:** A required field that is the name of the contact.
 * **Phone number:** A phone number to reach the contact.
@@ -86,23 +100,24 @@ Clicking this button will open up a new page. Within this page you will be prese
   + Referral
   + Advertisment
   
-  Note: These options can be modified by those with the Admin, DT Admin, and Dispatcer Roles.
+.. note:: These options can be modified by those with the Admin, DT Admin, and Dispatcer Roles.
   
 * **Location:** This is where the contact lives. Clicking this will bring up a list of locations that were previously created in the wp-admin backend by the DT Admin Role. You cannot add a new location here. You will have to add new locations in the wp-admin backend of your Disciple.Tools instance first.
 * **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the Activity and Comments Tile in the Contact's Record.
 
-After filling out the options click on |SAVE|.
+After filling out the options click on |SAVE|
+
 
 
 **Filter Contacts**  
 ~~~~~~~~~~~~~~~~~
 
-|Filter-Button|
 
-After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click the Filter contacts button to begin. On the left hand side are the Contact Filter Options. You an multiple items in one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
+After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click |Filter-Button| to begin. On the left hand side are the Filter Options. You can select multiple options for one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
 
 
 .. note:: You can only have one filter active at a time.
+
 
 
 
@@ -282,21 +297,22 @@ Contacts Filter Options
  - Partner
  
  
+ 
+ 
  **Search**
 ~~~~~~~~~~~
 
+Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
 |Search|
 
-Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
- 
+
+ -------------------
 
 
 
 3. Filters Tile
 ------------------------
 
-Filters
-~~~~~~~~
 
 The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of contacts will change.
 
@@ -323,12 +339,9 @@ Adding Custom Filters
 
 **Add**
 
-If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-Button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. 
+If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-Button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Contacts``, that Custom Filter option will appear with the word ``Save`` next to it.  
 
-After clicking ``Filter Contacts``, that Custom Filter option will appear with the word ``Save`` next to it.  
-
-To cancel these Custom Filters, refresh the page
-
+.. note::  To cancel these Custom Filters, refresh the page
 
 **Save**
 
@@ -342,6 +355,7 @@ To edit a filter, click on the ``pencil icon`` next to a saved filter.  This wil
 
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
+-----------------
 
 
 4. Contacts List Tile
@@ -355,55 +369,150 @@ Contacts
 Your list of contacts will show up here. Whenever you filter contacts, the list will also be changed
 in this section too. Below are fake contacts to give you an idea of what it will look like.
 
-**Sort:** You can sort your contacts by newest, oldest, most recently modified, and least recently modified.
+**Sort:** 
 
-**Load more contacts:** If you have a long list of contacts they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more contacts to load.
+You can sort your contacts by newest, oldest, most recently modified, and least recently modified.
 
-**Help Desk:** If you have an issue with the Disciple.Tools system, first try to find your answer in the Documentation How to Guide (found by clicking Help under Settings). 
+**Load more contacts:** 
 
-|Question-Mark| If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
+If you have a long list of contacts they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more contacts to load.
+
+**Help Desk:** |Question-Mark|
+
+If you have an issue with the Disciple.Tools system, first try to find your answer in the Documentation How to Guide (found by clicking Help under Settings). 
+
+If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
 
 
 
 Contacts Record Page
 =====================
 
-Assign a Contact
+1. Contact Record Toolbar
+2. Status and Assignment Tile
+3. Details Tiles
+4. Comments and Activity Tile
+5. Connections Tile
+6. Progress Tile
+Additional: Other Tile
+
+---------
+
+1. Contact Record Toolbar
+---------------------
+
+**Follow**
+
+Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button
+
+
+**Share**
+
+Click the share button to share a contact record with another user. This user will be able to view, edit, and comment on your contact’s record.  Clicking on this button will show you with whom it is currently shared. 
+
+----------
+
+2. Status and Assignment Tile
+----------------------------
+
+**Contact Name**
+
+The name of the contact will show up here. You can edit that in the Details section. 
+
+**Status***
+
+This describes the status of the contact in relationship to the Disciple.Tools system and Multiplier. 
+
+* Unassigned: The contact is new in the system and/or has not been assigned to someone.
+* Assigned: The contact has been assigned to someone, but has not yet been accepted by that person.
+* Active: The contact is progressing and/or continually being updated. Note: If you have not updated a Contact Record within a certain time, you will receive an alert. 
+* Paused: This contact is currently on hold (i.e. on vacation or not responding).
+* Closed: This contact has made it known that they no longer want to continue or you have decided not to continue with him/her.
+* Unassignable: There is not enough information to move forward with the contact at this time.
+
+**Assigned to**
+
+This is the user assigned to the contact. They are the ones responsible for the contact and updating the contact’s profile. When the Dispatcher assigns you a new contact, you will see this message pop up within the Contact Record:
+
+To assign a user to this contact, begin typing the name of the user and when it appears, select it. 
+
+**Sub-assigned to**
+
+This is someone working alongside of the main person assigned to the contact. You may find that you are partnering with others in your discipleship relationships. Only one person can be assigned while multiple people can be sub-assigned.
+
+------------------
+
+3. Details Tiles
 ----------------
 
-Go to the contact's page that can be found either by its id or by searching for it on the ``contacts`` tab.  Once on the contact's page, go to the ``Assigned to`` section located on the top right.  Click the text box and start typing the name of the person you want to assign to.
-Once found click on their name.  The ``Status`` section should change to active, if it does not click on the drop-down and select active.
+These are the details about a contact. You can change the information here by clicking “edit.”
 
-Edit a Contact
---------------
-
-Each section of the contact can be edited.  
-The details section can be edited by clicking the ``Edit`` button located on the top right off the panel.
-The other panels, such as the ``Connections`` panel, can be edited by clicking on the field that you want to edit.
-
-Delete a Contact
 ----------------
 
-There are two ways to delete a contact. The first way is to go to the contacts page and click the drop-down menu under ``Status``. 
-Then, select ``Closed``. Doing this will bring up a menu asking for the reason you are closing the contact. Once that is filled out the contact will be closed.
-Note, you can re-open a contact since it's not deleted from the database.
 
-The second way to delete a contact is from within the WordPress admin. You can go there either by going to https://[your_url]/wp-admin/ or by clicking on the ``Settings`` icon
-located at the top right of your screen. Once clicked, click the ``Admin`` button from the options presented. Then at the admin page click on the option ``Contacts`` located to the left of the screen. You can find the contact either by searching with the ``Search`` bar at the top right of the screen. 
-Alternatively, you can search for it through the pages manually.  Once you have found your contact, click on their name. This will go to the contact's database page.
-Find the panel called ``Publish``, which is usually on the upper right. Click on the panel to expand and show all the options.  
-Find the option ``Move to Trash`` and click it. This deletes the contact from the database and can not be recovered.
+4. Comments and Activity Tile
+----------------------------
 
-Share a Contact
+This tile is where you will want to record important notes from meetings and conversations with a contact. Type @ and the name of a user to mention them in a comment. This user will then receive a notification. 
+
+
+**Comments:** This shows all of the comments made by users about the contact
+
+**Activity:** This is running list of all of the activity changes made to a Contact Record
+
+**All:** View both Comments and Activity together
+
+
+**Quick actions:**
+
+These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
+
+-----------------
+
+5. Connections Tile
+-------------------
+
+This tile give you the ability to quickly navigate between groups and other contacts connected to this specific contact.
+
+**Groups:** Quickly navigate to contact’s group or church record
+
+To add a new group or church, click the button
+
+**Baptized By:** Add the individual(s) who were involved with baptizing the contact.
+
+**Baptized:** Add the individual(s) who the contact has personally baptized. 
+
+**Coached:** Add the individual(s) who is providing ongoing coaching for this contact
+
+**Coaching:** Add the individual(s) who the contact is personally coaching. 
+
+------------
+
+6. Progress Tile
+-------------
+
+This tile helps a multiplier to keep track of a contact’s spiritual journey.
+
+**Seeker Path:** These are the steps that happen in a specific order to help a contact move forward.
+
+**File Milestones:** These are points in a contact’s spiritual journey worth celebrating but can happen in any order.
+
+**Baptism Date:** For metrics reporting, it is important to always note the day a person is baptized.
+
 ---------------
 
-On the contact's page that you want to share, there is a button on the top right of the screen with the word ``Share``. 
-Clicking on this button will show you with whom it is currently shared. If you want to share this contact, click on the ``Search Users`` field and begin typing their name. Then, click on the name of the person you want to share that contact with.
+7. Other Tile
+-------------
 
-Follow a Contact to Get Notifications
--------------------------------------
+As Disciple.Tools develops, tiles will change and new ones will become accessible. If you have a need or request, contact your Zúme Disciple.Tools Admin who has the ability to edit and create custom tiles.
 
-On the contact's page that you want to follow there is a slider on the top right called ``Follow`` with the options next to it being ``No``, and ``Yes``.  Clicking on the slider will toggle it between following (Yes) and not follwoing (No) the contact.
+Tags: Add tags to contacts to help yourself and Zúme leaders quickly find contacts associated with noteworthy characteristics.
+
+
+
+
+
+
 
 
 
