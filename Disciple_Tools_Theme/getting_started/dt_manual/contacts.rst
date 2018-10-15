@@ -49,15 +49,17 @@ Your name or username will show up here so you will know that you are correctly 
 your account.
 
 
-**Notification Bell** |Notifications|
+**Notification Bell** 
+~~~~~~~~~~~~~~~~~~~~
 
-Anytime you receive a notification, a small red number will display here to inform you of the
+Anytime you receive a notification, a small red number will display here |Notifications| to inform you of the
 number of new notifications you have. You can edit the type of notifications you want to receive
 under Settings.
 
-**Settings Gear** |Gear|
+**Settings Gear** 
+~~~~~~~~~~~~~~~~~~
 
-By clicking on the settings gear, you will be able to:
+By clicking on the settings gear |Gear|, you will be able to:
 
 |Settings|
 
@@ -377,9 +379,12 @@ You can sort your contacts by newest, oldest, most recently modified, and least 
 
 If you have a long list of contacts they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more contacts to load.
 
-**Help Desk:** |Question-Mark|
+**Help Desk:** 
+~~~~~~~~~~~~~~~
 
 If you have an issue with the Disciple.Tools system, first try to find your answer in the Documentation How to Guide (found by clicking Help under Settings). 
+
+|Question-Mark|
 
 If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
 
@@ -405,6 +410,7 @@ Additional: Other Tile
 ---------------------
 
 **Update Needed**
+~~~~~~~~~~~~~~~~~~
 
 This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on |Update-Needed-Toggle| when they are wanting an update on a specific contact. 
 
@@ -414,6 +420,7 @@ After toggling this on, the user who is assigned to this contact will see this m
 
 
 **Dispatcher actions**
+~~~~~~~~~~~~~~~~~~~
 
 This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
 
@@ -426,6 +433,7 @@ This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
 * **Merge with another contact:** If there are multiple Contact Records for the same contact, you can use this option to merge them together. 
 
 **Follow**
+~~~~~~~~~~
 
 Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button 
 
@@ -434,6 +442,7 @@ Not Following: |Follow-Off|
 
 
 **Share**
+~~~~~~~~
 
 Click |Share| to share a contact record with another user. This user will be able to view, edit, and comment on your contact’s record.  Clicking on this button will show you with whom it is currently shared. 
 
@@ -445,10 +454,12 @@ Click |Share| to share a contact record with another user. This user will be abl
 |Status-Assignment-Tile|
 
 **Contact Name**
+~~~~~~~~~~~~~~~~
 
 The name of the contact will show up here. You can edit that in the Details section. 
 
 **Status**
+~~~~~~~~~~
 
 This describes the status of the contact in relationship to the Disciple.Tools system and Multiplier. 
 
@@ -460,6 +471,7 @@ This describes the status of the contact in relationship to the Disciple.Tools s
 * Unassignable: There is not enough information to move forward with the contact at this time.
 
 **Assigned to**
+~~~~~~~~~~~~~~~
 
 This is the user assigned to the contact. They are the ones responsible for the contact and updating the contact’s profile. When the Dispatcher assigns you a new contact, you will see this message pop up within the Contact Record:
 
@@ -471,6 +483,7 @@ To assign a user to this contact, begin typing the name of the user and when it 
 
 
 **Sub-assigned to**
+~~~~~~~~~~~~~~~~~~
 
 This is someone working alongside of the main person assigned to the contact. You may find that you are partnering with others in your discipleship relationships. Only one person can be assigned while multiple people can be sub-assigned.
 
