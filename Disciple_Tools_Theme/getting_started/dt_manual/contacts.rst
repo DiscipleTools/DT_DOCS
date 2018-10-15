@@ -406,18 +406,18 @@ Additional: Other Tile
 
 **Update Needed**
 
-|Update-Needed-Toggle|
-This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on when they are wanting an update on a specific contact. 
+This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on |Update-Needed-Toggle| when they are wanting an update on a specific contact. 
 
 After toggling this on, the user who is assigned to this contact will see this message:
 
 |Update-Needed-Alert|
 
+
 **Dispatcher actions**
 
-|Dispatcher-Actions|
-
 This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
+
+|Dispatcher-Actions|
 
 * **Make a user from this contact:** This option will take a regular contact and make them into a Disciple.Tools user. (E.g.A contact becomes a local partner and Multiplier.)
 
@@ -429,7 +429,7 @@ This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
 
 Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button 
 
-Following: |Follow-On|
+Following: |Follow-On| vs.
 Not Following: |Follow-Off|
 
 
@@ -481,7 +481,7 @@ This is someone working alongside of the main person assigned to the contact. Yo
 
 |Details|
 
-These are the details about a contact. You can change the information here by clicking “edit.”
+These are the details about a contact. You can change the information here by clicking ``edit``. The information you add here, will also be used to help you filter your contacts in the Contacts List Page.
 
 ----------------
 
@@ -491,19 +491,25 @@ These are the details about a contact. You can change the information here by cl
 
 |Comments-Activity-Tile|
 
+
 Making a Comment
 ~~~~~~~~~~~~~~
 
-This tile is where you will want to record important notes from meetings and conversations with a contact. Type @ and the name of a user to mention them in a comment. This user will then receive a notification. 
+This tile is where you will want to record important notes from meetings and conversations with a contact. 
 
 |At-Mention|
+
+Type @ and the name of a user to mention them in a comment. This user will then receive a notification. 
+
 
 Quick actions:
 ~~~~~~~~~~~~~
 
+These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
+
 |Quick-Action|
 
-These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
+
 
 Comments and Activity Feed
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -524,9 +530,10 @@ You can filter the feed by clicking on one or more of the following:
 5. Connections Tile
 -------------------
 
+This tile give you the ability to quickly navigate between groups and other contacts connected to this specific contact.
+
 |Connections|
 
-This tile give you the ability to quickly navigate between groups and other contacts connected to this specific contact.
 
 **Groups:** Quickly navigate to contact’s group or church record
 
@@ -545,9 +552,10 @@ To add a new group or church, click |Add-Group|
 6. Progress Tile
 -------------
 
-|Progress|
 
 This tile helps a multiplier to keep track of a contact’s spiritual journey.
+
+|Progress|
 
 **Seeker Path:** These are the steps that happen in a specific order to help a contact move forward.
 
@@ -560,9 +568,9 @@ This tile helps a multiplier to keep track of a contact’s spiritual journey.
 Other Tile
 -------------
 
-|Other|
-
 As Disciple.Tools develops, tiles will change and new ones will become accessible. If you have a need or request, contact your Zúme Disciple.Tools Admin who has the ability to edit and create custom tiles.
+
+|Other|
 
 **Tags:** Add tags to contacts to help yourself and Zúme leaders quickly find contacts associated with noteworthy characteristics.
 
