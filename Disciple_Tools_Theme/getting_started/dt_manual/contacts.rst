@@ -587,7 +587,7 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 
 |Other|
 
-**Tags:** Add tags to contacts to help yourself and Zúme leaders quickly find contacts associated with noteworthy characteristics.
+**Tags:** Add tags to contacts to help yourself quickly find contacts associated with noteworthy characteristics.
 
 
 
