@@ -299,14 +299,14 @@ Contacts Filter Options
  
  
  
- **Search**
-~~~~~~~~~~~
+Search
+~~~~~~~~~~
 
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
 |Search|
 
 
- -------------------
+-------------------
 
 
 
@@ -383,10 +383,12 @@ If you have an issue with the Disciple.Tools system, first try to find your answ
 
 If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
 
-
+----------
 
 Contacts Record Page
 =====================
+
+|Contact-Record|
 
 1. Contact Record Toolbar
 2. Status and Assignment Tile
@@ -394,6 +396,7 @@ Contacts Record Page
 4. Comments and Activity Tile
 5. Connections Tile
 6. Progress Tile
+
 Additional: Other Tile
 
 ---------
@@ -401,31 +404,57 @@ Additional: Other Tile
 1. Contact Record Toolbar
 ---------------------
 
+**Update Needed**
+
+|Update-Needed-Toggle|
+This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on when they are wanting an update on a specific contact. 
+
+After toggling this on, the user who is assigned to this contact will see this message:
+
+|Update-Needed-Alert|
+
+**Dispatcher actions**
+
+|Dispatcher-Actions|
+
+This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
+
+* **Make a user from this contact:** This option will take a regular contact and make them into a Disciple.Tools user. (E.g.A contact becomes a local partner and Multiplier.)
+
+* **Link to an existing user:** If a Contact Record matches an already existing Disciple.Tools users, you can use this option to link them together.
+
+* **Merge with another contact:** If there are multiple Contact Records for the same contact, you can use this option to merge them together. 
+
 **Follow**
 
-Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button
+Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button 
+
+Following: |Follow-On|
+Not Following: |Follow-Off|
 
 
 **Share**
 
-Click the share button to share a contact record with another user. This user will be able to view, edit, and comment on your contact’s record.  Clicking on this button will show you with whom it is currently shared. 
+Click |Share| to share a contact record with another user. This user will be able to view, edit, and comment on your contact’s record.  Clicking on this button will show you with whom it is currently shared. 
 
 ----------
 
 2. Status and Assignment Tile
 ----------------------------
 
+|Status-Assignment-Tile|
+
 **Contact Name**
 
 The name of the contact will show up here. You can edit that in the Details section. 
 
-**Status***
+**Status**
 
 This describes the status of the contact in relationship to the Disciple.Tools system and Multiplier. 
 
 * Unassigned: The contact is new in the system and/or has not been assigned to someone.
 * Assigned: The contact has been assigned to someone, but has not yet been accepted by that person.
-* Active: The contact is progressing and/or continually being updated. Note: If you have not updated a Contact Record within a certain time, you will receive an alert. 
+* Active: The contact is progressing and/or continually being updated.
 * Paused: This contact is currently on hold (i.e. on vacation or not responding).
 * Closed: This contact has made it known that they no longer want to continue or you have decided not to continue with him/her.
 * Unassignable: There is not enough information to move forward with the contact at this time.
@@ -434,7 +463,12 @@ This describes the status of the contact in relationship to the Disciple.Tools s
 
 This is the user assigned to the contact. They are the ones responsible for the contact and updating the contact’s profile. When the Dispatcher assigns you a new contact, you will see this message pop up within the Contact Record:
 
+|Assignment-Needed|
+
 To assign a user to this contact, begin typing the name of the user and when it appears, select it. 
+
+|Assigned-To|
+
 
 **Sub-assigned to**
 
@@ -442,8 +476,10 @@ This is someone working alongside of the main person assigned to the contact. Yo
 
 ------------------
 
-3. Details Tiles
+3. Details Tile
 ----------------
+
+|Details|
 
 These are the details about a contact. You can change the information here by clicking “edit.”
 
@@ -453,30 +489,48 @@ These are the details about a contact. You can change the information here by cl
 4. Comments and Activity Tile
 ----------------------------
 
+|Comments-Activity-Tile|
+
+Making a Comment
+~~~~~~~~~~~~~~
+
 This tile is where you will want to record important notes from meetings and conversations with a contact. Type @ and the name of a user to mention them in a comment. This user will then receive a notification. 
 
+|At-Mention|
+
+Quick actions:
+~~~~~~~~~~~~~
+
+|Quick-Action|
+
+These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
+
+Comments and Activity Feed
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Contact Record and conversations between users about the contact. 
+
+You can filter the feed by clicking on one or more of the following:
 
 **Comments:** This shows all of the comments made by users about the contact
 
 **Activity:** This is running list of all of the activity changes made to a Contact Record
 
-**All:** View both Comments and Activity together
+**Facebook** If you have the Facebook plugin installed, private messages from Facebook will automatically added here.
 
-
-**Quick actions:**
-
-These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
 
 -----------------
 
 5. Connections Tile
 -------------------
 
+|Connections|
+
 This tile give you the ability to quickly navigate between groups and other contacts connected to this specific contact.
 
 **Groups:** Quickly navigate to contact’s group or church record
 
-To add a new group or church, click the button
+To add a new group or church, click |Add-Group|
 
 **Baptized By:** Add the individual(s) who were involved with baptizing the contact.
 
@@ -491,6 +545,8 @@ To add a new group or church, click the button
 6. Progress Tile
 -------------
 
+|Progress|
+
 This tile helps a multiplier to keep track of a contact’s spiritual journey.
 
 **Seeker Path:** These are the steps that happen in a specific order to help a contact move forward.
@@ -501,12 +557,14 @@ This tile helps a multiplier to keep track of a contact’s spiritual journey.
 
 ---------------
 
-7. Other Tile
+Other Tile
 -------------
+
+|Other|
 
 As Disciple.Tools develops, tiles will change and new ones will become accessible. If you have a need or request, contact your Zúme Disciple.Tools Admin who has the ability to edit and create custom tiles.
 
-Tags: Add tags to contacts to help yourself and Zúme leaders quickly find contacts associated with noteworthy characteristics.
+**Tags:** Add tags to contacts to help yourself and Zúme leaders quickly find contacts associated with noteworthy characteristics.
 
 
 
@@ -539,3 +597,21 @@ Tags: Add tags to contacts to help yourself and Zúme leaders quickly find conta
 .. |Filter-Button| image:: /Disciple_Tools_Theme/images/Filter-contacts-button.png
 .. |Notifications| image:: /Disciple_Tools_Theme/images/Notification-bell.png
 .. |Question-Mark| image:: /Disciple_Tools_Theme/images/Question-mark.png
+.. |Contact-Record| image:: /Disciple_Tools_Theme/images/Contact_Record_Admin_labeled.jpg
+.. |Follow-Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
+.. |Follow-On| image:: /Disciple_Tools_Theme/images/Follow-On.png
+.. |Share| image:: /Disciple_Tools_Theme/images/share.PNG
+.. |Update-Needed-Alert| image:: /Disciple_Tools_Theme/images/Update-Needed.png
+.. |Update-Needed-Toggle| image:: /Disciple_Tools_Theme/images/update-needed-toggle.png
+.. |Dispatcher-Actions| image:: /Disciple_Tools_Theme/images/Dispatcher-Actions.png
+.. |Status-Assignment-Tile| image:: /Disciple_Tools_Theme/images/status-assignment-tile.png
+.. |Assignment-Needed| image:: /Disciple_Tools_Theme/images/Assignment.png
+.. |Assigned-To| image:: /Disciple_Tools_Theme/images/Blank-Assigned-To.png
+.. |Details| image:: /Disciple_Tools_Theme/images/Details.png
+.. |Comments-Activity-Tile| image:: /Disciple_Tools_Theme/images/Comments-Activity-Tile.png
+.. |At-Mention| image:: /Disciple_Tools_Theme/images/at-mention.png
+.. |Quick-Action| image:: /Disciple_Tools_Theme/images/Quick_Actions.png
+.. |Connections| image:: /Disciple_Tools_Theme/images/Connections.png
+.. |Progress| image:: /Disciple_Tools_Theme/images/Progress.png
+.. |Add-Group| image:: /Disciple_Tools_Theme/images/Add-Group-Button.png
+.. |Other| image:: /Disciple_Tools_Theme/images/Other.png
