@@ -8,10 +8,64 @@ A contact is someone that you are trying to reach. You can create new contacts a
 Contacts List Page
 ==================
 
-Create a Contact
-----------------
+|Contacts-List-Page-Numbers|
 
-The |CREATE| button is located at the top of the ``Contacts`` page, found under *https://[your url]/contacts/*. Clicking this will bring you to a new page *https://[your url]/contacts/new*.  On this page you will be presented with options for creating a new contact.  The list of options is below:
+1. Website Menu Bar
+2. Contacts List Toolbar
+3. Filters Tile
+4. Contacts List Tile
+
+1. Website Menu Bar
+------------------
+The Website Menu Bar will remain at the top of every page of Disciple.Tools.
+|Website-Menu-Bar|
+
+**Disciple.Tools Beta Logo**
+Disciple.Tools has not been publicly released. Beta means that this software is still in
+development and is rapidly evolving. Expect to see changes. We ask for your grace and
+patience as you utilize this software.
+
+**Contacts**
+By clicking this, you will arrive to the Contacts List Page.
+
+**Groups**
+This will take you to the Groups List Page.
+
+**Metrics**
+This will take you to the Metrics Page.
+
+**User**
+Your name or username will show up here so you will know that you are correctly logged into
+your account.
+
+**Notification Bell**
+Anytime you receive a notification, a small red number will display here to inform you of the
+number of new notifications you have. You can edit the type of notifications you want to receive
+under Settings.
+
+**Settings Gear**
+By clicking on the settings gear, you will be able to do one of three things:
+
+* Settings: Change your personal profile information, your
+notification preferences, and your availability.
+* Help: View the Disciple.Tools’ Documentation Help Guide
+* Log Off: Log out of Disciple.Tools completely. If you click on
+this you will have to log in again using your email and
+password.
+
+2. Contacts List Toolbar
+------------------------
+|Contact-List-Toolbar|
+
+
+**Create New Contact**
+
+The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
+responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools roles and their varying permission levels by clicking here.
+
+Note: Disciple.Tools values the security and safety of all users and contacts.
+
+Clicking this button will open up a new page. Within this page you will be presented with options for creating a new contact.  The list of options is below:
 
 * **Name of contact:** A required field that is the name of the contact.
 * **Phone number:** A phone number to reach the contact.
@@ -26,14 +80,15 @@ The |CREATE| button is located at the top of the ``Contacts`` page, found under 
   + Referral
   + Advertisment
   
-* **Location:** Where the contact lives. Clicking this will bring up a list of saved locations. Optionally, you can type a new location instead.
-* **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the comments section of the contact on their page.
+  Note: These options can be modified by those with the Admin, DT Admin, and Dispatcer Roles.
+  
+* **Location:** This is where the contact lives. Clicking this will bring up a list of locations that were previously created in the wp-admin backend by the DT Admin Role. You cannot add a new location here. You will have to add new locations in the wp-admin backend of your Disciple.Tools instance first.
+* **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the Activity and Comments Tile in the Contact's Record.
 
 After filling out the options click on |SAVE|.
 
 
-Filters
---------
+**Filter Contacts**
 
 Filters are a way to search for contacts in either the ``Contacts List`` page or groups in the ``Groups List`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. 
 
@@ -286,3 +341,7 @@ On the contact's page that you want to follow there is a slider on the top right
 .. |ADD-FILTER| image:: /Disciple_Tools_Theme/images/add-filter.PNG
 .. |CREATE| image:: /Disciple_Tools_Theme/images/create.PNG
 .. |SAVE| image:: /Disciple_Tools_Theme/images/save.PNG
+.. |Contacts-List-Page-Numbers| image:: /Disciple_Tools_Theme/images/Starting_Contacts_Page_numbers.jpg
+.. |Website-Menu-Bar| image:: /Disciple_Tools_Theme/images/website_menu_bar.png
+.. |Contact-List-Toolbar| image:: /Disciple_Tools_Theme/images/Middle-Multiplier-Banner.png
+       
