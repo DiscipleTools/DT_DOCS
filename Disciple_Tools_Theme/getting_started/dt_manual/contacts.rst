@@ -46,14 +46,11 @@ under Settings.
 **Settings Gear**
 By clicking on the settings gear, you will be able to do one of three things:
 
-* Settings: Change your personal profile information, your
-notification preferences, and your availability.
+* Settings: Change your personal profile information, your notification preferences, and your availability.
 * Help: View the Disciple.Tools’ Documentation Help Guide
-* Log Off: Log out of Disciple.Tools completely. If you click on
-this you will have to log in again using your email and
-password.
+* Log Off: Log out of Disciple.Tools completely. If you click on this you will have to log in again using your email and password.
 
-----
+
 
 2. Contacts List Toolbar
 ------------------------
@@ -61,6 +58,7 @@ password.
 
 
 **Create New Contact**
+~~~~~~~~~~~~~~~~~~~~~
 
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
 responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools roles and their varying permission levels by clicking here.
@@ -91,39 +89,13 @@ After filling out the options click on |SAVE|.
 
 
 **Filter Contacts**
+~~~~~~~~~~~~~~~~~~~~~
 
-Filters are a way to search for contacts in either the ``Contacts List`` page or groups in the ``Groups List`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. 
+After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click the Filter contacts button to begin. On the left hand side are the Contact Filter Options. You an multiple items in one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
 
-**All contacts**
-Certain roles, such as Admin and Dispatcher, in Disciple.Tools allow you to view all contacts in your Disciple.Tools system. Other roles such as Multipliers will only see their contacts and contacts shared with them under ``All contacts``.
-
-**My Contacts**
-All contacts you personal create or have been assigned to you, can be found under ``My Contacts``.
-
-**Contacts shared with me**
-These are contacts that other users have shared with you.
 
 .. note:: You can only have one filter active at a time.
 
-
-Adding Custom Filters
-~~~~~~~~~~~~~~~~~~~~~
-
-**Add**
-
-To add a filter, go to either the ``contacts list`` page or the ``groups list`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
-
-**Save**
-
-To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter`` and refresh the page.
-
-**Edit**
-
-To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
-
-**Delete**
-
-To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
 
 Contacts Filter Options
@@ -202,9 +174,25 @@ Contacts Filter Options
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * The options will be varied based on your tags.
 
+**Sources**
+
+* This tab will allow you to filter based on if a contact requires an update.
+* You can add a Source by searching for it and then clicking on the Source in the search field.
+* There are eight default options:
+
+  - Advertisement
+  - Facebook
+  - LinkedIn
+  - Personal
+  - Phone
+  - Referral
+  - Twitter
+  - Web
+
+
 **Gender**
 
-* This tab will allow you to filter based on a contact's gender.
+* This tab will allow you to filter based on the source the contact came from
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * There are two deafult options:
 
@@ -283,11 +271,65 @@ Contacts Filter Options
  - User
  - Partner
  
-Search
-------
+ 
+ **Search**
+~~~~~~~~~~~
 
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list. 
  
+
+
+
+3. Filters Tile
+------------------------
+
+Filters
+~~~~~~~~
+
+The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of contacts will change.
+
+**The Default Filters are:**
+
+* **All contacts:** Certain roles, such as Admin and Dispatcher, in Disciple.Tools allow you to view all contacts in your Disciple.Tools system. Other roles such as Multipliers will only see their contacts and contacts shared with them under ``All contacts``.
+
+* **My Contacts:** All contacts you personal create or have been assigned to you, can be found under ``My Contacts``.
+  
+  + Newly Assigned: These are contacts who have been assigned to you but you have not accepted yet
+  + Assignment Needed: These are contacts that the Dispatcher still needs to assign to a Multiplier
+  + Update Needed: These are contacts in need of an update about their progress so none fall through the cracks. This can be manually requested by a Dispatcher or automatically set based on time (e.g. No activity after 2 months).
+  + Meeting Scheduled: These are all contacts with whom you have scheduled a meeting but have not yet met.
+  + Contact Attempt Needed: These are contacts who you have accepted but have not yet made the first attempt to contact them.
+  
+
+* **Contacts shared with me:** These are all contacts who other users have shared with you. You do not have responsibility for these contacts but you can access them and comment if needed.
+
+Adding Custom Filters
+~~~~~~~~~~~~~~~~~~~~~
+If the default filters do not fit your needs you can create your own.
+**Add**
+
+To add a filter, go to either the ``contacts list`` page or the ``groups list`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
+
+**Save**
+
+To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter`` and refresh the page.
+
+**Edit**
+
+To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
+
+**Delete**
+
+To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
+
+4. Contacts List Tile
+----------------------
+Contacts
+~~~~~~~~
+
+Your list of contacts will show up here. Whenever you filter contacts, the list will also be changed
+in this section too. Below are fake contacts to give you an idea of what it will look like.
+
 .. note:: The ``Load more contacts`` is always present even if there are no more contacts to load.
 
 
