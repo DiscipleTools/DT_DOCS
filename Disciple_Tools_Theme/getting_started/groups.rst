@@ -3,6 +3,7 @@ Groups
 
 A group is a collection of contacts that are meeting regularly around the Word of God (e.g., a church, Bible study, etc.).
 
+---------------
 
 Groups List Page
 ================
@@ -168,6 +169,8 @@ You can sort your groups by newest, oldest, most recently modified, and least re
 
 If you have a long list of groups they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more groups to load.
 
+--------------
+
 Group Record Page
 =================
 
@@ -179,6 +182,8 @@ Group Record Page
 4. Group Members Tile
 5. Group Progress Tile
 6. Parent/Child Group Tile
+
+------------
 
 1. Group Record Toolbar
 --------------
@@ -317,7 +322,7 @@ This tile shows the relationships between multiplying groups and provides a way 
 **Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
 
-
+-----------
 
 
 
