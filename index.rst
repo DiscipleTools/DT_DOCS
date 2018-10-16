@@ -29,6 +29,7 @@ This is the index page for the documentation referencing the Disciple Tools Them
    	Contacts <./Disciple_Tools_Theme/getting_started/contacts>
    	Groups <./Disciple_Tools_Theme/getting_started/groups>
    	Metrics <./Disciple_Tools_Theme/getting_started/metrics>
+	Profile Settings <./Disciple_Tools_Theme/getting_started/profile_settings>
    	Admin <./Disciple_Tools_Theme/getting_started/admin>
   	Users <./Disciple_Tools_Theme/getting_started/users>
    	Roles <./Disciple_Tools_Theme/getting_started/roles>
