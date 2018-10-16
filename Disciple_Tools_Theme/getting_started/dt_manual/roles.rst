@@ -66,7 +66,7 @@ Multiplier
 
 Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools instance.
 
-`DOWNLOAD HERE`
+|DOWNLOAD HERE|
 
  
  
@@ -161,9 +161,7 @@ Project Supporter
 Currently unimplemented.
 
 
-.. target-notes::
 
-.. _`DDOWNLOAD HERE`: https://kingdom.training/wp-content/uploads/2018/10/Disciple-Tools-Multiplier-Guide.pdf
 
 .. |Responder| image:: /Disciple_Tools_Theme/images/responder.png
 .. |Dispatcher| image:: /Disciple_Tools_Theme/images/dispatcher.png
@@ -172,3 +170,4 @@ Currently unimplemented.
 .. |Technologist| image:: /Disciple_Tools_Theme/images/technologist.png
 .. |Visionary| image:: /Disciple_Tools_Theme/images/visionary.png
 .. |Roles| image:: /Disciple_Tools_Theme/images/KT-roles.png
+.. |DOWNLOAD HERE| image:: /Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf
