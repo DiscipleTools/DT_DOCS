@@ -20,7 +20,7 @@ The Groups List Page functions similarly to the Contacts List Page
 
 The Website Menu Bar will remain at the top of every page of Disciple.Tools.
 
-See `Website Menu Bar`https://github.com/DiscipleTools/DT_DOCS/blob/master/Disciple_Tools_Theme/getting_started/contacts.rst#1-website-menu-bar
+See `Website Menu Bar`_
 
 2. Groups List Toolbar
 ------------------
