@@ -171,8 +171,42 @@ If you have a long list of groups they will not all load at once, so clicking th
 Group Record Page
 =================
 
-Details
+|group-record-page|
 
+1. Group Record Toolbar
+2. Group Details
+3. Group Comments and Activity Tile
+4. Group Members Tile
+5. Group Progress Tile
+6. Parent/Child Group Tile
+
+1. Group Record Toolbar
+--------------
+
+|group-record-toolbar|
+
+**Follow**
+~~~~~~~~~~
+
+Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button 
+
+Following: |Follow-On| vs.
+Not Following: |Follow-Off|
+
+
+**Share**
+~~~~~~~~
+
+Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’s record.  Clicking on this button will show you with whom it is currently shared. 
+
+----------
+
+2. Group Details
+-------------------
+
+|Group-Record-Details|
+
+These are the details about a group. You can change the information here by clicking ``edit``. The information you add here, will also be used to help you filter your groups in the Groups List Page.
 
 In this area is the following set of data:
 
@@ -185,36 +219,70 @@ In this area is the following set of data:
 * People Groups - The people groups that are a part of this group.
 * Locations - A more general idea of locations (e.g., South_City or West_Region).
 
-You can edit any of this data by clicking the ``Edit`` button located on the top right.
+-------------
 
-Members
+3. Group Comments and Activity Tile
+-------------------
 
-
-This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name.
-
-Groups
+|Group-Activity-Comments-Tile|
 
 
-If this group has multiplied from another group, you can add that group under ``Parent Group``.
+Making a Comment
+~~~~~~~~~~~~~~
 
-If this group has multiplied into another group, you can add that under ``Child Groups``.
+This tile is where you will want to record important notes from meetings and conversations with a contact about their group. 
 
-Progress
+|At-Mention|
+
+Type @ and the name of a user to mention them in a comment. Note: This will share this Group Record Page with that user. This user will then receive a notification. 
 
 
-In this area, you can keep track of the overall health and progress of the group. 
+
+
+Comments and Activity Feed
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Group Record and conversations between users about the group. 
+
+You can filter the feed by clicking on one or more of the following:
+
+**Comments:** This shows all of the comments made by users about the group
+
+**Activity:** This is running list of all of the activity changes made to a Group Record
+
+
+---------------
+
+4. Group Members Tile
+--------------
+
+|Group-Members-Tile|
+
+This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name. You can also quickly navigate between the Group Recors and the members' Contact Records
+
+------------
+
+5. Group Progress Tile
+--------------
+
+In this tile, you can keep track of the overall health and progress of the group. 
+
+|Group-Progress-Tile|
+
 
 **Group Type**
+~~~~~~~~~~~~~
 
-The first thing you should do is define what type of group it is. Do this by clicking on the ``Group Type`` drop-down. Clicking this will reveal three options.
+This area helps to track the spiritual progress a group makes as they become a healthy multiplying church. The first thing you should do is define what type of group it is. Do this by clicking on the ``Group Type`` drop-down. Clicking this will reveal three options.
 
-* Pre-Group
-* Group
-* Church
+* Pre-Group: This can be an unofficial group, a network of friends who a disciple knows
+* Group: A group of contacts meeting around the Word consistenly
+* Church: When a group identifies themselves as a Church body
 
 **Health Metrics**
+~~~~~~~~~~~~~~~~~~
 
-Here you can track the progress of a pre-group/group/church.
+These metrics have been identified as characteristics that describe a healthy church. By clicking on one of them, it activates the corresponding symbol in the circle.
 
 If the group has committed to be a church, click the ``Covenant`` button to make the dotted line circle solid.
 
@@ -222,54 +290,35 @@ If the group/church regularly practices any of the following elements, then clic
 
 The list of elements is as follows:
 
-* Fellowship
-* Giving
-* Communion
-* Baptism
-* Prayer
-* Leaders
-* Word
-* Praise
-* Evangelism
-* Covenant
+* Fellowship: The group is actively pursuing the "one anothers' together
+* Giving: The group is actively using their personal finances for Jesus' Kingdom
+* Communion: The group has began practicing the Lord' Supper
+* Baptism: The group is practicing baptism of new believers
+* Prayer: The group is actively incorporting prayer in their gatherings
+* Leaders: The group has recoginzed leaders
+* Word: The group is actively engaging in the Word
+* Praise: The group has incorporated praising (i.e. musical worship) into their gatherings
+* Evangelism: The group is actively sharing
+* Covenant: The group has committed to be a church
 
-Comments/Activity
+-------------
+
+6. Parent/Child Group Tile
 -----------------
 
-Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click ``Submit comment`` to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
+This tile shows the relationships between multiplying groups and provides a way to navigate quickly between them.
 
 
-Groups Filter Options
---------------------
+|Parent-Child-Group-Tile|
 
-**Assigned To**
 
-* This tab will allow you to add names of people that have been assigned to a group.
-* You can add names by searching for them and then clicking on the name in the search field.
+**Parent Group:** If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
-**Group Status**
+**Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
-* This tab will allow you to filter based on if a group is active.
-* To add a filter option click on the checkbox next to the filter options you want to add.
-* There is two options:
 
-  - Yes 
-  - No 
 
-**Group Type**
 
-* This tab will allow you to filter based on the type of group.
-* To add a filter option click on the checkbox next to the filter options you want to add.
-* Group type filters are as follows:
-
-  - Pre-Group
-  - Group
-  - Church 
-  
-**Locations**
-
-* This tab will allow you to add locations of groups to filter for.
-* You can add a location by searching for it and then clicking on the location in the search field.
 
 
 .. target-notes::
@@ -283,7 +332,18 @@ Groups Filter Options
 .. |Filter-groups-button| image:: /Disciple_Tools_Theme/images/Filter-Groups-Button.png
 .. |Create-new-group-button| image:: /Disciple_Tools_Theme/images/Create-New-Group-Button.png
 .. |Group-Filters-Tile| image:: /Disciple_Tools_Theme/images/Group-Filters-Tile.png
-.. |Search| image:: /Disciple_Tools_Theme/images/search.png
+.. |Search| image:: /Disciple_Tools_Theme/images/search-groups.png
 .. |ADD-FILTER| image:: /Disciple_Tools_Theme/images/add-filter.PNG
 .. |group-filter-options| image:: /Disciple_Tools_Theme/images/Group-Filter-Options.png
 .. |groups-tile| image:: /Disciple_Tools_Theme/images/Groups-Tile.png
+.. |group-record-page| image:: /Disciple_Tools_Theme/images/Group-Record-Page-labeled.jpg
+.. |group-record-toolbar| image:: /Disciple_Tools_Theme/images/Group-Record-Toolbar.png
+.. |Follow-Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
+.. |Follow-On| image:: /Disciple_Tools_Theme/images/Follow-On.png
+.. |Share| image:: /Disciple_Tools_Theme/images/share.PNG
+.. |Group-Record-Details| image:: /Disciple_Tools_Theme/images/Group-Record-Details.png	
+.. |Group-Activity-Comments-Tile| image:: /Disciple_Tools_Theme/images/Group-Comments-Activity-Tile.png	
+.. |At-Mention| image:: /Disciple_Tools_Theme/images/at-mention.png
+.. |Group-Members-Tile| image:: /Disciple_Tools_Theme/images/Group-Members-Tile.png
+.. |Group-Progress-Tile| image:: /Disciple_Tools_Theme/images/Group-Progress-Tile.png
+.. |Parent-Child-Group-Tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
