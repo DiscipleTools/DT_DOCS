@@ -8,7 +8,7 @@ A group is a collection of contacts that are meeting regularly around the Word o
 Groups List Page
 ================
 
-The Groups List Page functions similarly to the Contacts List Page
+|Group-List-Page|
 
 1. Website Menu Bar
 2. Groups List Toolbar
@@ -352,3 +352,4 @@ This tile shows the relationships between multiplying groups and provides a way 
 .. |Group-Members-Tile| image:: /Disciple_Tools_Theme/images/Group-Members-Tile.png
 .. |Group-Progress-Tile| image:: /Disciple_Tools_Theme/images/Group-Progress-Tile.png
 .. |Parent-Child-Group-Tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
+.. |Group-List-Page| image:: /Disciple_Tools_Theme/images/Group-List-Page-labeled.jpg
