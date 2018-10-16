@@ -27,8 +27,12 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:name: dt-user-start
 
 	Demo <./Disciple_Tools_Theme/getting_started/demo>
-	Disciple.Tools Manual <./Disciple_Tools_Theme/getting_started/dt_manual/index>
-
+  	users <./Disciple_Tools_Theme/getting_started/users>
+   	roles <./Disciple_Tools_Theme/getting_started/roles>
+   	contacts <./Disciple_Tools_Theme/getting_started/contacts>
+   	groups <./Disciple_Tools_Theme/getting_started/groups>
+   	metrics <./Disciple_Tools_Theme/getting_started/metrics>
+   	admin <./Disciple_Tools_Theme/getting_started/admin>
 
 .. toctree::    
 	:caption: Developers
