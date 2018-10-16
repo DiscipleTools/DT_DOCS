@@ -82,7 +82,7 @@ By clicking on the settings gear |Gear|, you will be able to:
 ~~~~~~~~~~~~~~~~~~~~~
 
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
-responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools roles and their varying permission levels by clicking here.
+responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels..
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
 
@@ -593,9 +593,9 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 
 
 
+.. target-notes::
 
-
-
+.. _`roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
 
 
 
