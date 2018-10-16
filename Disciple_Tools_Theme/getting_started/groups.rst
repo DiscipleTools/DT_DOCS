@@ -45,7 +45,7 @@ Clicking this button will open up a modal. Within this modal you will be asked t
 * **Name of group:** A required field that is the name of the group.
 
 
-After filling out the option click `Save and continue editing`. You will then be directed to the `Group Record Page`
+After filling out the option click ``Save and continue editing``. You will then be directed to the ``Group Record Page``
 
 
 
