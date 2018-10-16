@@ -26,13 +26,13 @@ This is the index page for the documentation referencing the Disciple Tools Them
 	:caption: Getting Started
 	:name: dt-user-start
 
-	Demo <./Disciple_Tools_Theme/getting_started/demo>
-  	Users <./Disciple_Tools_Theme/getting_started/users>
-   	Roles <./Disciple_Tools_Theme/getting_started/roles>
    	Contacts <./Disciple_Tools_Theme/getting_started/contacts>
    	Groups <./Disciple_Tools_Theme/getting_started/groups>
    	Metrics <./Disciple_Tools_Theme/getting_started/metrics>
    	Admin <./Disciple_Tools_Theme/getting_started/admin>
+  	Users <./Disciple_Tools_Theme/getting_started/users>
+   	Roles <./Disciple_Tools_Theme/getting_started/roles>
+	Demo <./Disciple_Tools_Theme/getting_started/demo>
 
 .. toctree::    
 	:caption: Developers
