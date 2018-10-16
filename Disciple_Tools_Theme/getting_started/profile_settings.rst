@@ -4,7 +4,7 @@ Profile Settings
 You can access your Profile Settings two ways:
 
 1. Click on your username in the Website Menu Bar
-2. CLick on the gear icon and click ``Settings``
+2. Click on |Gear| and click ``Settings``
 
 ---------
 
@@ -43,12 +43,13 @@ Notifications
 
 You will receive web notifications and email notifications based on your notification preferences. To change your preference, click the toggle buttons.
 
-Notifications Turned On: The toggle will appear blue
-Notifications Turned Off: The toggle will appear grey
+Notifications Turned On: The toggle will appear blue |On|
+
+Notifications Turned Off: The toggle will appear grey |Off|
 
 Web Notifications
 ~~~~~~~~~~~
-Notifications that are toggled on for ``Web`` will arrive within Disciple.Tools. A red number will appear by the Notification Bell in the Website Menu Bar, indicating the number of new notifications. 
+Notifications that are toggled on for ``Web`` will arrive within Disciple.Tools. A red number will appear by the Notification Bell |Notifications| in the Website Menu Bar, indicating the number of new notifications. 
 
 Email Notifications
 ~~~~~~~~~~~~~
@@ -83,3 +84,10 @@ Availability
 -----------
 
 This is in development
+
+----------
+
+.. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+.. |Notifications| image:: /Disciple_Tools_Theme/images/Notification-bell.png
+.. |Off| image:: /Disciple_Tools_Theme/images/Notifications-Off.png
+.. |On| image:: /Disciple_Tools_Theme/images/Notifications-On.png
