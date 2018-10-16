@@ -30,13 +30,11 @@ Inviting a user from a Contact Record
 If there is already a contact for the user you want to add, there is an easy option. In the Contact Record, click the ``Dispatcher actions`` menu in the top bar then click the ``Make a user from this contact`` option.
 
 
-Linking and existing contact to a user
+Linking an existing contact to a user
 --------------------------------------
 If you realize that you have a contact that should be linked with a user account, then in the Contact Record click the ``Dispatcher actions`` menu in the top bar and then the ``Link to an existing user`` option.
 
-test
-
-:download:`download DT Multiplier Guide <Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+:download:`download DT Multiplier Guide </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
 .. target-notes::
 
