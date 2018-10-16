@@ -20,7 +20,7 @@ You can edit the following options
 * Password
 * First Name
 * Last Name
-* Nickname (Display Name): Automatically, your username is your Display Name. This is what other users will search for when assignging you contacts, @ mentioning you in comments, etc
+* Nickname (Display Name): Automatically, your username is your Display Name. This is what other users will search for when assigning you contacts, @ mentioning you in comments, etc
 * Personal Phone
 * Personal Email
 * Personal Address
