@@ -1,10 +1,42 @@
 Groups
-======
+******
 
-A group is a collection of contacts that are meeting (e.g., a church, Bible study, etc.). You can find the group under the URL structure of https://[url]/groups/[group_num].
+A group is a collection of contacts that are meeting regularly around the Word of God (e.g., a church, Bible study, etc.).
+
+
+Groups List Page
+================
+
+The Groups List Page functions similarly to the Contacts List Page
+
+1. Website Menu Bar
+2. Groups List Toolbar
+3. Group Filters Tile
+4. Group List Tile
+
+
+1. Website Menu Bar
+------------------
+
+The Website Menu Bar will remain at the top of every page of Disciple.Tools.
+
+See `Website Menu Bar`https://github.com/DiscipleTools/DT_DOCS/blob/master/Disciple_Tools_Theme/getting_started/contacts.rst#1-website-menu-bar
+
+2. Groups List Toolbar
+------------------
+
+3. Group Filters Tile
+----------------------
+
+4. Group List Tile
+-------------------
+
+
+Group Record Page
+=================
 
 Details
--------
+
 
 In this area is the following set of data:
 
@@ -20,19 +52,19 @@ In this area is the following set of data:
 You can edit any of this data by clicking the ``Edit`` button located on the top right.
 
 Members
--------
+
 
 This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name.
 
 Groups
--------
+
 
 If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
 If this group has multiplied into another group, you can add that under ``Child Groups``.
 
 Progress
---------
+
 
 In this area, you can keep track of the overall health and progress of the group. 
 
@@ -102,3 +134,8 @@ Groups Filter Options
 
 * This tab will allow you to add locations of groups to filter for.
 * You can add a location by searching for it and then clicking on the location in the search field.
+
+
+.. target-notes::
+
+.. _`Website Menu Bar`: https://github.com/DiscipleTools/DT_DOCS/blob/master/Disciple_Tools_Theme/getting_started/contacts.rst#1-website-menu-bar
