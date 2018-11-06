@@ -11,6 +11,16 @@ About the Roles
 In Disciple Tools there are many different types of roles. Each role is assigned upon account creation and can be changed later in the admin area. A user can be assigned one role or multiple roles. Each role has varying access permissions. For example, only certain user types can access all contacts. This is designed with security in mind. 
 
 
+Roles Training Manuals
+----------------
+
+**Disciple.Tools Multiplier Guide**
+
+Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools instance.
+
+:download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+
+
 Subscriber/Registered
 ----------------------
 
