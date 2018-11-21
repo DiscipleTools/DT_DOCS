@@ -1,19 +1,49 @@
 Admin
-=====
+*****
 
-Extensions Page
----------------
+This is the wp-admin or backend of Disciple.Tools. Only certain roles within your Disciple.Tools instance will be able to access this. To open up the admin backend, click on the ``gear`` on the top right and then click ``Admin``
 
-The Extensions page allows you to download our plugins and plugins we recommend, but did not build.
+Contacts
+=======
 
-Where to Find the Page
-~~~~~~~~~~~~~~~~~~~~~~
+These are the backend records of the contacts that can be found in the Contacts List Page. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every Contact Record on the front end.
 
-Open up the admin backend, by clicking on the ``gear`` on the top right and then clicking ``Admin``. Once in the backend click on ``Extensions (DT)``.
+You can delete a contact record y hovering over their name and clicking ``Trash``.
 
-Alternatively, go to the url https://[your_url]/wp-admin/admin.php?page=dt_extensions.
+Groups
+======
 
-Install
+These are the backend records of the groups that can be found in the Groups List Page. We recommend you edit every Group Record on the front end.
+
+You can delete a group record by hovering over their name and clicking ``Trash``.
+
+Locations
+========
+
+Add New
+--------
+
+Import
+------
+
+
+People Groups
+=============
+
+Add New
+-----
+
+Import
+-----
+
+
+Extensions (DT)
+==============
+
+The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+
+
+How to Install
 ~~~~~~~
 
 To install a plugin, click on ``Install`` under the ``Actions`` section.  Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
@@ -36,15 +66,14 @@ The are plugins we recommend, but did not develop:
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms    
 * ``Inactive Logout`` - Inactive logout provides functionality to log out any idle users defined specified time showing a message. This works for the frontend as well.
 
+Settings (DT)
+=============
 
-Custom List Settings
+Custom List
 --------------------
 
 This page allows you to customize the fields used in the contacts page.
 
-Where to Find the Page
-~~~~~~~~~~~~~~~~~~~~~~
-First, open up the admin backend by clicking on the ``gear`` on the top right, then click ``Admin``. Once in the backend, click on ``Settings (DT)``, then click on ``Custom Lists``.
 
 Alternatively, go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
 
@@ -89,116 +118,91 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
-Status
-~~~~~~
+Contact Communication Channels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Has the fields:
 
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
+* ``Label`` - Is the name of the field.
+* ``Type`` - Is the type of the field.
 
-Has the actions:
-
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Milestones
-~~~~~~~~~~
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
-Has the actions:
-
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Seeker Path
-~~~~~~~~~~~
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
-Has the actions:
-
-* ``Move`` - Clicking the up arrow moves the field up in order. Clicking the down arrow moves the field down in order.
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Reason Closed
-~~~~~~~~~~~~~
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
+  Field types:
+  
+  - Facebook
+  - Twitter
+  - Instagram
+  - Skype
+  - Other
+  
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
 * ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
+* ``Add New Channel`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
-Reason Paused
-~~~~~~~~~~~~~
+Custom Fields
+------------
 
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Reason Unassignable
-~~~~~~~~~~~~~~~~~~~
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Health
-~~~~~~
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-Custom Dropdown Field
+Modify an existing field
 ~~~~~~~~~~~~~~~~~~~~~
 
-Has the fields:
+**Contact Fields**
+Overall Status
+Milestones
+Seeker Path
+Reason Not Ready
+Reason Paused
+Reason Closed
 
-* ``Drop Down Field Name`` - Is the name of the drop-down field. Clicking on it allows you to edit it.
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
+**Group Fields**
 
-Has the actions:
+Health
 
-* ``Move`` - Clicking the up arrow moves the field up in order. Clicking the down arrow moves the field down in order.
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add Dropdown Field`` - Adds a new drop-down field.
-* ``Add Option`` - Adds a new option for the drop-down field.
-* ``Save`` - Saves the current changes.
+
+Create a new field
+~~~~~~~~~~~~~~~~~
+
+**Page Type**
+**New Field Name**
+**Field Type**
+- Dropdown: Select an option for a dropdown list
+- Multi Select: A field like the milestones to track items like course progress
+- Text: This is just a normal text field
+- Date: A field that uses a date picker to choose dates (like baptism date)
+**Tile**
+
+Custom Tiles
+~~~~~~~~~~~
+
+Google Map API
+~~~~~~~~~~~~~
+
+Site Link System
+~~~~~~~~~~~~~~~~
+
+Network Dashboard
+~~~~~~~~~~~~~~~~~
+
+Critical Path
+~~~~~~~~~~~~~~~
+
+
+
+Utilities (DT)
+=============
+
+Appearance
+==========
+
+Users
+=======
+
+Tools
+======
+
+Settings
+=========
+
+Site Links
+===========
