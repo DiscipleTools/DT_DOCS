@@ -8,7 +8,7 @@ Contacts
 
 These are the backend records of the contacts that can be found in the Contacts List Page. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every Contact Record on the front end.
 
-You can delete a contact record y hovering over their name and clicking ``Trash``.
+You can delete a contact record by hovering over their name and clicking ``Trash``.
 
 Groups
 ======
@@ -72,13 +72,13 @@ Settings (DT)
 Custom List
 --------------------
 
-This page allows you to customize the fields used in the contacts page.
+This page allows you to customize the following pre-existing fields
 
-
-Alternatively, go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
 
 User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is the Users' profile information that can be found in their Profile by clicking the Gear icon. 
 
 Has the fields:
 
@@ -174,6 +174,18 @@ Create a new field
 
 Custom Tiles
 ~~~~~~~~~~~
+
+A tile is a section within the Contact/Group Record Pages (i.e. Details tile). A tile contains various ``fields`` within it. 
+
+**Create a new tile:**
+
+1. Click ``Add a new tile``
+2. Select whether it will be found in the Contact or Group page type
+3. Name it.
+4. Click ``Create Tile``
+
+Options: You can later rename this tile or hide it by clicking ``Hide tile on page``
+
 
 Google Map API
 ~~~~~~~~~~~~~
