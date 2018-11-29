@@ -13,7 +13,9 @@ completed translations through Github or through email, and our commit team will
 Resources You Need
 -------
 
- 1. Download `Disciple Tools template file (.pot) <https://github.com/DiscipleTools/disciple-tools-theme/blob/master/dt-assets/translation/disciple_tools.pot>`_ or a current translation file ({language_code}.po). Scan the `github translations folder <https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation>`_ for the file for which you are looking.
+ 1. Open `Disciple Tools template file (.pot) <https://raw.githubusercontent.com/DiscipleTools/disciple-tools-theme/master/dt-assets/translation/disciple_tools.pot>`_ right click on the page and choose "save as".
+
+Check the existing translation files ({language_code}.po) in the `github translations folder <https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation>`_ for an existing file in your language.
 
  2. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
 
@@ -26,12 +28,12 @@ Resources You Need
     :width: 100%
 
 
-How To Setup POEdit
--------
+How To Setup POEdit For a new translation
+-------------------
 
  1. Open POEdit.
  2. Go to File and select `New from POT/PO File...`
- 3. Select .pot file or .po file that you downloaded. (see section above)
+ 3. Select .pot file that you downloaded. (see section above)
  4. Once file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
 
  .. image:: /Disciple_Tools_Theme/images/poedit_screen.png
@@ -40,6 +42,14 @@ How To Setup POEdit
 
 
  .. note:: Notice the number of translation strings at the bottom bar. This tells you how many strings are to be translated and how many are left to be translated.
+ 
+How To Setup POEdit For an existing translation
+-------------------
+ 1. Open POEdit.
+ 2. Go to File and open.
+ 3. Select .po file that you downloaded. (see section above)
+ 4. Click Catalog and then Update from POT File... 
+ 5. Once file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
 
 Submitting Finished Translation
 -------
