@@ -13,8 +13,7 @@ completed translations through Github or through email, and our commit team will
 Resources You Need
 -------
 
- 1. Open `Disciple Tools template file (.pot) <https://raw.githubusercontent.com/DiscipleTools/disciple-tools-theme/master/dt-assets/translation/disciple_tools.pot>`_ Download the file by right clicking on the page and choosing "save as".
-Check the existing translation files ({language_code}.po) in the `github translations folder <https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation>`_ for an existing file in your language. To downldoad it click on the file from the list, on the next page click the "raw" button. Finally like above right click on the page and choose "save as"
+ 1. Open `Disciple Tools template file (.pot) <https://raw.githubusercontent.com/DiscipleTools/disciple-tools-theme/master/dt-assets/translation/disciple_tools.pot>`_ Download the file by right clicking on the page and choosing "save as". Check the existing translation files ({language_code}.po) in the `github translations folder <https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation>`_ for an existing file in your language. To downldoad it click on the file from the list, on the next page click the "raw" button. Finally like above right click on the page and choose "save as"
 
  2. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
 
@@ -48,7 +47,8 @@ How To Setup POEdit for an existing translation
  2. Go to File and open.
  3. Select .po file that you downloaded. (see section above)
  4. Click Catalog and then Update from POT File... 
- 5. Once the file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
+ 5. Choose the disciple_tools.pot file you downloaded.
+ 6. Once the file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
 
 Submitting Finished Translation
 -------
