@@ -17,10 +17,9 @@ Resources You Need
  
  .. |location_link| raw:: html
  
-   <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation" target="_blank">translations folder</a>
-   
+   <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation" target="_blank">translations folder</a>  
  2. Unzip the translation.zip file. In the folder you will find a disciple_tools.pot file and you might see an existing translation .po file for your language in this format:  {language_code}.po. How you set up poedit will depend on if you are starting with an existing .po file or creating a new one. See instructions below.
- 2. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
+ 3. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
 
   .. image:: /Disciple_Tools_Theme/images/translation_files.png
     :align: center
