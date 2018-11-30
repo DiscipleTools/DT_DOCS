@@ -13,8 +13,7 @@ completed translations through Github or through email, and our commit team will
 Resources You Need
 -------
 
- 1. Open `Disciple Tools template file (.pot) <https://raw.githubusercontent.com/DiscipleTools/disciple-tools-theme/master/dt-assets/translation/disciple_tools.pot>`_ Download the file by right clicking on the page and choosing "save as". Check the existing translation files ({language_code}.po) in the `github translations folder <https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation>`_ for an existing file in your language. To downldoad it click on the file from the list, on the next page click the "raw" button. Finally like above right click on the page and choose "save as"
-
+ 1. Click on this link to start a download of the D.T translations folder (as a zip file): |location_link|. Unzip the translation.zip file. In the folder you will find a disciple_tools.pot file and you might see an existing translation .po file for your language in this format:  {language_code}.po. How you set up poedit will depend on if you are starting with an existing .po file or creating a new one. See instructions below.
  2. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
 
   .. image:: /Disciple_Tools_Theme/images/translation_files.png
@@ -67,3 +66,5 @@ When you save your translation file, the POEdit software will create two files (
  2. Fill out the contact form and let us know you want to submit a translation for the project.
  3. We'll connect with you and get the files.
 
+.. |location_link| raw:: html
+   <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation" target="_blank">translations folder</a>
