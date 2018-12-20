@@ -96,7 +96,9 @@ Various people groups will not automatically show up in the frontend when editin
 All People Groups
 ---------------
 
-All of your added people groups will be listed here. Click ``Add New`` to get started.  
+All of your added people groups will be listed here.
+
+To get started, we recommend clicking ``Import`` for a faster experience. You can also manually add people groups by clicking ``Add New``
 
 When you hover over the name of a people group, the following options appear:
 
@@ -110,18 +112,30 @@ Edit People Group
 
 Click on the name of the people group or hover over it and click ``Edit``
 
+The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB. When you import or link a people group with this ROP3 code, it will import data labels used by these two organizations for that people group. When select a contact's people group in their Contact Record Details Tile, it will give the potential for reporting key metrics on the status of their people group. What God does among your people as noted in Disciple.Tools will be very helpful data for updating Joshua Project and IMB's databases on the status of the Great Comission. 
+
 
 Add New
 -----
 
-1. Under ``Add/Update People Group``, select a country to view its people groups and click ``Search``
-2. Next to the people groups you want to add, click the ``link`` button. 
-3. A note will appear that says "The current people group data has been updated with this info! Refresh to see data"
+**Note:** We recommend importing rather than adding.
 
-Import
+1. Name the People Group (E.g. Bambara, France)
+2. Under ``Add/Update People Group``, select a country to view its people groups and click ``Search``(E.g. France)
+3. Next to the people groups you want to add, click the ``link`` button. (e.g. Bambara)
+4. A note will appear that says "The current people group data has been updated with this info! Refresh to see data"
+5. Click ``Publish``
+
+Import 
 -----
 
-Documentation Coming Soon
+For a faster build of your people groups, import rather than add.
+
+1. In the country drop down list, select a country (e.g. France)
+2. Click the ``add`` button for each people group you want to add to your list
+3. These will get added without having to click save. To view your list of people groups click ``All People Groups``
+
+Note: The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups idenitfied by Joshua Project and the IMB. 
 
 
 Extensions (DT)
