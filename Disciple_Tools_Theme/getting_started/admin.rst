@@ -1,40 +1,60 @@
 Admin
 *****
 
-This is the wp-admin or backend of Disciple.Tools. Only certain roles within your Disciple.Tools instance will be able to access this. To open up the admin backend, click on the ``gear`` on the top right and then click ``Admin``
+This is the wp-admin or backend of Disciple.Tools. Only certain roles within your Disciple.Tools instance will be able to access this and depending on their role, access will vary. 
+
+To open up the admin backend, click on the |gear| on the top right and then click ``Admin``
+
+To see what each role has access to, click `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ 
+
 
 Contacts
 =======
 
-These are the backend records of the contacts that can be found in the Contacts List Page. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every Contact Record on the front end.
+These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
 
 You can delete a contact record by hovering over their name and clicking ``Trash``.
 
 Groups
 ======
 
-These are the backend records of the groups that can be found in the Groups List Page. We recommend you edit every Group Record on the front end.
+These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
 
 You can delete a group record by hovering over their name and clicking ``Trash``.
 
 Locations
 ========
 
+Locations will not automatically show up in the frontend when editing a Contact or Group Record. You must first add locations in the Admin backend for them to show up as options for the frontend. 
+
+Click ``Add New`` to get started.  All of your added locations will be listed here. 
+
 Add New
 --------
+
+Documentation Coming Soon
 
 Import
 ------
 
+Documentation Coming Soon
 
 People Groups
 =============
 
+Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
+
+Click ``Add New`` to get started.  All of your added people groups will be listed here. 
+
 Add New
 -----
 
+Documentation Coming Soon
+
 Import
 -----
+
+Documentation Coming Soon
 
 
 Extensions (DT)
@@ -95,7 +115,17 @@ In this example, the chosen beginning subject line is "D.T CRM". If you work in 
 Site Notifications
 ~~~~~~~~
 
-Users can change their Site Notifications within their persoal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive. Unchecked boxes mean that the individual user will have the choice whether they want to receive that notification or not. 
+Users can change their Site Notifications within their persoal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not. 
+
+**Types of Site Notifications:**
+
+- Newly Assigned Contact
+- @Mentions
+- New comments
+- Update Needed
+- Contact Info Changed
+- Contact Milestones and Group Health Metrics
+
 
 Update Needed Triggers
 ~~~~~~~~
@@ -121,16 +151,20 @@ An update constitutes as any change to the Group Record that would be recorded i
 Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message. 
 
 
-Custom List
+Custom Lists
 --------------------
 
 This page allows you to customize the following pre-existing fields
+
+- User (Worker) Contact Profile
+- Sources: Where contacts originate
+- Contact Communication Channels aka Social Media
 
 
 User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is the Users' profile information that can be found in their Profile by clicking the Gear icon. 
+This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon. 
 
 Has the fields:
 
@@ -173,6 +207,9 @@ Has the actions:
 Contact Communication Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+These options represent the Social Media option that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. 
+
+
 Has the fields:
 
 * ``Label`` - Is the name of the field.
@@ -193,41 +230,27 @@ Has the actions:
 * ``Add New Channel`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
-Custom Fields
-------------
-
-Modify an existing field
-~~~~~~~~~~~~~~~~~~~~~
-
-**Contact Fields**
-Overall Status
-Milestones
-Seeker Path
-Reason Not Ready
-Reason Paused
-Reason Closed
-
-**Group Fields**
-
-Health
 
 
-Create a new field
-~~~~~~~~~~~~~~~~~
+Custom Tiles and Fields
+------------------
 
-**Page Type**
-**New Field Name**
-**Field Type**
-- Dropdown: Select an option for a dropdown list
-- Multi Select: A field like the milestones to track items like course progress
-- Text: This is just a normal text field
-- Date: A field that uses a date picker to choose dates (like baptism date)
-**Tile**
+A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
 
-Custom Tiles
-------------
+**Example Tile and Fields**
 
-A tile is a section within the Contact/Group Record Pages (i.e. Details tile). A tile contains various ``fields`` within it. 
+|English Club Tile|
+
+
+This English Club Tile is made up of the following fields:
+
+- English Club Pathway
+- English CLub Start Date
+- Interests
+- Topics Completed
+
+Build a Complete Tile
+~~~~~~~~~~~~~~~~
 
 **Create a new tile:**
 
@@ -236,7 +259,74 @@ A tile is a section within the Contact/Group Record Pages (i.e. Details tile). A
 3. Name it.
 4. Click ``Create Tile``
 
-Options: You can later rename this tile or hide it by clicking ``Hide tile on page``
+
+**Create new fields**
+
+1. Under ``Custom Fields``, click ``Create new field``
+2. Select whether it will be found in the Contact or Group page type
+3. Select the Field Type
+ 
+ Options:
+- Dropdown: Select an option for a dropdown list
+- Multi Select: A field like the milestones to track items like course progress
+- Text: This is just a normal text field
+- Date: A field that uses a date picker to choose dates (like baptism date)
+ 
+4. Select the name of the new Tile you created 
+5. Click ``Create Field``
+6. Add the options for Dropdown and Multi Select fields
+   a. Under ``Field Options``, next to ``Add new option``, insert the name of the option and click ``Add``
+   b. Continue adding until you have all of your preferred options. 
+7. Click ``Save``
+8. Repeat steps 1-7 until you have all of your desired fields for the tile
+
+
+**Preview Tile**
+
+Preview your tile within the Contact or Group Record by returning to the frontend. Cick the |House| icon to return.
+
+To modify the tile, fields, and options, click the |gear| icon and Admin to return to the backend.
+
+
+Modify Tiles, Fields, and Options
+~~~~~~~~~~~~~~~~~~
+
+**Modify Tile**
+
+Under Custom Tiles, next to ``Modify an existing tile``, select the name of the tile you want to modify
+
+- Adjust the order of the fields by clicking the up and down arrows. 
+- Rename the tile by changing the Label name under ``Tile Settings``
+- Hide the tile by clicking ``Hide tile on page``
+
+
+**Modify a Field**
+
+Under Custom Fields, next to ``Modify an existing field``, select the name of the field you want to modify
+
+
+- Adjust the order of the field options by clicking the up and down arrows
+- Hide the field options by clicking ``Hide``
+- Rename the field by changing the Label name under ``Field Settings``
+
+
+**Note:** You do not have the ability to modify every Disciple.Tools field. You, however, can modify any new field you create. The other default fields you can currently modify are:
+
+Contact Fields:
+
+- Overall Status
+- Seeker Path
+- Milestones
+- Reason Not Ready
+- Reason Paused
+- Reason Closed
+
+Group Fields:
+
+-Group Type
+-Church Health
+
+
 
 
 Google Map API
@@ -290,3 +380,7 @@ Site Links
 
 
 .. |System Email Subject Line| image:: /Disciple_Tools_Theme/images/system-email-subject.png
+.. |Notification Bell| image:: /Disciple_Tools_Theme/images/Notification-bell.png
+.. |gear| image:: /Disciple_Tools_Theme/images/Gear.png
+.. |English Club Tile| image:: /Disciple_Tools_Theme/images/English-Club-Tile.png
+.. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
