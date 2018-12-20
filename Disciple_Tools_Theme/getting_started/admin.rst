@@ -249,6 +249,13 @@ This English Club Tile is made up of the following fields:
 - Interests
 - Topics Completed
 
+The Interests field, for example, is made up of the following options:
+
+- Receive Bible
+- Discuss Christianity
+- Join a Bible Study
+- Put on Newsletter List
+
 Build a Complete Tile
 ~~~~~~~~~~~~~~~~
 
@@ -266,7 +273,6 @@ Build a Complete Tile
 2. Select whether it will be found in the Contact or Group page type
 3. Select the Field Type
  
- Options:
 - Dropdown: Select an option for a dropdown list
 - Multi Select: A field like the milestones to track items like course progress
 - Text: This is just a normal text field
@@ -275,15 +281,17 @@ Build a Complete Tile
 4. Select the name of the new Tile you created 
 5. Click ``Create Field``
 6. Add the options for Dropdown and Multi Select fields
+
    a. Under ``Field Options``, next to ``Add new option``, insert the name of the option and click ``Add``
    b. Continue adding until you have all of your preferred options. 
+   
 7. Click ``Save``
-8. Repeat steps 1-7 until you have all of your desired fields for the tile
+8. Repeat steps 1-7 until you have all of your desired fields for the Tile
 
 
 **Preview Tile**
 
-Preview your tile within the Contact or Group Record by returning to the frontend. Cick the |House| icon to return.
+Preview your Tile within the Contact or Group Record by returning to the frontend. Cick the |House| icon to return.
 
 To modify the tile, fields, and options, click the |gear| icon and Admin to return to the backend.
 
