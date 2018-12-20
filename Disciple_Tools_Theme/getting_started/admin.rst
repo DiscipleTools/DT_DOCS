@@ -331,8 +331,8 @@ Contact Fields:
 
 Group Fields:
 
--Group Type
--Church Health
+- Group Type
+- Church Health
 
 
 
