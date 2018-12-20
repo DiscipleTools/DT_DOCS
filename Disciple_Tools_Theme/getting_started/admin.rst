@@ -69,6 +69,58 @@ The are plugins we recommend, but did not develop:
 Settings (DT)
 =============
 
+Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance. 
+
+General Settings (DT)
+---------------------
+
+Base User
+~~~~~~~~
+
+A Base User is the catch-all account for orphaned contacts and other records to be assigned to. When contacts are created, for example, via the webform integration, the contacts will be assigned to the Base User by default. To be a Base User, the user must be an Administrator, Dispatcher, Multiplier, Digital Responder, or Strategist.
+
+To change the Base User, click the dropdown box and select a different user, then click ``Update``
+
+
+Email Settings
+~~~~~~~~
+
+When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is. To change the default from "Discple Tools" to an alternative phrase, type that in the box and click ``Update``.
+
+In this example, the chosen beginning subject line is "D.T CRM". If you work in a security concerning region, consider using a phrase that would not cause your work issues due to email subject lines not being encrypted. 
+
+|System Email Subject Line|
+
+
+Site Notifications
+~~~~~~~~
+
+Users can change their Site Notifications within their persoal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive. Unchecked boxes mean that the individual user will have the choice whether they want to receive that notification or not. 
+
+Update Needed Triggers
+~~~~~~~~
+
+In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Recoreds need updating. 
+
+**Contacts**
+
+You can edit the frequency (by number of days) that this message will automatically be triggered in relation to where a contact is on their Seeker Path (i.e. First Meeting Complete). You an also change the comment that will appear in the message. Be sure to click ``Save`` to apply the change.
+
+For example, a user has completed a first meeting with a contact and notes that within the Contact Record. If the user doesn't update this record after the chosen number of days, then the user will receive an alert within the Contact Record. Also, this Contact Record will be listed in the Filters section under ``Update Needed``. This will help Multipliers prioritize their contacts and provide a sense of accountability. The Dispatcher or the DT Admin can oversee the accountability piece to make sure that Multipliers are updating their Contact Records to the agreed upon time frame. 
+
+An update constitutes as any change to the Contact Record that would be recorded in the Comment/Activity Tile.
+
+Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message. 
+
+**Groups**
+
+You can edit the frequency (by number of days) that this message will automatically be triggered since the last time a Group Record was updated. You an also change the comment that will appear in the message.
+
+An update constitutes as any change to the Group Record that would be recorded in the Comment/Activity Tile.
+
+Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message. 
+
+
 Custom List
 --------------------
 
@@ -173,7 +225,7 @@ Create a new field
 **Tile**
 
 Custom Tiles
-~~~~~~~~~~~
+------------
 
 A tile is a section within the Contact/Group Record Pages (i.e. Details tile). A tile contains various ``fields`` within it. 
 
@@ -188,17 +240,29 @@ Options: You can later rename this tile or hide it by clicking ``Hide tile on pa
 
 
 Google Map API
-~~~~~~~~~~~~~
+------------
+
+Documentation Coming Soon
 
 Site Link System
-~~~~~~~~~~~~~~~~
+------------
+
+Documentation Coming Soon
 
 Network Dashboard
-~~~~~~~~~~~~~~~~~
+------------
+
+Documentation Coming Soon
 
 Critical Path
-~~~~~~~~~~~~~~~
+------------
 
+Documentation Coming Soon
+
+Network Dahsboard
+------------
+
+Documentation Coming Soon
 
 
 Utilities (DT)
@@ -218,3 +282,11 @@ Settings
 
 Site Links
 ===========
+
+
+
+
+
+
+
+.. |System Email Subject Line| image:: /Disciple_Tools_Theme/images/system-email-subject.png
