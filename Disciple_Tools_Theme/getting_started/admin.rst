@@ -27,29 +27,96 @@ Locations
 
 Locations will not automatically show up in the frontend when editing a Contact or Group Record. You must first add locations in the Admin backend for them to show up as options for the frontend. 
 
-Click ``Add New`` to get started.  All of your added locations will be listed here. 
 
-Add New
+All Locations
+-------------
+
+All of your added locations will be listed here. Click ``Add New`` to get started. 
+
+When you hover over the name of a location, the following options appear:
+
+- Edit
+- Quick Edit
+- Trash
+- View
+
+Edit Location
+~~~~~~~~
+
+Click on the name of the location or hover over it and click ``Edit``
+
+More Documentation Coming Soon
+
+
+Add New Location
 --------
 
-Documentation Coming Soon
+The location feature is still being developed. 
+
+**To manually add locations:**
+
+Add Countries
+
+1. Add a country name in the text box that says ``Enter the location title here`` (E.g. France) and click ``Save``
+2. Under Geo-Code, in the Address box, type in the name of the country. (E.g. France) and click ``Validate`` and then ``Save``
+3. Repeat for every country you want as a location option
+
+Add Regions/States/Provinces
+
+1. Click ``Add New`` to add regions/states/provinces
+2. Name the location using the name of a region/state/province (E.g. Île-de-France, France) and click ``Save``
+3. Under Geo-Code, in the Address box, type in the name of the region/state/province. (E.g. Île-de-France, France).
+4. Under Levels, change the ``Parent`` location to the country name (e.g. France) and click ``Save``.
+5. Repeat for every region/state/province you want as a location option
+
+Add Cities
+
+1. Click ``Add New`` to add cities
+2. Name the location using the name of a city (E.g. Paris, Île-de-France, France) and click ``Save``
+3. Under Geo-Code, in the Address box, type in the name of the city. (E.g. Paris, France).
+4. Under Levels, change the ``Parent`` location to the region/state/province (E.g. Île-de-France, France) and click ``Save``.
+5. Repeat for every city you want as a location option
+
+
 
 Import
 ------
 
-Documentation Coming Soon
+
+This location feature is still being developed. 
+
 
 People Groups
 =============
 
 Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
 
-Click ``Add New`` to get started.  All of your added people groups will be listed here. 
+
+
+All People Groups
+---------------
+
+All of your added people groups will be listed here. Click ``Add New`` to get started.  
+
+When you hover over the name of a people group, the following options appear:
+
+- Edit
+- Quick Edit
+- Trash
+- View
+
+Edit People Group
+~~~~~~~~~~~
+
+Click on the name of the people group or hover over it and click ``Edit``
+
 
 Add New
 -----
 
-Documentation Coming Soon
+1. Under ``Add/Update People Group``, select a country to view its people groups and click ``Search``
+2. Next to the people groups you want to add, click the ``link`` button. 
+3. A note will appear that says "The current people group data has been updated with this info! Refresh to see data"
 
 Import
 -----
