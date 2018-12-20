@@ -115,7 +115,7 @@ In this example, the chosen beginning subject line is "D.T CRM". If you work in 
 Site Notifications
 ~~~~~~~~
 
-Users can change their Site Notifications within their persoal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not. 
+Users can change their Site Notifications within their personal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not. 
 
 **Types of Site Notifications:**
 
@@ -130,7 +130,7 @@ Users can change their Site Notifications within their persoal Profile Settings,
 Update Needed Triggers
 ~~~~~~~~
 
-In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Recoreds need updating. 
+In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Records need updating. 
 
 **Contacts**
 
@@ -308,7 +308,7 @@ Under Custom Tiles, next to ``Modify an existing tile``, select the name of the 
 - Hide the tile by clicking ``Hide tile on page``
 
 
-**Modify a Field**
+**Modify Field**
 
 Under Custom Fields, next to ``Modify an existing field``, select the name of the field you want to modify
 
