@@ -4,11 +4,23 @@ How to Add a Translation
 Overview
 -----------
 
-Disciple.Tools is build on Wordpress and uses the Wordpress translation strategy. Extensive resourses can be found on
-`Wordpress.org <https://wordpress.org>`_ giving explainations and help for translators. `Wordpress Translation Resources <https://make.wordpress.org/polyglots/handbook/tools/glotpress-translate-wordpress-org/>`_
+Disciple.Tools is built on Wordpress and uses the Wordpress translation strategy. Extensive resources can be found on
+`Wordpress.org <https://wordpress.org>`_ giving explanations and help for translators. `Wordpress Translation Resources <https://make.wordpress.org/polyglots/handbook/tools/glotpress-translate-wordpress-org/>`_
 
-We invite you to contribute a new translation to Disciple.Tools and it does not require writing code! You can submit
+We invite you to contribute a new translation to Disciple.Tools, and it does not require writing code! You can submit
 completed translations through Github or through email, and our commit team will review it and add it to the project.
+
+Current Available Translations
+----------------
+
+Disciple.Tools is currently available in the following languages. Please note that as Disciple.Tools develops, addtional translation commits will be needed.
+
+- English
+- Arabic
+- French 
+- Spanish 
+- Turkish
+- Mandarin 
 
 Resources You Need
 -------
