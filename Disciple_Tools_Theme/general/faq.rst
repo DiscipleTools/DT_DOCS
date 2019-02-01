@@ -14,7 +14,5 @@ If you have lost your password, go to the homepage. Once there, click on the lin
 How do I remove the demo sample content?
 -------------------------------
 
-Refer to the `Remove Sample Content <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/demo.html#remove-sample-content>`_section of this help guide. 
-
-
+Refer to the `Remove Sample Content <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/demo.html#remove-sample-content>` section of this help guide. 
 
