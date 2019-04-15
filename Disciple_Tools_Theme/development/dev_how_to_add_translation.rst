@@ -22,65 +22,45 @@ Disciple.Tools is currently available in the following languages. Please note th
 - Turkish
 - Mandarin 
 
-Resources You Need
+How to contribute
 -------
+We are using on online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either. 
 
- 1. Click on this link to start a download of the D.T translations folder (as a zip file): |location_link|.
- 
- .. |location_link| raw:: html
- 
-   <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DiscipleTools/disciple-tools-theme/tree/master/dt-assets/translation" target="_blank">translations folder</a>  
- 2. Unzip the translation.zip file. In the folder you will find a disciple_tools.pot file and you might see an existing translation .po file for your language in this format:  {language_code}.po. How you set up poedit will depend on if you are starting with an existing .po file or creating a new one. See instructions below.
- 3. Download and install `POEdit <https://poedit.net/download>`_ free translation software.
+To get started click this link to join the Disciple.Tools translation project: https://poeditor.com/join/project/KcPvw3oaKD
 
-  .. image:: /Disciple_Tools_Theme/images/translation_files.png
-    :align: center
-    :width: 100%
+Either select an existing language from the displayed list or click "Click here to suggest a new language" link to add the language you want Disciple.Tools to be translated in to.
+Enter your email and name and then click "Join this project"
 
-  .. image:: /Disciple_Tools_Theme/images/poedit.png
-    :align: center
-    :width: 100%
+We will receive your request and approve your account as soon as possible. Once approved you will be free to start translating.
 
 
-How To Setup POEdit for a new translation
+Your translations will become available to everyone when we push a release for the theme.
+
+
+
+What are those wonky characters?
 -------------------
 
- 1. Open POEdit.
- 2. Go to File and select `New from POT/PO File...`
- 3. Select .pot file that you downloaded. (see section above)
- 4. Once then file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
+You will see some strings that look like this:
 
- .. image:: /Disciple_Tools_Theme/images/poedit_screen.png
-    :align: center
-    :width: 100%
+:code:`Sorry, you don't have permission to view the %1$s with id %2$s.`
 
+What do I do with the :code:`%1$s` and :code:`%2$s` and what do they mean?
 
- .. note:: Notice the number of translation strings at the bottom bar. This tells you how many strings are to be translated and how many are left to be translated.
- 
-How To Setup POEdit for an existing translation
--------------------
- 1. Open POEdit.
- 2. Go to File and open.
- 3. Select .po file that you downloaded. (see section above)
- 4. Click Catalog and then Update from POT File... 
- 5. Choose the disciple_tools.pot file you downloaded.
- 6. Once the file is loaded, you will see the original English translation on the left and space for the new translation in the column on the right.
+These are placeholders that will be replaced with a something else.
 
-Submitting Finished Translation
--------
+Here this sentence in English could be :
 
-When you save your translation file, the POEdit software will create two files (.po and .mo). We need both of these files.
+ - Sorry, you don't have permission to view the contact with id 4344.
+ - Sorry, you don't have permission to view the group with id 493.
 
-**Submit through Github**
+In this case, :code:`%1$s` corresponds to "contact" or "group". :code:`%2$s` corresponds to the id of the record
 
- 1. Take the .po and .mo files and create a .zip archive.
- 2. Go to the `issues on the Disciple Tools Github project <https://github.com/DiscipleTools/disciple-tools-theme/issues>`_ (make sure you are signed into Github).
- 3. Create a new issue and attach .zip file, which contains the .po and .mo, to the issue.
+This message can be displayed for a contact or a group. And we don't know before hand the ID of the record.
+This lets you, the translator, make a sentence that is gramatically correct while still using placeholders.
 
-**Contact us through the Contact form on Disciple Tools**
+To translate the sentence, just copy and paster the characters ( %s, %1$s, %2$s ) to into your translation. 
 
- 1. Go to `Disciple Tools <https://disciple.tools/#contact>`_
- 2. Fill out the contact form and let us know you want to submit a translation for the project.
- 3. We'll connect with you and get the files.
+In french this sentence would give:
 
-
+:code:`Désolé, vous n'avez pas l'autorisation d'afficher le %1$s avec l'id %2$s.`
