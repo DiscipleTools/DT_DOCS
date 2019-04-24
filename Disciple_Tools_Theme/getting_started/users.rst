@@ -23,7 +23,7 @@ If you want to add an existing user from another site, enter the user's email an
 
 Add New User
 ^^^^^^^^^^^^
-If the user does not already exist or you only have the 'Add New User option', fill out the required info and click the ``Add New User`` button. To learn more about User Roles, see `Roles`_.
+If the user does not already exist or you only have the `Add New User` option, fill out the required info and click the ``Add New User`` button. To learn more about User Roles, see `Roles`_.
 
 |newuser|
 
