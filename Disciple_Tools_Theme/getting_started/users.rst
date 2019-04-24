@@ -15,9 +15,11 @@ Here is how you invite someone to be a user within Disciple.Tools
 .. note:: If you have a multisite you will have two options, ``Add Existing User`` and ``Add New User``. If you have a single site you will only have one option, ``Add New User``.
 
 **Add Existing User**
+
 If you want to add an existing user from another site, enter the user's email and click ``Add Existing User``.
 
 **Add New User**
+
 If the user does not already exist or you only have the 'Add New User option', fill out the required info and click the ``Add New User`` button. To learn more about User Roles, see `Roles`_.
 
 .. note:: If there is already a Contact Record in your Disciple.Tools system that represents the user you want to add, then search for that contact's name in the ``Corresponds to Contact`` box. If the user is already a contact in the system, see the section "Inviting a user from a Contact Record" below.
