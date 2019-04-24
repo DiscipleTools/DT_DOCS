@@ -12,7 +12,7 @@ Here is how you invite someone to be a user within Disciple.Tools
 
 2. Click the ``Users`` tab on the left. Next, click ``Add New``. 
 
-3. Here you might have one option ( Add New User ), or you might have two options ( Add Existing User and Add New User ).
+.. note:: If you have a multisite you will have two options, ``Add Existing User`` and ``Add New User``. If you have a single site you will only have one option, ``Add New User``.
 
 **Add Existing User**
 If you want to add an existing user from another site, enter the user's email and click ``Add Existing User``.
