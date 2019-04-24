@@ -19,7 +19,7 @@ Add Existing User
 ^^^^^^^^^^^^^^^^^
 If you want to add an existing user from another site, enter the user's email and click ``Add Existing User``.
 
-|existing|
+|existinguser|
 
 Add New User
 ^^^^^^^^^^^^
