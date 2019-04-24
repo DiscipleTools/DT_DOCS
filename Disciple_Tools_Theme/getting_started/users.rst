@@ -1,8 +1,9 @@
 Users
 =====
 
+Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site.
 
-Only Users with the role `DT Admin` can manage other users. Managing users includes inviting, creating, updating and deleting users.
+The only way a user can be added to Disciple.Tools is if the site `DT admin` invites him or her.
 
 Inviting Users
 --------------
@@ -41,3 +42,6 @@ If you realize that you have a contact that should be linked with a user account
 .. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
 
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
+.. |newuser| image:: /Disciple_Tools_Theme/images/newuser.png
+.. |existinguser| image:: /Disciple_Tools_Theme/images/existinguser.png
+.. |actions| image:: /Disciple_Tools_Theme/images/dispatcheractions.png
