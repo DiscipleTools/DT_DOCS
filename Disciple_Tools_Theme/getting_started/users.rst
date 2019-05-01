@@ -7,11 +7,11 @@ The only way a user can be added to Disciple.Tools is if the site `DT admin` inv
 
 Inviting Users
 --------------
-Here is how you invite someone to be a user within Disciple.Tools
+Here is how a `DT admin` invites someone to be a user within Disciple.Tools:
 
-1. Open the wp-admin page by clicking ``Admin`` from the Settings |Gear| in the top right of the page
+1. In your Disciple.Tools site, click on the |Gear| in the top right of the page, then click ``Admin``. This will open the wp-admin page (backend of the site).
 
-2. Click the ``Users`` tab on the left. Next, click ``Add New``. 
+2. Click the ``Users`` tab on the left. Next, click the ``Add New``button. 
 
 .. note:: If you have a multisite you will have two options, ``Add Existing User`` and ``Add New User``. If you have a single site you will only have one option, ``Add New User``.
 
@@ -20,6 +20,8 @@ Add Existing User
 If you want to add an existing user from another site, enter the user's email and click ``Add Existing User``.
 
 |existinguser|
+
+.. note:: If there is already a Contact Record in your Disciple.Tools system that represents the user you want to add, then search for that contact's name in the ``Corresponds to Contact`` box. If the user is already a contact in the system, see the section "Inviting a user from a Contact Record" below.
 
 Add New User
 ^^^^^^^^^^^^
