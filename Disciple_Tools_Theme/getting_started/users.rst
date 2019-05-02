@@ -3,17 +3,17 @@ Users
 
 Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site. To learn more about User Roles, see `Roles`_.
 
-The only way a user can be added to Disciple.Tools is if the site `DT admin` role invites him or her.
+The only way a user can be added to Disciple.Tools is if the site DT admin role invites him or her.
 
 Inviting Users
 --------------
-Here is how a `DT admin` invites someone to be a user within Disciple.Tools:
+Here is how a DT admin invites someone to be a user within Disciple.Tools:
 
 1. In your Disciple.Tools site, click on the |Gear| in the top right of the page, then click ``Admin``. This will open the wp-admin page (backend of the site).
 
-2. Click the ``Users`` tab on the left. Next, click the ``Add New``button. 
+2. Click the ``Users`` tab on the left. Next, click the ``Add New`` button. 
 
-.. note:: If you have a multisite you will have two options, ``Add Existing User`` and ``Add New User``. If you have a single site you will only have one option, ``Add New User``.
+.. note:: If you have a multisite you will have two options, ``Add Existing User`` and ``Add New User`` . If you have a single site you will only have one option, ``Add New User`` .
 
 Add Existing User
 ^^^^^^^^^^^^^^^^^
@@ -44,7 +44,7 @@ For example, if you follow-up with a seeker online, the system (e.g. Facebook pl
 If you want to do this, see the section "Inviting a user from a Contact Record" below.
 
 
-**4. Click `Add Existing User` button**
+**4. Click ``Add Existing User`` button**
 
 To succesfully add the exisiting user, click the ``Add Existing User`` red button. 
 
@@ -107,7 +107,7 @@ The default role is "Registered." You will need to change the role according to 
 
 **9. Corresponds to Contact**
 
-Ignore the ``Corresponds to Contact``unless the user you are adding corresponds to a pre-existing contact record. 
+Ignore the ``Corresponds to Contact`` unless the user you are adding corresponds to a pre-existing contact record. 
 
 For example, if you follow-up with a seeker online, the system (e.g. Facebook plugin) will have made them a contact record in Disicple.Tools. Only the Admin and Dispatcher roles can see his record as well as the Multiplier assigned to him. Later, you want to train him in how to use Discple.Tools so he can take new media contacts himself. The DT admin (not the Multiplier) would invite him as a user but attach this user to his already exisiting contact record. Only the DT admin would see this connection.
 
