@@ -1,9 +1,9 @@
 Users
 =====
 
-Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site.
+Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site. To learn more about User Roles, see `Roles`_.
 
-The only way a user can be added to Disciple.Tools is if the site `DT admin` invites him or her.
+The only way a user can be added to Disciple.Tools is if the site `DT admin` role invites him or her.
 
 Inviting Users
 --------------
@@ -17,20 +17,82 @@ Here is how a `DT admin` invites someone to be a user within Disciple.Tools:
 
 Add Existing User
 ^^^^^^^^^^^^^^^^^
-If you want to add an existing user from another site, enter the user's email and click ``Add Existing User``.
+
+You will only see this option if you are within a multisite. An existing user is someone who is already a user on another Disciple.Tools site hosted within the larger multisite server. 
+
+More simply, a multisite is like a neighborhood of houses that share the same road network. Each house has its own address and its own key. Adding an existing user is like giving your trusted neighbor a key to your house. He/she can login to both sites and receive contacts. 
+
+**An Example of an Exisitng User** 
+
+If your organization has a Disciple.Tools multisite with multiple Disciple.Tools sites (for each team) within it, then you can add a user from one of these other team sites. If there was a worker on a separate team who also works closely with your team, this worker is already a user within the organization's Disciple.Tools multisite. You would have to add him/her using their already exisiting user information.
+
+**1. Email**
+
+If you want to add an existing user from another site, enter the user's email.
+
+**2. Role**
+
+The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see `Roles`_.
+
+
+**3. Corresponds to Contact**
+
+Ignore the ``Corresponds to Contact``unless the user you are adding corresponds to a pre-existing contact record. 
+
+For example, if you follow-up with a seeker online, the system (e.g. Facebook plugin) will have made them a contact record in Disciple.Tools. Only the Admin and Dispatcher roles can see his record as well as the Multiplier assigned to him. Later, you want to train him in how to use Disciple.Tools so he can take new media contacts himself. The DT admin (not the Multiplier) would invite him as a user but attach this user to his already exisiting contact record. Only the DT admin would see this connection.
+
+If you want to do this, see the section "Inviting a user from a Contact Record" below.
+
+**4. Click `Add Existing User` button**
+
+To succesfully add the exisiting user, click the 'Add Existing User' red button. 
+
+The user will then receive an activation email with a link. After the user clicks this link, they will be added to the Disciple.Tools site. The user will login to all sites within the multisite network using the same username/email and password.
 
 |existinguser|
 
-.. note:: If there is already a Contact Record in your Disciple.Tools system that represents the user you want to add, then search for that contact's name in the ``Corresponds to Contact`` box. If the user is already a contact in the system, see the section "Inviting a user from a Contact Record" below.
+
 
 Add New User
 ^^^^^^^^^^^^
-If the user does not already exist or you only have the `Add New User` option, fill out the required info and click the ``Add New User`` button. To learn more about User Roles, see `Roles`_.
+
+A new user is someone you want to give access to use your Disciple.Tools site. 
+
+**An Example of a New User:**
+
+If you want your teammates to start using Disciple.Tools then you will need to add each of them as new users.
+
+**1. Username**
+
+Create a username for the new user. They can use this username for logging into their Disciple.Tools account. A username can only be numbers and lowercase letters. It also cannot be changed in the future.
+
+**2. Email**
+
+Enter the user's email. They can use this email for logging into their Disciple.Tools account. An email can be changed in the future.
+
+**3. Role**
+
+The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see `Roles`_.
+
+
+**4. Corresponds to Contact**
+
+Ignore the ``Corresponds to Contact``unless the user you are adding corresponds to a pre-existing contact record. 
+
+For example, if you follow-up with a seeker online, the system (e.g. Facebook plugin) will have made them a contact record in Disicple.Tools. Only the Admin and Dispatcher roles can see his record as well as the Multiplier assigned to him. Later, you want to train him in how to use Discple.Tools so he can take new media contacts himself. The DT admin (not the Multiplier) would invite him as a user but attach this user to his already exisiting contact record. Only the DT admin would see this connection.
+
+If you want to do this, see the section "Inviting a user from a Contact Record" below.
+
+
+**5. Click `Add Existing User` button**
+
+To succesfully add the new user, click the 'Add New User' red button. 
+
+The user will then receive an activation email with a link. After the user clicks this link, they will be routed to a page with their username and password. They will also be emailed this information. It is important that they save this information in a secure location and give no one access to it. 
+
+The user will then be able to login to your Disciple.Tools site with their username/email and password.
 
 |newuser|
-
-.. note:: If there is already a Contact Record in your Disciple.Tools system that represents the user you want to add, then search for that contact's name in the ``Corresponds to Contact`` box. If the user is already a contact in the system, see the section "Inviting a user from a Contact Record" below.
-
 
 
 
@@ -39,6 +101,8 @@ Inviting a user from a Contact Record
 If there is already a contact record for the user you want to add, there is an easy option. In the Contact Record, click the ``Dispatcher actions`` dropdown menu on the top, left. Then click ``Make a user from this contact``. Add the User's email, change the display name if needed and then click ``Create user``.
 
 |actions|
+
+.. note:: Example: If you follow-up with a seeker online, the system (e.g. Facebook plugin) will have made them a contact record in Disciple.Tools. Only the Admin and Dispatcher roles can see his record as well as the Multiplier assigned to him. Later, you want to train him in how to use Disciple.Tools so he can take new media contacts himself. The DT admin (not the Multiplier) would invite him as a user but attach this user to his already exisiting contact record. Only the DT admin would see this connection.
 
 
 Linking an existing contact to a user
