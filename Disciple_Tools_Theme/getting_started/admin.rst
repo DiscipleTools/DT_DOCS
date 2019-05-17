@@ -515,7 +515,7 @@ Phase 1: Setup Link from Site 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |Site-1-Link|
-(Example)
+
 
 1. **Click Add New**
 2. **Enter the title here:** Enter the name of the site you are linking to yours here. 
@@ -537,7 +537,7 @@ Phase 2: Setup Link from Site 2
 ~~~~~~~~~~~~~~~~~~~~~~
 
 |Site-2-Link|
-Example
+
 
 1. **Click Add New**
 2. **Enter the title here:** Enter the name of the other site (Site 1).
