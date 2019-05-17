@@ -514,6 +514,9 @@ Before you get started, you need to be in the `admin backend <https://disciple-t
 Phase 1: Setup Link from Site 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+|Site-1-Link|
+(Example)
+
 1. **Click Add New**
 2. **Enter the title here:** Enter the name of the site you are linking to yours here. 
 3. **Token:** Copy the token code and securely send it to administrators of Site 2.
@@ -532,6 +535,9 @@ Phase 1: Setup Link from Site 1
 
 Phase 2: Setup Link from Site 2
 ~~~~~~~~~~~~~~~~~~~~~~
+
+|Site-2-Link|
+Example
 
 1. **Click Add New**
 2. **Enter the title here:** Enter the name of the other site (Site 1).
@@ -570,3 +576,5 @@ Phase 2: Setup Link from Site 2
 .. |Users-wpadmin| image:: /Disciple_Tools_Theme/images/Users-wpadmin.png
 .. |Utilities-wpadmin| image:: /Disciple_Tools_Theme/images/Utilities-wpadmin.png
 .. |tools-wpadmin| image:: /Disciple_Tools_Theme/images/tools-wpadmin.png
+.. |Site-1-Link| image:: /Disciple_Tools_Theme/images/Site-1-Link.png
+.. |Site-2-Link| image:: /Disciple_Tools_Theme/images/site-2-link.png
