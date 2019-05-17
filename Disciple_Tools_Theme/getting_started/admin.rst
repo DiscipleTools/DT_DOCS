@@ -514,7 +514,7 @@ Before you get started, you need to be in the `admin backend <https://disciple-t
 Phase 1: Setup Link from Site 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Click ``Add New``**
+1. **Click Add New**
 2. **Enter the title here:** Enter the name of the site you are linking to yours here. 
 3. **Token:** Copy the token code and securely send it to administrators of Site 2.
 4. **Site 1:** Click ``add this site`` to add your site
@@ -526,14 +526,14 @@ Phase 1: Setup Link from Site 1
 - Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
 
 7. **Configuration:** Ignore this section.
-8. **Click ``Publish``:** You (Site 1) will see the status as “Not Linked.” That is because the link needs to be also setup on the other site (Site 2).
+8. **Click Publish:** You (Site 1) will see the status as “Not Linked.” That is because the link needs to be also setup on the other site (Site 2).
 9. **Inform admin of Site 2 to setup link:** You can send the link to the section below to give them instructions.
 
 
 Phase 2: Setup Link from Site 2
 ~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Click ``Add New``**
+1. **Click Add New**
 2. **Enter the title here:** Enter the name of the other site (Site 1).
 3. **Token:** Paste the token shared by the admin of Site 1 here
 4. **Site 1:** Add the url of Site 1
@@ -545,7 +545,7 @@ Phase 2: Setup Link from Site 2
 - Contact Transwer Receiving Only: Site 2 will only receive contacts from Site 1 but will not send any contacts.
 
 7. **Configuration:** Ignore this section.
-8. **Click ``Publish``:** Both Site 1 and Site 2 should see the status as “Linked” 
+8. **Click Publish:** Both Site 1 and Site 2 should see the status as “Linked” 
 
 
 
