@@ -499,7 +499,7 @@ Site Links
 
 The purpose of this is to link two Disciple Tools sites together in order to transfer contacts and share stats between the sites.
 
-For example, a team in Spain receives a contact from Germany. The team in Spain can site link their Disciple Tools site to their partner's site in Germany. They then will be able to transfer the contact from the Spain site to the Germany site. 
+For example, a team in Spain receives a contact from Germany. The team in Spain can link their Disciple Tools site to their partner's site in Germany. They will be able to transfer any contacts from the Spain site to the Germany site and vice versa. 
 
 The visualization of the stats is still being developed. (Coming Soon!)
 
