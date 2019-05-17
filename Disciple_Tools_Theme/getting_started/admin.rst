@@ -511,41 +511,45 @@ Add New Site Link
 
 Before you get started, you need to be in the `admin backend <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#admin>`_ and have clicked on ``Site Links``.
 
-**Phase 1: Setup Link from Site 1**
+Phase 1: Setup Link from Site 1
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click ``Add New``
-2. Enter the title here**: Enter the name of the site you are linking to yours here. 
-3. Token: Copy the token code and securely send it to administrators of Site 2.
-4. Site 1: Click ``add this site`` to add your site
-5. Site 2: Add the url of the other site you are wanting to link with yours.
-6. Connection Type:  Select the type of connection you wish to have with Site 2
+2. **Enter the title here:** Enter the name of the site you are linking to yours here. 
+3. **Token:** Copy the token code and securely send it to administrators of Site 2.
+4. **Site 1:** Click ``add this site`` to add your site
+5. **Site 2:** Add the url of the other site you are wanting to link with yours.
+6. **Connection Type:**  Select the type of connection you (Site 1) wish to have with Site 2
 
-- Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
-- Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
-- Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
+Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
+Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
+Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
 
 7. Ignore Configuration section
 
 8. Click ``Publish``
-You’ll see the status is “Not Linked.” That is because the link needs to be setup on the other site (site 2).
+You (Site 1) will see the status as “Not Linked.” That is because the link needs to be also setup on the other site (Site 2).
+
+9. Inform admin of Site 2 to setup link
 
 
-**Phase 2: Setup Link from Site 2**
+Phase 2: Setup Link from Site 2
+~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click ``Add New``
-2. Enter the title here: Enter the name of the site you are linking to yours here. 
-3. Token: Paste the token shared by the admin of Site 1 here
-4. Site 1: Add the url of Site 1
-5. Site 2: Click ``add this site`` to add your site
-6. Connection Type:  Select the type of connection you wish to have with Site 2
+2. **Enter the title here:** Enter the name of the other site (Site 1).
+3. **Token:** Paste the token shared by the admin of Site 1 here
+4. **Site 1:** Add the url of Site 1
+5. **Site 2:** Click ``add this site`` to add your site (Site 2)
+6. **Connection Type:**  Select the type of connection you wish to have with Site 1
 
-- Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
-- Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
-- Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
+Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
+Contact Transfer Sending Only: Site 2 will only send contacts to Site 1 but will not receive any contacts.
+Contact Transwer Receiving Only: Site 2 will only receive contacts from Site 1 but will not send any contacts.
 
 7. Ignore Configuration section
 8. Click ``Publish``
-You should see the status as “Linked.” 
+Both Site 1 and Site 2 should see the status as “Linked” 
 
 
 
