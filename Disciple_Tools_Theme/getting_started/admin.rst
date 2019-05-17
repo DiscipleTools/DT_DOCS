@@ -452,7 +452,7 @@ Critical Path
 
 Documentation Coming Soon
 
-Network Dahsboard
+Network Dashboard
 ------------
 
 Documentation Coming Soon
@@ -521,9 +521,9 @@ Phase 1: Setup Link from Site 1
 5. **Site 2:** Add the url of the other site you are wanting to link with yours.
 6. **Connection Type:**  Select the type of connection you (Site 1) wish to have with Site 2
 
-Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
-Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
-Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
+- Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
+- Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
+- Contact Transwer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
 
 7. **Configuration:** Ignore this section.
 8. **Click ``Publish``:** You (Site 1) will see the status as “Not Linked.” That is because the link needs to be also setup on the other site (Site 2).
@@ -540,9 +540,9 @@ Phase 2: Setup Link from Site 2
 5. **Site 2:** Click ``add this site`` to add your site (Site 2)
 6. **Connection Type:**  Select the type of connection you wish to have with Site 1
 
-Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
-Contact Transfer Sending Only: Site 2 will only send contacts to Site 1 but will not receive any contacts.
-Contact Transwer Receiving Only: Site 2 will only receive contacts from Site 1 but will not send any contacts.
+- Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
+- Contact Transfer Sending Only: Site 2 will only send contacts to Site 1 but will not receive any contacts.
+- Contact Transwer Receiving Only: Site 2 will only receive contacts from Site 1 but will not send any contacts.
 
 7. **Configuration:** Ignore this section.
 8. **Click ``Publish``:** Both Site 1 and Site 2 should see the status as “Linked” 
