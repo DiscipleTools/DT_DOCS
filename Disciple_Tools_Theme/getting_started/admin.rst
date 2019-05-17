@@ -11,6 +11,8 @@ To see what each role has access to, click `here <https://disciple-tools.readthe
 Contacts
 =======
 
+|Contacts-wpadmin|
+
 These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
 
 You can delete a contact record by hovering over their name and clicking ``Trash``.
@@ -18,12 +20,16 @@ You can delete a contact record by hovering over their name and clicking ``Trash
 Groups
 ======
 
+|Groups-wpadmin|
+
 These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
 
 You can delete a group record by hovering over their name and clicking ``Trash``.
 
 Locations
 ========
+
+|Locations-wpadmin|
 
 Locations will not automatically show up in the frontend when editing a Contact or Group Record. You must first add locations in the Admin backend for them to show up as options for the frontend. 
 
@@ -89,6 +95,8 @@ This location feature is still being developed.
 People Groups
 =============
 
+|People-Groups-wpadmin|
+
 Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
 
 
@@ -141,6 +149,8 @@ Note: The numbers at the end of the people group such as the Bambara ( France | 
 Extensions (DT)
 ==============
 
+|Extensions-wpadmin|
+
 The Extensions page allows you to download our plugins and plugins we recommend but did not build.
 
 
@@ -169,6 +179,8 @@ The are plugins we recommend, but did not develop:
 
 Settings (DT)
 =============
+
+|DT-Settings-wpadmin|
 
 Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance. 
 
@@ -447,32 +459,48 @@ Documentation Coming Soon
 Utilities (DT)
 =============
 
+|Utilities-wpadmin|
+
 Documentation Coming Soon
 
 Appearance
 ==========
+
+|Appearance-wpadmin|
 
 Documentation Coming Soon
 
 Users
 =======
 
+|Users-wpadmin|
+
 Documentation Coming Soon
 
 Tools
 ======
+
+|tools-wpadmin|
 
 Documentation Coming Soon
 
 Settings
 =========
 
+|Settings-wpadmin|
+
 Documentation Coming Soon
 
 Site Links
 ===========
 
-Documentation Coming Soon
+|Site-Links-wpadmin|
+
+The purpose of this is to link two Disciple Tools sites together in order to transfer contacts and share stats between the sites.
+
+For example, a team in Spain receives a contact from Germany. The team in Spain can site link their Disciple Tools site to their partner's site in Germany. They then will be able to transfer the contact from the Spain site to the Germany site. 
+
+The visualization of the stats is still being developed. (Coming Soon!)
 
 
 
@@ -485,3 +513,15 @@ Documentation Coming Soon
 .. |gear| image:: /Disciple_Tools_Theme/images/Gear.png
 .. |English Club Tile| image:: /Disciple_Tools_Theme/images/English-Club-Tile.png
 .. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
+.. |Appearance-wpadmin| image:: /Disciple_Tools_Theme/images/Appearance-wpadmin.png
+.. |Contacts-wpadmin| image:: /Disciple_Tools_Theme/images/Contacts-wpadmin.png
+.. |DT-Settings-wpadmin| image:: /Disciple_Tools_Theme/images/DT-Settings-wpadmin.png
+.. |Extensions-wpadmin| image:: /Disciple_Tools_Theme/images/Extensions-wpadmin.png
+.. |Groups-wpadmin| image:: /Disciple_Tools_Theme/images/Groups-wpadmin.png
+.. |Locations-wpadmin| image:: /Disciple_Tools_Theme/images/Locations-wpadmin.png
+.. |People-Groups-wpadmin| image:: /Disciple_Tools_Theme/images/People-Groups-wpadmin.png
+.. |Site-Links-wpadmin| image:: /Disciple_Tools_Theme/images/Site-Links-wpadmin.png
+.. |Settings-wpadmin| image:: /Disciple_Tools_Theme/images/Settings-wpadmin.png
+.. |Users-wpadmin| image:: /Disciple_Tools_Theme/images/Users-wpadmin.png
+.. |Utilities-wpadmin| image:: /Disciple_Tools_Theme/images/Utilities-wpadmin.png
+.. |tools-wpadmin| image:: /Disciple_Tools_Theme/images/tools-wpadmin.png
