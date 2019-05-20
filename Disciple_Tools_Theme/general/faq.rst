@@ -16,3 +16,21 @@ How do I remove the demo sample content?
 
 Refer to the `Remove Sample Content <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/demo.html#remove-sample-content>`_ section of this help guide. 
 
+How do I add other users to my Disciple Tools site?
+----------------------------
+
+Refer to the `Users <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/users.html#users>`_ section of this help guide. 
+
+How do I add custom tiles and fields?
+------------------------------------
+
+Refer to the `Custom Tiles and Fields <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#custom-tiles-and-fields>`_ section of this help guide. 
+
+For other customizations such as Email Settings, Site Notifications, Custom Lists, etc. you can modify these in the DT Settings found the backend of the site. Learn more from the `DT Settings <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#settings-dt>`_ section of this help guide.
+
+How do I link my Disciple Tools site with another site?
+----------------------------
+
+Refer to the `Site Links <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#site-links>`_ section of this help guide. 
+
+
