@@ -15,9 +15,7 @@ Roles Training Manuals
 ----------------
 
 **Disciple.Tools Multiplier Guide**
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site.
-
-:download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site. :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
 
 **Disciple.Tools Digital Responder Guide**
