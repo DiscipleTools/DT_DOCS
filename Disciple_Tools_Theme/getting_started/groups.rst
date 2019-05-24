@@ -35,7 +35,7 @@ See `Website Menu Bar`_
 **Create New Group**
 ~~~~~~~~~~~~~~~~~~~~~
 
-The |Create-new-group-button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of of Admin and Dispatcher can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels.
+The |Create-new-group-button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of Admin and Dispatcher can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels.
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
 
