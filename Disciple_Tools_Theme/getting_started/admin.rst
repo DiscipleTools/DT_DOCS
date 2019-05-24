@@ -107,7 +107,7 @@ How to migrate old locations
 
 **Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.  
 
-**Step 3:** Once you’re viewing the Admin back end of your site, select |Mapping-wpadmin| in the menu on the left, under groups.  
+**Step 3:** Once you’re viewing the Admin back end of your site, select |Mapping-wpadmin| in the menu on the left.  
 
 
 You will see several tabs starting with General Settings and Mapping Focus and Migrating from Locations.  Mapping Focus and Migrating from Locations are the two you need for now.
