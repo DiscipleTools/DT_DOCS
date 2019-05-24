@@ -91,6 +91,35 @@ Import
 
 This location feature is still being developed. 
 
+Mapping
+=======
+
+This section replaced the former Locations section. 
+
+
+How to migrate old locations
+-----------------------
+
+
+**Step 1:** Make sure you have a back-up before doing a large data migration!
+
+**Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.  
+
+**Step 3:** Once you’re viewing the Admin back end of your site, select ``Mapping`` in the menu on the left, under groups.  You will see several tabs starting with General Settings and Mapping Focus and Migrating from Locations.  Mapping Focus and Migrating from Locations are the two you need for now.
+
+**Step 4** Click the ``Mapping Focus`` tab. You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (states and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.
+
+**Step 5** Now click on the tab ``Migrating from Locations``.  Here, you will see a list of your locations and each will have “World” selected and a dropdown below it.  Click the dropdown and click the country that your location is a part of.  If the location is a country itself then you will click Convert.  
+
+If the location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  Continue to go to a level deeper for counties/districts.  When you get to a level of parity, you will click convert location X to Geonames location Y.  
+
+If your location is more granular that the county level listed within GeoNames, click the other conversion option (NAMED) to make your location a sub-location to the appropriate county.
+
+If you have a lot of locations, you can convert and save in batches. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo this. 
+
+You will only need to map each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
+
+
 
 People Groups
 =============
