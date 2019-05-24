@@ -251,9 +251,9 @@ Below the comment box, there is a feed of information. Recorded here are timesta
 
 You can filter the feed by clicking on one or more of the following:
 
-**Comments:** This shows all of the comments made by users about the group
+**Comments:** This shows all of the comments made by users about the group.
 
-**Activity:** This is running list of all of the activity changes made to a Group Record
+**Activity:** This is a running list of all of the activity changes made to a Group Record.
 
 
 ---------------
