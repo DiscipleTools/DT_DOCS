@@ -96,7 +96,7 @@ Mapping
 
 |Mapping-wpadmin|
 
-This section replaced the former Locations section. 
+This section replaces the former Locations section. 
 
 
 How to migrate old locations
@@ -107,32 +107,32 @@ How to migrate old locations
 
 **Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.  
 
-**Step 3:** Once you’re viewing the Admin back end of your site, select |Mapping-wpadmin| in the menu on the left.  
+**Step 3:** Once you’re viewing the ``Admin`` back end of your site, select |Mapping-wpadmin| in the menu on the left.  
 
 
-You will see several tabs starting with General Settings and Mapping Focus and Migrating from Locations.  Mapping Focus and Migrating from Locations are the two you need for now.
+You will see several tabs starting with "General Settings" and "Mapping Focus" and "Migrating from Locations".  "Mapping Focus" and "`Migrating from Locations" are the two you need for now.
 
 **Step 4** Click the ``Mapping Focus`` tab. 
 
-You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (states and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.
+You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (state and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.  If your focus is narrower than an entire country, you will want to drill down deeper and save at that level.
 
 **Step 5** Now click on the tab ``Migrating from Locations``. 
 
 |locations-conversion|
 
-Here, you will see a list of your locations and each will have ``World`` selected and a dropdown next to it.  Under the column ``Select a Location`` click the dropdown and select the country that your location is a part of or represents.
+Here, you will see a list of your existing locations and each will have ``World`` selected and a dropdown field next to it.  Under the column ``Select a Location`` click the dropdown and select the country that your location represents or the country the location would be found within.
 
-If the location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  
+After you click the country, a new dropdown field will appear. If the existing location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  
 
 If the location is a county/municipality within the state/province, click the dropdown box again and select the appropriate county/municipality.  
 
-Once you have selected a new location that matches the old, under the column ``Select option``, choose ``Convert``.
+Once you have selected a new location that matches the existing location, look under the column ``Select option``, and choose ``Convert``.
 
-If your location is more granular that the county/municipality level listed within GeoNames, click the other conversion option ``Create as sub-location`` to make your location a sub-location to the appropriate county. (e.g. Neighborhood)
+If your location is more granular than the county/municipality level listed within GeoNames, click the other conversion option ``Create as sub-location`` to make your location a sub-location to the appropriate county. (e.g. Neighborhood)
 
-If you have a lot of locations, you can convert and save in batches. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo the conversion. 
+If you have many locations, you can convert and save in batches, but you must click Save. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo the conversion. 
 
-You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
+Only locations that are selected on contact and group records will be listed, so do not worry if several locations within your focus area do not appear in the list needing to be migrated.  You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
 
 
 
