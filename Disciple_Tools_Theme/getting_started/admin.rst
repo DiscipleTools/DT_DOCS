@@ -94,6 +94,8 @@ This location feature is still being developed.
 Mapping
 =======
 
+|Mapping-wpadmin|
+
 This section replaced the former Locations section. 
 
 
@@ -105,19 +107,32 @@ How to migrate old locations
 
 **Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.  
 
-**Step 3:** Once you’re viewing the Admin back end of your site, select ``Mapping`` in the menu on the left, under groups.  You will see several tabs starting with General Settings and Mapping Focus and Migrating from Locations.  Mapping Focus and Migrating from Locations are the two you need for now.
+**Step 3:** Once you’re viewing the Admin back end of your site, select |Mapping-wpadmin| in the menu on the left, under groups.  
 
-**Step 4** Click the ``Mapping Focus`` tab. You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (states and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.
 
-**Step 5** Now click on the tab ``Migrating from Locations``.  Here, you will see a list of your locations and each will have “World” selected and a dropdown below it.  Click the dropdown and click the country that your location is a part of.  If the location is a country itself then you will click Convert.  
+You will see several tabs starting with General Settings and Mapping Focus and Migrating from Locations.  Mapping Focus and Migrating from Locations are the two you need for now.
 
-If the location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  Continue to go to a level deeper for counties/districts.  When you get to a level of parity, you will click convert location X to Geonames location Y.  
+**Step 4** Click the ``Mapping Focus`` tab. 
 
-If your location is more granular that the county level listed within GeoNames, click the other conversion option (NAMED) to make your location a sub-location to the appropriate county.
+You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (states and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.
 
-If you have a lot of locations, you can convert and save in batches. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo this. 
+**Step 5** Now click on the tab ``Migrating from Locations``. 
 
-You will only need to map each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
+|locations-conversion|
+
+Here, you will see a list of your locations and each will have ``World`` selected and a dropdown next to it.  Under the column ``Select a Location`` click the dropdown and select the country that your location is a part of or represents.
+
+If the location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  
+
+If the location is a county/municipality within the state/province, click the dropdown box again and select the appropriate county/municipality.  
+
+Once you have selected a new location that matches the old, under the column ``Select option``, choose ``Convert``.
+
+If your location is more granular that the county/municipality level listed within GeoNames, click the other conversion option ``Create as sub-location`` to make your location a sub-location to the appropriate county. (e.g. Neighborhood)
+
+If you have a lot of locations, you can convert and save in batches. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo the conversion. 
+
+You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
 
 
 
@@ -607,3 +622,5 @@ Phase 2: Setup Link from Site 2
 .. |tools-wpadmin| image:: /Disciple_Tools_Theme/images/tools-wpadmin.png
 .. |Site-1-Link| image:: /Disciple_Tools_Theme/images/Site-1-Link.png
 .. |Site-2-Link| image:: /Disciple_Tools_Theme/images/site-2-link.png
+.. |Mapping-wpadmin| image:: /Disciple_Tools_Theme/images/Mapping-wpadmin.png
+.. |locations-conversion| image:: /Disciple_Tools_Theme/images/locations-conversion.png
