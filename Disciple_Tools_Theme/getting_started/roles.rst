@@ -15,10 +15,13 @@ Roles Training Manuals
 ----------------
 
 **Disciple.Tools Multiplier Guide**
+Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site. :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools instance.
 
-:download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+**Disciple.Tools Digital Responder Guide**
+Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+
+
 
 
 Subscriber/Registered
@@ -74,19 +77,19 @@ Multiplier
  
 **Disciple.Tools Multiplier Guide**
 
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools instance.
+Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site.
 
 :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
  
  
-Marketer
+Digital Responder
 --------
 
-|Marketer|  |Responder|
+|Responder|
 
 **Role Description:**
- This role is under developement. It will be eventually renamed to "Responder." The "Responder" role is normally tasked with moderating and administrating any social media interaction and may have the first conversation with a contact. 
+The "Responder" role is normally tasked with moderating and administrating any social media interaction and may have the first conversation with a contact. 
 
 **Contacts and Groups Access:**
  Users with this role can access all the contacts and all groups on the site.
@@ -96,7 +99,11 @@ Marketer
 
 **Admin Privileges:** 
   None 
- 
+  
+**Disciple.Tools Digital Responder Guide**
+ Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+
+
 
 Dispatcher
 ----------
@@ -148,7 +155,7 @@ Administrator
 |Technologist|
 
 **Role Description:**
-  This role will automatically be assigned to the user that created a disciple.tools instance for the first time. This role is ideal for a person familiar with programming and advanced settings. This role is responsible for the hosting/backup/security of the WordPress instance.
+  This role will automatically be assigned to the user that created a Disciple.Tools site for the first time. This role is ideal for a person familiar with programming and advanced settings. This role is responsible for the hosting/backup/security of the WordPress site.
   
 **Contacts and Groups Access:**
  Users with this role can access all the contacts and all groups on the site.

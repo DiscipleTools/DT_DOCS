@@ -32,7 +32,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -47,7 +47,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -102,7 +102,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -116,7 +116,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -130,7 +130,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
@@ -144,7 +144,7 @@ Has the fields:
 Has the actions:
 
 * ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deltes the field.
+* ``Delete`` - Clicking this deletes the field.
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
