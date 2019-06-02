@@ -121,7 +121,7 @@ The default filter options are located on the left of the page under the heading
 
 * **All groups:** Certain roles, such as Admin and Dispatcher, in Disciple.Tools allow you to view all groups in your Disciple.Tools system. Other roles such as Multipliers will only see their groups and groups shared with them under ``All groups``.
 
-* **My groups:** All groups you personal create or have been assigned to you, can be found under ``My groups``.
+* **My groups:** All groups you personally create or have been assigned to you, can be found under ``My groups``.
   
 
 * **Groups shared with me:** These are all groups who other users have shared with you. You do not have responsibility for these groups but you can access their records and comment if needed.
@@ -181,7 +181,7 @@ Group Record Page
 3. Group Comments and Activity Tile
 4. Group Members Tile
 5. Group Progress Tile
-6. Parent/Child Group Tile
+6. Parent/Peer/Child Group Tile
 
 ------------
 
@@ -193,7 +193,7 @@ Group Record Page
 **Follow**
 ~~~~~~~~~~
 
-Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button 
+Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button. 
 
 Following: |Follow-On| vs.
 Not Following: |Follow-Off|
@@ -202,7 +202,7 @@ Not Following: |Follow-Off|
 **Share**
 ~~~~~~~~
 
-Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’s record.  Clicking on this button will show you with whom it is currently shared. 
+Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’ record.  Clicking on this button will show you with whom it is currently shared. 
 
 ----------
 
@@ -263,7 +263,7 @@ You can filter the feed by clicking on one or more of the following:
 
 |Group-Members-Tile|
 
-This is the area where you list the contacts that are apart of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name. You can also quickly navigate between the Group Recors and the members' Contact Records
+This is the area where you list the contacts that are a part of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name. You can also quickly navigate between the Group Records and the members' Contact Records
 
 ------------
 
@@ -308,16 +308,19 @@ The list of elements is as follows:
 
 -------------
 
-6. Parent/Child Group Tile
+6. Parent/Peer/Child Group Tile
 -----------------
 
 This tile shows the relationships between multiplying groups and provides a way to navigate quickly between them.
 
 
-|Parent-Child-Group-Tile|
+|Parent-Peer-Child-Group-Tile|
 
 
 **Parent Group:** If this group has multiplied from another group, you can add that group under ``Parent Group``.
+
+**Peer Group:** If this group aren’t parent/child in relationship, you can add that group under ``Peer Group``.
+ It might indicate groups that collaborate, are about to merge, recently split, etc.
 
 **Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
