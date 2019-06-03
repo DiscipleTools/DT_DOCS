@@ -464,7 +464,7 @@ Users
 
 |Users-wpadmin|
 
-Documentation Coming Soon
+Refer to the `Users <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/users.html#users>`_ section under Getting Started. 
 
 Tools
 ======
