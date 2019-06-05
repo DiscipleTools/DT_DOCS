@@ -14,12 +14,14 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 Roles Training Manuals
 ----------------
 
-**Disciple.Tools Multiplier Guide**
+**Disciple.Tools Multiplier Guides**
+Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+
 Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site. :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
 
 **Disciple.Tools Digital Responder Guide**
-Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
 
@@ -76,10 +78,9 @@ Multiplier
  None
  
 **Disciple.Tools Multiplier Guide**
+Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
 
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site.
-
-:download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+Here is a Disciple Tools guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site. :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
  
  
@@ -101,7 +102,7 @@ The "Responder" role is normally tasked with moderating and administrating any s
   None 
   
 **Disciple.Tools Digital Responder Guide**
- Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
 
