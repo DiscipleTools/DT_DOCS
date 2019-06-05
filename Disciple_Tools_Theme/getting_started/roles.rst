@@ -15,11 +15,14 @@ Roles Training Manuals
 ----------------
 
 **Disciple.Tools Multiplier Guides**
+
 Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+
 :download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
 
 **Disciple.Tools Digital Responder Guide**
+
 Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
@@ -77,7 +80,9 @@ Multiplier
  None
  
 **Disciple.Tools Multiplier Guide**
+
 Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+
 :download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
  
