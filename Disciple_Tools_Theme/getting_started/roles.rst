@@ -17,7 +17,7 @@ Roles Training Manuals
 **Disciple.Tools Multiplier Guides**
  Guide 1: Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
 
- Guide 2:download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+ Guide 2: :download: `Train and on-board new Multipliers to your Disciple.Tools site </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`_ 
 
 
 **Disciple.Tools Digital Responder Guide**
@@ -79,6 +79,7 @@ Multiplier
  
 **Disciple.Tools Multiplier Guide**
  Guide 1:Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+ 
  Guide 2::download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
  
