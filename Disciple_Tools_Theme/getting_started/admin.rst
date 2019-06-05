@@ -13,18 +13,28 @@ Contacts
 
 |Contacts-wpadmin|
 
-These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
+**Description**
+ These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
 
-You can delete a contact record by hovering over their name and clicking ``Trash``.
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Contacts``
+
+Note: You can delete a contact record by hovering over their name and clicking ``Trash``.
 
 Groups
 ======
 
 |Groups-wpadmin|
 
-These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
+**Description**
+ These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
 
-You can delete a group record by hovering over their name and clicking ``Trash``.
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Groups``.
+
+Note: You can delete a group record by hovering over their name and clicking ``Trash``.
 
 Locations
 ========
@@ -84,8 +94,12 @@ People Groups
 
 |People-Groups-wpadmin|
 
-Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
+**Description**
+ Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``People Groups``.
 
 
 All People Groups
@@ -138,13 +152,17 @@ Extensions (DT)
 
 |Extensions-wpadmin|
 
-The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+**Description**
+ The Extensions page allows you to download our plugins and plugins we recommend but did not build. 
 
 
 How to Install
 ~~~~~~~
 
-To install a plugin, click on ``Install`` under the ``Actions`` section.  Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
+1. To access the admin backend, click on the |gear| on the top right and click ``Admin``. 
+2. In the left hand column, select ``Plugins``. 
+3. To install a plugin, click on ``Install`` under the ``Actions`` section. 
+4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
 Our Plugins
 ~~~~~~~~~~~
@@ -169,6 +187,11 @@ Settings (DT)
 
 |DT-Settings-wpadmin|
 
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+
 Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance. 
 
 General Settings (DT)
@@ -177,15 +200,28 @@ General Settings (DT)
 Base User
 ~~~~~~~~
 
-A Base User is the catch-all account for orphaned contacts and other records to be assigned to. When contacts are created, for example, via the webform integration, the contacts will be assigned to the Base User by default. To be a Base User, the user must be an Administrator, Dispatcher, Multiplier, Digital Responder, or Strategist.
+**Description**
+ A Base User is the catch-all account for orphaned contacts and other records to be assigned to. When contacts are created, for example, via the webform integration, the contacts will be assigned to the Base User by default. To be a Base User, the user must be an Administrator, Dispatcher, Multiplier, Digital Responder, or Strategist.
 
-To change the Base User, click the dropdown box and select a different user, then click ``Update``
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Base User``.
+ 4. To change the Base User, click the dropdown box and select a different user, then click ``Update``
 
 
 Email Settings
 ~~~~~~~~
 
-When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is. To change the default from "Discple Tools" to an alternative phrase, type that in the box and click ``Update``.
+**Description**
+ When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is. 
+
+**How to access**
+
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``. 
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Email Settings``.
+ 4. To change the default from "Discple Tools" to an alternative phrase, type that in the box and click ``Update``.
 
 In this example, the chosen beginning subject line is "D.T CRM". If you work in a security concerning region, consider using a phrase that would not cause your work issues due to email subject lines not being encrypted. 
 
@@ -195,7 +231,14 @@ In this example, the chosen beginning subject line is "D.T CRM". If you work in 
 Site Notifications
 ~~~~~~~~
 
-Users can change their Site Notifications within their personal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not. 
+**Description**
+ Users can change their Site Notifications within their personal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not.
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Site Notifications``.
+
 
 **Types of Site Notifications:**
 
@@ -210,7 +253,13 @@ Users can change their Site Notifications within their personal Profile Settings
 Update Needed Triggers
 ~~~~~~~~
 
-In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Records need updating. 
+**Description**
+ In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Records need updating. 
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Update Needed Triggers``.
 
 **Contacts**
 
@@ -234,17 +283,26 @@ Be sure to click the box ``Update needed triggers enabled`` if you want users to
 Custom Lists
 --------------------
 
-This page allows you to customize the following pre-existing fields
+**Description**
+ This page allows you to customize the following pre-existing fields
 
 - User (Worker) Contact Profile
 - Sources: Where contacts originate
 - Contact Communication Channels aka Social Media
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+
+
 
 
 User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon. 
+**Description**
+ This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon. 
 
 Has the fields:
 
@@ -269,9 +327,18 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Locate section titled ``User (Worker) Contact Profile``
+
 Sources
 ~~~~~~~
 
+**Description**
+
+The sources are a list of places that potential contacts could come from (i.e. Facebook, English Club)
 Has the fields:
 
 * ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
@@ -284,10 +351,17 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Scroll down to section titled ``Sources``
+
 Contact Communication Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These options represent the Social Media option that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. 
+**Description**
+ These options represent the Social Media channels that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. Add channels significant to the contacts in your field of work.
 
 
 Has the fields:
@@ -310,12 +384,19 @@ Has the actions:
 * ``Add New Channel`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Scroll down to section titled ``Contact Communication Channels``
+
 
 
 Custom Tiles and Fields
 ------------------
 
-A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
+**Description**
+ A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
 
 **Example Tile and Fields**
 
@@ -339,9 +420,12 @@ The Interests field, for example, is made up of the following options:
 Build a Complete Tile
 ~~~~~~~~~~~~~~~~
 
-**Create a new tile:**
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Tiles``.
 
-To do this, you need to be in the `admin backend <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#admin>`_ 
+**Create a new tile:**
 
 1. Click ``Add a new tile``
 2. Select whether it will be found in the Contact or Group page type
@@ -418,31 +502,39 @@ Group Fields:
 
 
 
-
-Google Map API
-------------
-
-Documentation Coming Soon
-
 Site Link System
 ------------
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Site Link System``.
 
 Network Dashboard
 ------------
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Network Dashboard``.
 
 Critical Path
 ------------
 
+**Description**
 Documentation Coming Soon
 
-Network Dashboard
-------------
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Critical Path``.
 
-Documentation Coming Soon
 
 
 Utilities (DT)
@@ -450,14 +542,25 @@ Utilities (DT)
 
 |Utilities-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Utilities (DT)``. 
+
 
 Appearance
 ==========
 
 |Appearance-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Appearance``. 
 
 Users
 =======
@@ -471,14 +574,24 @@ Tools
 
 |tools-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Tools``. 
 
 Settings
 =========
 
 |Settings-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings``. 
 
 Site Links
 ===========
