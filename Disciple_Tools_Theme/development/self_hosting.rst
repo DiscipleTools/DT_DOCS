@@ -14,7 +14,7 @@ If you would like a step-by-step guide on one way that you can self-host your ow
 
 Backups
 --------
-You know that you need to keep you data backed up. Here are some things to keep in mind. Not all backups are equal. You need to have a backup that you can access if you website goes down of if your hosting provider accidentally deletes your account (this happens). This means that any backup that stays on the server your site is on isn't a reliable backup. You must have a secure remote backup of you Disciple.Tools instance. This can be with amazon s3, google drive or any other secure storage location.
+You know that you need to keep your data backed up. Here are some things to keep in mind. Not all backups are equal. You need to have a backup that you can access if your website goes down or if your hosting provider accidentally deletes your account (this happens). This means that any backup that stays on the server your site is on isn't a reliable backup. You must have a secure **remote** backup of you Disciple.Tools instance. This can be with Amazon S3, Google Drive or any other secure storage location.
 
 `UpdraftPlus <https://updraftplus.com/?afref=1012/>`_
 
