@@ -287,7 +287,6 @@ Custom Lists
  This page allows you to customize the following pre-existing fields
 
 - User (Worker) Contact Profile
-- Sources: Where contacts originate
 - Contact Communication Channels aka Social Media
  
 **How to access:**
