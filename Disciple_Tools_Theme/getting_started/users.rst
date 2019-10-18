@@ -146,7 +146,7 @@ If you realize that you have a contact that should be linked with a user account
 
 .. target-notes::
 
-.. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
+.. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html
 
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
 .. |newuser| image:: /Disciple_Tools_Theme/images/Add_New_User.png

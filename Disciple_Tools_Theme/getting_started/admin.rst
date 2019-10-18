@@ -13,83 +13,80 @@ Contacts
 
 |Contacts-wpadmin|
 
-These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
+**Description**
+ These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
 
-You can delete a contact record by hovering over their name and clicking ``Trash``.
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Contacts``
+
+Note: You can delete a contact record by hovering over their name and clicking ``Trash``.
 
 Groups
 ======
 
 |Groups-wpadmin|
 
-These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
+**Description**
+ These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
 
-You can delete a group record by hovering over their name and clicking ``Trash``.
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Groups``.
+
+Note: You can delete a group record by hovering over their name and clicking ``Trash``.
 
 Locations
 ========
 
-|Locations-wpadmin|
-
-Locations will not automatically show up in the frontend when editing a Contact or Group Record. You must first add locations in the Admin backend for them to show up as options for the frontend. 
-
-
-All Locations
--------------
-
-All of your added locations will be listed here. Click ``Add New`` to get started. 
-
-When you hover over the name of a location, the following options appear:
-
-- Edit
-- Quick Edit
-- Trash
-- View
-
-Edit Location
-~~~~~~~~
-
-Click on the name of the location or hover over it and click ``Edit``
-
-More Documentation Coming Soon
-
-
-Add New Location
---------
-
-The location feature is still being developed. 
-
-**To manually add locations:**
-
-Add Countries
-
-1. Add a country name in the text box that says ``Enter the location title here`` (E.g. France) and click ``Save``
-2. Under Geo-Code, in the Address box, type in the name of the country. (E.g. France) and click ``Validate`` and then ``Save``
-3. Repeat for every country you want as a location option
-
-Add Regions/States/Provinces
-
-1. Click ``Add New`` to add regions/states/provinces
-2. Name the location using the name of a region/state/province (E.g. Île-de-France, France) and click ``Save``
-3. Under Geo-Code, in the Address box, type in the name of the region/state/province. (E.g. Île-de-France, France).
-4. Under Levels, change the ``Parent`` location to the country name (e.g. France) and click ``Save``.
-5. Repeat for every region/state/province you want as a location option
-
-Add Cities
-
-1. Click ``Add New`` to add cities
-2. Name the location using the name of a city (E.g. Paris, Île-de-France, France) and click ``Save``
-3. Under Geo-Code, in the Address box, type in the name of the city. (E.g. Paris, France).
-4. Under Levels, change the ``Parent`` location to the region/state/province (E.g. Île-de-France, France) and click ``Save``.
-5. Repeat for every city you want as a location option
+Locations has been migrated to the section called Mapping as of June 3rd, 2019.
 
 
 
-Import
-------
+
+Mapping
+=======
+
+|Mapping-wpadmin|
+
+This section replaces the former Locations section. 
 
 
-This location feature is still being developed. 
+How to migrate old locations
+-----------------------
+
+
+**Step 1:** Make sure you have a back-up before doing a large data migration!
+
+**Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.  
+
+**Step 3:** Once you’re viewing the ``Admin`` back end of your site, select |Mapping-wpadmin| in the menu on the left.  
+
+
+You will see several tabs starting with "General Settings" and "Mapping Focus" and "Migrating from Locations".  "Mapping Focus" and "`Migrating from Locations" are the two you need for now.
+
+**Step 4** Click the ``Mapping Focus`` tab. 
+
+You will want to limit the mapping scope from “World” to your focus area, and this will limit the list of location choices to a manageable amount.  This may be a region of the world (many countries), a single country, or some specific part of a country (state and/or county level).  Click the dropdown from World and pick Country. The view will change to show a list of all countries and all will be checked.  It is probably easiest to click “unselect all” and then select the country or countries of focus.  When you have the country(ies) selected, click save.  If your focus is narrower than an entire country, you will want to drill down deeper and save at that level.
+
+**Step 5** Now click on the tab ``Migrating from Locations``. 
+
+|locations-conversion|
+
+Here, you will see a list of your existing locations and each will have ``World`` selected and a dropdown field next to it.  Under the column ``Select a Location`` click the dropdown and select the country that your location represents or the country the location would be found within.
+
+After you click the country, a new dropdown field will appear. If the existing location is a state/province within the country, click the dropdown box again and select the appropriate state/province.  
+
+If the location is a county/municipality within the state/province, click the dropdown box again and select the appropriate county/municipality.  
+
+Once you have selected a new location that matches the existing location, look under the column ``Select option``, and choose ``Convert``.
+
+If your location is more granular than the county/municipality level listed within GeoNames, click the other conversion option ``Create as sub-location`` to make your location a sub-location to the appropriate county. (e.g. Neighborhood)
+
+If you have many locations, you can convert and save in batches, but you must click Save. Before clicking ``Save`` be sure your conversions are correct, because you CANNOT undo the conversion. 
+
+Only locations that are selected on contact and group records will be listed, so do not worry if several locations within your focus area do not appear in the list needing to be migrated.  You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
+
 
 
 People Groups
@@ -97,8 +94,12 @@ People Groups
 
 |People-Groups-wpadmin|
 
-Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
+**Description**
+ Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend. 
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``People Groups``.
 
 
 All People Groups
@@ -151,13 +152,17 @@ Extensions (DT)
 
 |Extensions-wpadmin|
 
-The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+**Description**
+ The Extensions page allows you to download our plugins and plugins we recommend but did not build. 
 
 
 How to Install
 ~~~~~~~
 
-To install a plugin, click on ``Install`` under the ``Actions`` section.  Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
+1. To access the admin backend, click on the |gear| on the top right and click ``Admin``. 
+2. In the left hand column, select ``Plugins``. 
+3. To install a plugin, click on ``Install`` under the ``Actions`` section. 
+4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
 Our Plugins
 ~~~~~~~~~~~
@@ -182,6 +187,11 @@ Settings (DT)
 
 |DT-Settings-wpadmin|
 
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+
 Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance. 
 
 General Settings (DT)
@@ -190,15 +200,28 @@ General Settings (DT)
 Base User
 ~~~~~~~~
 
-A Base User is the catch-all account for orphaned contacts and other records to be assigned to. When contacts are created, for example, via the webform integration, the contacts will be assigned to the Base User by default. To be a Base User, the user must be an Administrator, Dispatcher, Multiplier, Digital Responder, or Strategist.
+**Description**
+ A Base User is the catch-all account for orphaned contacts and other records to be assigned to. When contacts are created, for example, via the webform integration, the contacts will be assigned to the Base User by default. To be a Base User, the user must be an Administrator, Dispatcher, Multiplier, Digital Responder, or Strategist.
 
-To change the Base User, click the dropdown box and select a different user, then click ``Update``
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Base User``.
+ 4. To change the Base User, click the dropdown box and select a different user, then click ``Update``
 
 
 Email Settings
 ~~~~~~~~
 
-When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is. To change the default from "Discple Tools" to an alternative phrase, type that in the box and click ``Update``.
+**Description**
+ When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is. 
+
+**How to access**
+
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``. 
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Email Settings``.
+ 4. To change the default from "Discple Tools" to an alternative phrase, type that in the box and click ``Update``.
 
 In this example, the chosen beginning subject line is "D.T CRM". If you work in a security concerning region, consider using a phrase that would not cause your work issues due to email subject lines not being encrypted. 
 
@@ -208,7 +231,14 @@ In this example, the chosen beginning subject line is "D.T CRM". If you work in 
 Site Notifications
 ~~~~~~~~
 
-Users can change their Site Notifications within their personal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not. 
+**Description**
+ Users can change their Site Notifications within their personal Profile Settings, but you have the ability to override this here. The boxes that are checked represent types of notifications that every Disciple.Tools user will be required to receive via Email and/or Web (the notification bell |Notification Bell|) . Unchecked boxes mean that the individual user will have the choice whether they want to receive that type of notification or not.
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Site Notifications``.
+
 
 **Types of Site Notifications:**
 
@@ -223,7 +253,13 @@ Users can change their Site Notifications within their personal Profile Settings
 Update Needed Triggers
 ~~~~~~~~
 
-In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Records need updating. 
+**Description**
+ In order to prevent seekers from falling through the cracks, Disciple.Tools will notify users when Contact Records and Group Records need updating. 
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Scroll down to the section titled ``Update Needed Triggers``.
 
 **Contacts**
 
@@ -247,17 +283,25 @@ Be sure to click the box ``Update needed triggers enabled`` if you want users to
 Custom Lists
 --------------------
 
-This page allows you to customize the following pre-existing fields
+**Description**
+ This page allows you to customize the following pre-existing fields
 
 - User (Worker) Contact Profile
-- Sources: Where contacts originate
 - Contact Communication Channels aka Social Media
+ 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+
+
 
 
 User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon. 
+**Description**
+ This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon. 
 
 Has the fields:
 
@@ -282,9 +326,18 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Locate section titled ``User (Worker) Contact Profile``
+
 Sources
 ~~~~~~~
 
+**Description**
+
+The sources are a list of places that potential contacts could come from (i.e. Facebook, English Club)
 Has the fields:
 
 * ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
@@ -297,10 +350,17 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Scroll down to section titled ``Sources``
+
 Contact Communication Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These options represent the Social Media option that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. 
+**Description**
+ These options represent the Social Media channels that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. Add channels significant to the contacts in your field of work.
 
 
 Has the fields:
@@ -323,12 +383,19 @@ Has the actions:
 * ``Add New Channel`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Scroll down to section titled ``Contact Communication Channels``
+
 
 
 Custom Tiles and Fields
 ------------------
 
-A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
+**Description**
+ A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
 
 **Example Tile and Fields**
 
@@ -352,9 +419,12 @@ The Interests field, for example, is made up of the following options:
 Build a Complete Tile
 ~~~~~~~~~~~~~~~~
 
-**Create a new tile:**
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Custom Tiles``.
 
-To do this, you need to be in the `admin backend <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#admin>`_ 
+**Create a new tile:**
 
 1. Click ``Add a new tile``
 2. Select whether it will be found in the Contact or Group page type
@@ -431,31 +501,39 @@ Group Fields:
 
 
 
-
-Google Map API
-------------
-
-Documentation Coming Soon
-
 Site Link System
 ------------
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Site Link System``.
 
 Network Dashboard
 ------------
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Network Dashboard``.
 
 Critical Path
 ------------
 
+**Description**
 Documentation Coming Soon
 
-Network Dashboard
-------------
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``. 
+ 3. Click the tab titled ``Critical Path``.
 
-Documentation Coming Soon
 
 
 Utilities (DT)
@@ -463,35 +541,56 @@ Utilities (DT)
 
 |Utilities-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Utilities (DT)``. 
+
 
 Appearance
 ==========
 
 |Appearance-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Appearance``. 
 
 Users
 =======
 
 |Users-wpadmin|
 
-Documentation Coming Soon
+Refer to the `Users <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/users.html#users>`_ section under Getting Started. 
 
 Tools
 ======
 
 |tools-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Tools``. 
 
 Settings
 =========
 
 |Settings-wpadmin|
 
+**Description**
 Documentation Coming Soon
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings``. 
 
 Site Links
 ===========
@@ -578,3 +677,5 @@ Phase 2: Setup Link from Site 2
 .. |tools-wpadmin| image:: /Disciple_Tools_Theme/images/tools-wpadmin.png
 .. |Site-1-Link| image:: /Disciple_Tools_Theme/images/Site-1-Link.png
 .. |Site-2-Link| image:: /Disciple_Tools_Theme/images/site-2-link.png
+.. |Mapping-wpadmin| image:: /Disciple_Tools_Theme/images/Mapping-wpadmin.png
+.. |locations-conversion| image:: /Disciple_Tools_Theme/images/locations-conversion.png

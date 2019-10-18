@@ -36,20 +36,6 @@ Has the actions:
 * ``Add`` - Adds a new field.
 * ``Save`` - Saves the current changes.
 
-Sources
--------
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-* ``Enabled`` - Whether it is enabled or not.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
 
 Status
 ------

@@ -14,12 +14,14 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 Roles Training Manuals
 ----------------
 
-**Disciple.Tools Multiplier Guide**
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site. :download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+**Disciple.Tools Multiplier Guides**
+ Guide 1: Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+ 
+ Guide 2: :download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
 
 **Disciple.Tools Digital Responder Guide**
-Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+ Guide 1: Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
 
@@ -76,10 +78,9 @@ Multiplier
  None
  
 **Disciple.Tools Multiplier Guide**
-
-Here is a guide made just for Multipliers. It can be used for training and on-boarding new Multipliers to your Disciple.Tools site.
-
-:download:`DOWNLOAD HERE </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
+ Guide 1: Learn more about the `Multiplier <https://kingdom.training/multiplier/>`_ role so you can identify the right person or persons for the job.
+ 
+ Guide 2: :download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
  
  
@@ -89,7 +90,7 @@ Digital Responder
 |Responder|
 
 **Role Description:**
-The "Responder" role is normally tasked with moderating and administrating any social media interaction and may have the first conversation with a contact. 
+ The "Responder" role is normally tasked with moderating and administrating any social media interaction and may have the first conversation with a contact. 
 
 **Contacts and Groups Access:**
  Users with this role can access all the contacts and all groups on the site.
@@ -101,7 +102,7 @@ The "Responder" role is normally tasked with moderating and administrating any s
   None 
   
 **Disciple.Tools Digital Responder Guide**
- Learn more about the `Digital Responder <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_ role so you can identify the right person or persons for the job.
+ Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
 
