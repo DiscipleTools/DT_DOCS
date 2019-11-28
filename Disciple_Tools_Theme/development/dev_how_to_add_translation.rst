@@ -13,18 +13,18 @@ completed translations through Github or through email, and our commit team will
 Current Available Translations
 ----------------
 
-Disciple.Tools is currently available in the following languages. Please note that as Disciple.Tools develops, addtional translation commits will be needed.
+Disciple.Tools is currently available in the following languages. Please note that as Disciple.Tools develops, additional translation commits will be needed.
 
 - English
 - Arabic
-- French 
-- Spanish 
+- French
+- Spanish
 - Turkish
-- Mandarin 
+- Mandarin
 
 How to contribute
 -------
-We are using on online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either. 
+We are using on online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either.
 
 To get started click this link to join the Disciple.Tools translation project: https://poeditor.com/join/project/KcPvw3oaKD
 
@@ -59,7 +59,7 @@ In this case, :code:`%1$s` corresponds to "contact" or "group". :code:`%2$s` cor
 This message can be displayed for a contact or a group. And we don't know before hand the ID of the record.
 This lets you, the translator, make a sentence that is gramatically correct while still using placeholders.
 
-To translate the sentence, just copy and paster the characters ( %s, %1$s, %2$s ) to into your translation. 
+To translate the sentence, just copy and paster the characters ( %s, %1$s, %2$s ) to into your translation.
 
 In french this sentence would give:
 

@@ -5,7 +5,7 @@ Setup a Demo Account
 ====================
 
 **1. Visit Disciple.Tools**
------------------------
+---------------------------
 
 Open the website by visiting, https://disciple.tools. After the site loads, click the green button labeled ``DEMO``.
 
@@ -53,7 +53,7 @@ Click ``Install Sample Content``. If you do not want to add the demo right away,
 **7. Arriving to the Contacts List Page**
 -----------------------------------------
 
-If you succesufully followed the above steps, you should be seeing the image below. This is the ``Contacts List Page``. You will be able to view all the contacts that have been assigned to you or shared with you here. Learn more about the ``Contacts List Page`` :ref:`here<contacts_list>`.
+If you successfully followed the above steps, you should be seeing the image below. This is the ``Contacts List Page``. You will be able to view all the contacts that have been assigned to you or shared with you here. Learn more about the ``Contacts List Page`` :ref:`here<contacts_list>`.
 
 |Starting Demo Contacts|
 
@@ -77,7 +77,7 @@ Because you were giving a temporary password, go ahead and create a new one.
 
 
 Add Sample Content Later
-===================
+========================
 
 **When you are ready to add the sample content data follow these instructions:**
 

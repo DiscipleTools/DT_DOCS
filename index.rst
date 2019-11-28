@@ -1,7 +1,7 @@
 Disciple.Tools
 ==============
 
-Disciple.Tools is a customized WordPress installer that will have the following components:
+`Disciple.Tools <http://disciple.tools/>`_ is a customized WordPress installer (and a `mobile app <https://github.com/DiscipleTools/disciple-tools-mobile-app>`_ for iOS and Android) that will have the following components:
 
 * Contact tracking and follow-up management
 * Baptism and multiplication generations
@@ -14,12 +14,12 @@ Disciple.Tools is a customized WordPress installer that will have the following 
 * Extendability through the 40k plugins on the WordPress
 * Marketplace open source, preconfigured, low-tech skills required, cheap hosting options
 
-This is the index page for the documentation referencing the Disciple Tools Theme. Below is a list of links.
+This is the index page for the documentation referencing the `Disciple Tools Theme <https://github.com/DiscipleTools/disciple-tools-theme>`_. Below is a list of links.
 
 .. toctree::
 	:caption: General
 	:name: dt-general
-	
+
 	Frequently Asked Questions <./Disciple_Tools_Theme/general/faq>
 
 .. toctree::
@@ -35,7 +35,7 @@ This is the index page for the documentation referencing the Disciple Tools Them
    	Roles <./Disciple_Tools_Theme/getting_started/roles>
 	Demo <./Disciple_Tools_Theme/getting_started/demo>
 
-.. toctree::    
+.. toctree::
 	:caption: Developers
 	:name: dev-docs
 
