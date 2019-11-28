@@ -11,7 +11,7 @@ You can access your Profile Settings two ways:
 Profile
 --------
 
-To edit your profile, click ``Edit``. You are no required to fill out any of these profile fields. They are optional to meet your team's needs.
+To edit your profile, click ``Edit``. You are not required to fill out any of these profile fields. They are optional to meet your team's needs.
 
 You can edit the following options
 
@@ -30,11 +30,14 @@ You can edit the following options
 * Work WhatsApp
 * Description
 * Language Preference: The Disciple.Tools software is is multi-lingual. Choose your preferred language to change the entire system's language settings.
-    
+
     **Currently Available:**
         + English
         + French
         + Arabic
+        + Spanish
+        + Turkish
+        + Mandarin
 
 -------------
 
@@ -49,7 +52,7 @@ Notifications Turned Off: The toggle will appear grey |Off|
 
 Web Notifications
 ~~~~~~~~~~~
-Notifications that are toggled on for ``Web`` will arrive within Disciple.Tools. A red number will appear by the Notification Bell |Notifications| in the Website Menu Bar, indicating the number of new notifications. 
+Notifications that are toggled on for ``Web`` will arrive within Disciple.Tools. A red number will appear by the Notification Bell |Notifications| in the Website Menu Bar, indicating the number of new notifications.
 
 Email Notifications
 ~~~~~~~~~~~~~
@@ -62,16 +65,16 @@ Notifications that are toggled on for ``Email`` will arrive in your email inbox.
 * Newly Assigned Contact:
     Web: Automatically Required
     Email: Automatically Required
-* @Mentions	
+* @Mentions
     Web: Automatically Required
     Email: Automatically Required
-* New comments	
+* New comments
     Web: Optional
     Email: Optional
-* Update Needed	
+* Update Needed
     Web: Automatically Required
     Email: Automatically Required
-Contact Info Changed	
+Contact Info Changed
     Web: Optional
     Email: Optional
 Contact Milestones and Group Heath metrics

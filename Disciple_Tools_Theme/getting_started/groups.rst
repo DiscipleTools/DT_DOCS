@@ -48,8 +48,13 @@ Clicking this button will open up a modal. Within this modal you will be asked t
 After filling out the option click ``Save and continue editing``. You will then be directed to the ``Group Record Page``
 
 
+**Delete a Group**
+~~~~~~~~~~~~~~~~~~
 
-**Filter Groups**  
+A group' status can only be set to be ``Active`` or ``Inactive``. If you need to remove a group altogether, this can only be done in the Wordpress Admin Area.
+
+
+**Filter Groups**
 ~~~~~~~~~~~~~~~~~
 
 
@@ -62,7 +67,7 @@ To be able to find a group quickly, you can use the Group Filter feature. Click 
 
 
 Groups Filter Options
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 |group-filter-options|
 
@@ -76,7 +81,7 @@ Groups Filter Options
 * This tab will allow you to filter based on a group's status.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Default Group Status filters are as follows:
-  
+
   - Inactive
   - Active
 
@@ -86,31 +91,31 @@ Groups Filter Options
 * This tab will allow you to filter based on a group's type.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Default Group Type filters are as follows:
-  
+
   - Pre-Group
   - Group
   - Church
 
-  
+
 **Locations**
 
 * This option will allow you to search by the group's meeting location.
 * You can select a location by searching for it and then clicking on the location in the search field.
- 
- 
- 
- 
-Search
-~~~~~~~~~~
 
-Type a group's name to quickly search for it. This will search all the groups you have access to. If there is a group name that matches, it will show in the list. 
+
+
+
+Search
+~~~~~~
+
+Type a group's name to quickly search for it. This will search all the groups you have access to. If there is a group name that matches, it will show in the list.
 |Search|
 
 
--------------------
+---------------------
 
 3. Group Filters Tile
-----------------------
+---------------------
 
 
 The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of groups will change.
@@ -122,7 +127,7 @@ The default filter options are located on the left of the page under the heading
 * **All groups:** Certain roles, such as Admin and Dispatcher, in Disciple.Tools allow you to view all groups in your Disciple.Tools system. Other roles such as Multipliers will only see their groups and groups shared with them under ``All groups``.
 
 * **My groups:** All groups you personally create or have been assigned to you, can be found under ``My groups``.
-  
+
 
 * **Groups shared with me:** These are all groups who other users have shared with you. You do not have responsibility for these groups but you can access their records and comment if needed.
 
@@ -132,7 +137,7 @@ Adding Custom Filters
 
 **Add**
 
-If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-groups-button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Groups``, that Custom Filter option will appear with the word ``Save`` next to it.  
+If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-groups-button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Groups``, that Custom Filter option will appear with the word ``Save`` next to it.
 
 .. note::  To cancel these Custom Filters, refresh the page
 
@@ -148,28 +153,28 @@ To edit a filter, click on the ``pencil icon`` next to a saved filter.  This wil
 
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
 
------------------
+------------------
 
 4. Group List Tile
--------------------
+------------------
 
 |groups-tile|
 
 Groups
-~~~~~~~~
+~~~~~~
 
 Your list of groups will show up here. Whenever you filter groups, the list will also be changed
 in this section too. Above are fake groups to give you an idea of what it will look like.
 
-**Sort** 
+**Sort**
 
 You can sort your groups by newest, oldest, most recently modified, and least recently modified.
 
-**Load more groups** 
+**Load more groups**
 
 If you have a long list of groups they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more groups to load.
 
---------------
+-----------------
 
 Group Record Page
 =================
@@ -183,31 +188,31 @@ Group Record Page
 5. Group Progress Tile
 6. Parent/Peer/Child Group Tile
 
-------------
+-----------------------
 
 1. Group Record Toolbar
---------------
+-----------------------
 
 |group-record-toolbar|
 
 **Follow**
 ~~~~~~~~~~
 
-Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button. 
+Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button.
 
 Following: |Follow-On| vs.
 Not Following: |Follow-Off|
 
 
 **Share**
-~~~~~~~~
+~~~~~~~~~
 
-Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’ record.  Clicking on this button will show you with whom it is currently shared. 
+Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’ record.  Clicking on this button will show you with whom it is currently shared.
 
-----------
+----------------
 
 2. Group Details
--------------------
+----------------
 
 |Group-Record-Details|
 
@@ -224,30 +229,30 @@ In this area is the following set of data:
 * People Groups - The people groups that are a part of this group.
 * Locations - A more general idea of locations (e.g., South_City or West_Region).
 
--------------
+-----------------------------------
 
 3. Group Comments and Activity Tile
--------------------
+-----------------------------------
 
 |Group-Activity-Comments-Tile|
 
 
 Making a Comment
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
-This tile is where you will want to record important notes from meetings and conversations with a contact about their group. 
+This tile is where you will want to record important notes from meetings and conversations with a contact about their group.
 
 |At-Mention|
 
-Type @ and the name of a user to mention them in a comment. Note: This will share this Group Record Page with that user. This user will then receive a notification. 
+Type @ and the name of a user to mention them in a comment. Note: This will share this Group Record Page with that user. This user will then receive a notification.
 
 
 
 
 Comments and Activity Feed
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Group Record and conversations between users about the group. 
+Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Group Record and conversations between users about the group.
 
 You can filter the feed by clicking on one or more of the following:
 
@@ -256,32 +261,32 @@ You can filter the feed by clicking on one or more of the following:
 **Activity:** This is a running list of all of the activity changes made to a Group Record.
 
 
----------------
+---------------------
 
 4. Group Members Tile
---------------
+---------------------
 
 |Group-Members-Tile|
 
 This is the area where you list the contacts that are a part of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name. You can also quickly navigate between the Group Records and the members' Contact Records
 
-------------
+----------------------
 
 5. Group Progress Tile
---------------
+----------------------
 
-In this tile, you can keep track of the overall health and progress of the group. 
+In this tile, you can keep track of the overall health and progress of the group.
 
 |Group-Progress-Tile|
 
 
 **Group Type**
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 This area helps to track the spiritual progress a group makes as they become a healthy multiplying church. The first thing you should do is define what type of group it is. Do this by clicking on the ``Group Type`` drop-down. Clicking this will reveal three options.
 
 * Pre-Group: This can be an unofficial group, a network of friends who a disciple knows
-* Group: A group of contacts meeting around the Word consistenly
+* Group: A group of contacts meeting around the Word consistently
 * Church: When a group identifies themselves as a Church body
 
 **Health Metrics**
@@ -295,21 +300,21 @@ If the group/church regularly practices any of the following elements, then clic
 
 The list of elements is as follows:
 
-* Fellowship: The group is actively pursuing the "one anothers' together
+* Fellowship: The group is actively pursuing the "one anothers" together
 * Giving: The group is actively using their personal finances for Jesus' Kingdom
 * Communion: The group has began practicing the Lord' Supper
 * Baptism: The group is practicing baptism of new believers
-* Prayer: The group is actively incorporting prayer in their gatherings
-* Leaders: The group has recoginzed leaders
+* Prayer: The group is actively incorporating prayer in their gatherings
+* Leaders: The group has recognized leaders
 * Word: The group is actively engaging in the Word
 * Praise: The group has incorporated praising (i.e. musical worship) into their gatherings
 * Evangelism: The group is actively sharing
 * Covenant: The group has committed to be a church
 
--------------
+-------------------------------
 
 6. Parent/Peer/Child Group Tile
------------------
+-------------------------------
 
 This tile shows the relationships between multiplying groups and provides a way to navigate quickly between them.
 
@@ -325,7 +330,7 @@ This tile shows the relationships between multiplying groups and provides a way 
 **Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
 
------------
+---------------------------
 
 
 
@@ -349,10 +354,10 @@ This tile shows the relationships between multiplying groups and provides a way 
 .. |Follow-Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
 .. |Follow-On| image:: /Disciple_Tools_Theme/images/Follow-On.png
 .. |Share| image:: /Disciple_Tools_Theme/images/share.PNG
-.. |Group-Record-Details| image:: /Disciple_Tools_Theme/images/Group-Record-Details.png	
-.. |Group-Activity-Comments-Tile| image:: /Disciple_Tools_Theme/images/Group-Comments-Activity-Tile.png	
+.. |Group-Record-Details| image:: /Disciple_Tools_Theme/images/Group-Record-Details.png
+.. |Group-Activity-Comments-Tile| image:: /Disciple_Tools_Theme/images/Group-Comments-Activity-Tile.png
 .. |At-Mention| image:: /Disciple_Tools_Theme/images/at-mention.png
 .. |Group-Members-Tile| image:: /Disciple_Tools_Theme/images/Group-Members-Tile.png
 .. |Group-Progress-Tile| image:: /Disciple_Tools_Theme/images/Group-Progress-Tile.png
-.. |Parent-Child-Group-Tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
+.. |Parent-Peer-Child-Group-Tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
 .. |Group-List-Page| image:: /Disciple_Tools_Theme/images/Group-List-Page-labeled.jpg

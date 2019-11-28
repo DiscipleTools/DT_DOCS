@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Disciple Tools'
-copyright = '2018, Disciple Tools'
+copyright = '2019, Disciple Tools'
 author = 'Disciple Tools'
 
 # The short X.Y version
@@ -110,7 +110,7 @@ html_static_path = ['_static']
 
 def setup(app):
         app.add_stylesheet("css/custom.css")
-        
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
