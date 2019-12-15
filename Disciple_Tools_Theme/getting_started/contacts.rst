@@ -5,8 +5,7 @@ A contact represents a person who is on a spiritual journey. It is someone we pr
 
 The Contacts Page is made up of two layers: The Contacts List Page and the Contact Record Page.
 
-You can create new contacts and edit existing ones. If you need to do a mass CSV import for contacts, click `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/archive/user_mass_contacts_csv_import.html>`_ to check out the step by step guide.
-
+You can create new contacts and edit existing ones. If you need to do a mass CSV import for contacts, click `here <user_mass_contacts_csv_import>`_ to check out the step by step guide.
 
 
 Contacts List Page

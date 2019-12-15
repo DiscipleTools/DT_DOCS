@@ -9,7 +9,7 @@ You can access your Profile Settings two ways:
 ---------
 
 Profile
---------
+-------
 
 To edit your profile, click ``Edit``. You are not required to fill out any of these profile fields. They are optional to meet your team's needs.
 
@@ -81,7 +81,7 @@ Notifications that are toggled on for ``Email`` will arrive in your email inbox.
     Web: Optional
     Email: Optional
 
--------------
+------------
 
 Availability
 ------------

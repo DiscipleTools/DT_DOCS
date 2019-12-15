@@ -184,6 +184,7 @@ The are plugins we recommend, but did not develop:
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms
 * ``Inactive Logout`` - Inactive logout provides functionality to log out any idle users defined specified time showing a message. This works for the frontend as well.
 
+.. _settings-dt-wpadmin:
 Settings (DT)
 =============
 

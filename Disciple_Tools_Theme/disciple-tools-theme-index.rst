@@ -1,7 +1,7 @@
 Disciple.Tools
 ==============
 
-Disciple.Tools is a customized WordPress installer that will have the following components:
+Disciple.Tools is a customized Word Press installer that will have the following components:
 
 * Contact tracking and follow-up management
 * Baptism and multiplication generations
@@ -17,7 +17,7 @@ Disciple.Tools is a customized WordPress installer that will have the following 
 This is the index page for the documentation referencing the Disciple Tools Theme. Below is a list of links.
 
 .. toctree::
-
-    Step by Step <../getting_started>
-    User Start <../getting_started>
-    Dev Start <../dev_quick_start>
+    App </app/index>
+    DT App </app/dt-app>
+    User Start </Disciple_Tools_Theme/getting_started/index>
+    Dev Start </Disciple_Tools_Theme/development/dev_quick_start>

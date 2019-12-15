@@ -1,5 +1,5 @@
-Disciple.Tools
-==============
+Disciple.Tools software
+=======================
 
 `Disciple.Tools <http://disciple.tools/>`_ is a customized WordPress installer (and a `mobile app <https://github.com/DiscipleTools/disciple-tools-mobile-app>`_ for iOS and Android) that will have the following components:
 
@@ -17,14 +17,16 @@ Disciple.Tools
 This is the index page for the documentation referencing the `Disciple Tools Theme <https://github.com/DiscipleTools/disciple-tools-theme>`_. Below is a list of links.
 
 .. toctree::
-	:caption: General
+	:caption: General Information
 	:name: dt-general
 
-	Frequently Asked Questions <./Disciple_Tools_Theme/general/faq>
-#	D.T app <./Disciple_Tools_Theme/app>
+	Frequently Asked Questions  <./Disciple_Tools_Theme/general/faq>
+	D.T app <./app/index>
+..	General Questions  <./Disciple_Tools_Theme/archive/index>
+
 
 .. toctree::
-	:caption: Getting Started
+	:caption: Getting Started Info
 	:name: dt-user-start
 
    	Contacts <./Disciple_Tools_Theme/getting_started/contacts>
@@ -37,10 +39,9 @@ This is the index page for the documentation referencing the `Disciple Tools The
 	Demo <./Disciple_Tools_Theme/getting_started/demo>
 
 .. toctree::
-	:caption: Developers
+	:caption: For Developers
 	:name: dev-docs
 
 	Self Hosting <./Disciple_Tools_Theme/development/self_hosting>
 	Dev Quick Start <./Disciple_Tools_Theme/development/dev_quick_start>
-#	Contacts Dev <./Disciple_Tools_Theme/development/contacts/index>
 	Translations <./Disciple_Tools_Theme/development/dev_how_to_add_translation>

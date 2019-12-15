@@ -1,8 +1,8 @@
 How to Add a Translation
-================================
+========================
 
 Overview
------------
+--------
 
 Disciple.Tools is built on Wordpress and uses the Wordpress translation strategy. Extensive resources can be found on
 `Wordpress.org <https://wordpress.org>`_ giving explanations and help for translators. `Wordpress Translation Resources <https://make.wordpress.org/polyglots/handbook/tools/glotpress-translate-wordpress-org/>`_
@@ -11,7 +11,7 @@ We invite you to contribute a new translation to Disciple.Tools, and it does not
 completed translations through Github or through email, and our commit team will review it and add it to the project.
 
 Current Available Translations
---------------------------------
+------------------------------
 
 Disciple.Tools is currently available in the following languages. Please note that as Disciple.Tools develops, additional translation commits will be needed.
 
@@ -23,7 +23,7 @@ Disciple.Tools is currently available in the following languages. Please note th
 - Mandarin
 
 How to contribute
------------------------
+-----------------
 We are using on online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either.
 
 To get started click this link to join the Disciple.Tools translation project: https://poeditor.com/join/project/KcPvw3oaKD
@@ -39,7 +39,7 @@ Your translations will become available to everyone when we push a release for t
 
 
 What are those wonky characters?
------------------------------------
+--------------------------------
 
 You will see some strings that look like this:
 
