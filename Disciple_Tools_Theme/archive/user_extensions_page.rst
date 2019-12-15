@@ -1,5 +1,5 @@
 Extensions Page
-==============
+===============
 
 The extensions page allows you to download our plugins and plugins we recommended but did not build.
 
@@ -26,10 +26,10 @@ These are plugins we built for DT.  Currently, we have the following:
 * ``Disciple Tools Webform`` - Extends the Disciple Tools system with a web form leads collection.
 
 Recommended Plugins
-------------------
+-------------------
 
 These are our recommended plugins that we did not develop:
 
 * ``UpdraftPlus Backup/Restore`` - Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.
-* ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication - including WooCommerce login forms    
+* ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication - including WooCommerce login forms
 * ``Inactive Logout`` -    Inactive logout provides functionality to log out any idle users defined specified time showing a message. Works for frontend as well.

@@ -16,12 +16,12 @@ Edit
 To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
 
 Delete
-======
-To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
+=======
+To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to confirm.
 
 
 Filter Options
-=======
+==============
 
 Contacts
 --------
@@ -46,7 +46,7 @@ Contacts
 * This tab will allow you to filter based on a contact's overall status.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Status filters are as follows:
-  
+
   - Unassigned
   - Assigned
   - Active
@@ -59,7 +59,7 @@ Contacts
 * This tab will allow you to filter based on a contact's seeker path.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Seeker path filters are as follows:
-  
+
   - Contact Attempt Needed
   - Contact Attempted
   - Contact Established
@@ -67,13 +67,13 @@ Contacts
   - First Meeting Complete
   - Ongoing Meetings
   - Being Coached
-  
+
 **Faith milestones**
 
 * This tab will allow you to filter based on a contact's faith milestones.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Faith milestone filters are as follows:
-  
+
   - Has Bible
   - Reading Bible
   - States Belief
@@ -83,16 +83,16 @@ Contacts
   - Baptizing
   - In Church/Group
   - Starting Churches
-  
+
 **Requires Update**
 
 * This tab will allow you to filter based on if a contact requires an update.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * There are two options:
 
-  - Yes 
-  - No 
-  
+  - Yes
+  - No
+
 Groups
 ------
 
@@ -108,8 +108,8 @@ Groups
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * There is two options:
 
-  - Yes 
-  - No 
+  - Yes
+  - No
 
 
 **Group Type**
@@ -120,8 +120,8 @@ Groups
 
   - Pre-Group
   - Group
-  - Church 
-  
+  - Church
+
 **Locations**
 
 * This tab will allow you to add locations of groups to filter for.

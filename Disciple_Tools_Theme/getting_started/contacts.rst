@@ -79,7 +79,7 @@ By clicking on the settings gear |Gear|, you will be able to:
 
 
 **Create New Contact**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
 responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels..
@@ -485,7 +485,7 @@ To assign a user to this contact, begin typing the name of the user and when it 
 
 
 **Sub-assigned to**
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 This is someone working alongside of the main person assigned to the contact. You may find that you are partnering with others in your discipleship relationships. Only one person can be assigned while multiple people can be sub-assigned.
 

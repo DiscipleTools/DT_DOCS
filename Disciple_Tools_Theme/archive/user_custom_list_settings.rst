@@ -5,7 +5,7 @@ This page allows you to customize the fields used in the contacts page.
 
 Where to Find the Page
 ----------------------
-Open up the admin backend, by clicking on the ``gear`` on the top right then clikcing ``Admin``. Once in the backend click on ``Settings``,
+Open up the admin backend, by clicking on the ``gear`` on the top right then clicking ``Admin``. Once in the backend click on ``Settings``,
 then click on ``Custom Lists``.
 
 Alternatively go to the url ``https://[your_url]/wp-admin/admin.php?page=dt_options&tab=custom-lists``.
@@ -19,13 +19,13 @@ Has the fields:
 * ``Type`` - Is the type of the field.
 
   Field types:
-  
+
   - Phone
   - Email
   - Social
   - Address
   - Other
-  
+
 * ``Description`` - A description of the field.
 * ``Enabled`` - Whether it is enabled or not.
 

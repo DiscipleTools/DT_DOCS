@@ -21,6 +21,7 @@ This is the index page for the documentation referencing the `Disciple Tools The
 	:name: dt-general
 
 	Frequently Asked Questions <./Disciple_Tools_Theme/general/faq>
+#	D.T app <./Disciple_Tools_Theme/app>
 
 .. toctree::
 	:caption: Getting Started
@@ -41,5 +42,5 @@ This is the index page for the documentation referencing the `Disciple Tools The
 
 	Self Hosting <./Disciple_Tools_Theme/development/self_hosting>
 	Dev Quick Start <./Disciple_Tools_Theme/development/dev_quick_start>
-	Contacts Dev <./Disciple_Tools_Theme/development/contacts/index>
+#	Contacts Dev <./Disciple_Tools_Theme/development/contacts/index>
 	Translations <./Disciple_Tools_Theme/development/dev_how_to_add_translation>
