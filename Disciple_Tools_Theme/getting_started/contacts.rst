@@ -5,8 +5,7 @@ A contact represents a person who is on a spiritual journey. It is someone we pr
 
 The Contacts Page is made up of two layers: The Contacts List Page and the Contact Record Page.
 
-You can create new contacts and edit existing ones. If you need to do a mass CSV import for contacts, click `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/archive/user_mass_contacts_csv_import.html>`_ to check out the step by step guide.
-
+You can create new contacts and edit existing ones. If you need to do a mass CSV import for contacts, click `here <user_mass_contacts_csv_import>`_ to check out the step by step guide.
 
 
 Contacts List Page
@@ -79,7 +78,7 @@ By clicking on the settings gear |Gear|, you will be able to:
 
 
 **Create New Contact**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
 responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels..
@@ -485,7 +484,7 @@ To assign a user to this contact, begin typing the name of the user and when it 
 
 
 **Sub-assigned to**
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 This is someone working alongside of the main person assigned to the contact. You may find that you are partnering with others in your discipleship relationships. Only one person can be assigned while multiple people can be sub-assigned.
 

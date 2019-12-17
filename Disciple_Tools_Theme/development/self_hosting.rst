@@ -1,5 +1,5 @@
 Self Hosting
-================================
+============
 
 404 Errors on new install
 -------------------------
@@ -8,12 +8,11 @@ Log in to wp-admin and go to Settings > Permalinks. You don't need to change any
 
 Step-by-step Guide
 ------------------
-
 If you would like a step-by-step guide on one way that you can self-host your own instance of Disciple.Tools, email admin@kingdom.training.
 
 
 Backups
---------
+-------
 You know that you need to keep your data backed up. Here are some things to keep in mind. Not all backups are equal. You need to have a backup that you can access if your website goes down or if your hosting provider accidentally deletes your account (this happens). This means that any backup that stays on the server your site is on isn't a reliable backup. You must have a secure **remote** backup of you Disciple.Tools instance. This can be with Amazon S3, Google Drive or any other secure storage location.
 
 `UpdraftPlus <https://updraftplus.com/?afref=1012/>`_

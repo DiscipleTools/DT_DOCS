@@ -1,10 +1,10 @@
-About
-=====
+About Users
+===========
 
 Roles
------
+----------
 
-In Disciple Tools there are many different types of roles. Each role is assigned upon account creation and can be changed later in the admin area. 
+In Disciple Tools there are many different types of roles. Each role is assigned upon account creation and can be changed later in the admin area.
 
 * **Administrator**: Users with this role can access all functionality, including the WordPress admin interface. They can invite other users and they can modify the roles of other users.
 * **DT Admin**: Users with this roll can manage users and Disciple Tools settings. DT Admins can't manage plugins.
@@ -17,9 +17,9 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 * **Subscriber/Registered**: A default WordPress role.
 
 Contacts
---------
+----------
 
-A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. For a step by step guide on creating new contacts, `go here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. If you need to do a mass CSV import for contacts, check out the step by step `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#mass-contacts-csv-import>`_.
+A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. See the step-by-step guide to `Creating new contacts <../user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. See the step-by-step guide if you want to do a  `mass CSV import for contacts <../user_step_by_step.html#mass-contacts-csv-import>`_.
 
 Groups
 ------
@@ -61,7 +61,7 @@ If this group has multiplied into another group, you can add that under ``Child 
 Progress
 ~~~~~~~~
 
-In this area, you can keep track of the overall health and progress of the group. 
+In this area, you can keep track of the overall health and progress of the group.
 
 **Group Type**
 
@@ -95,21 +95,21 @@ The list of elements is as follows:
 Comments/Activity
 ~~~~~~~~~~~~~~~~~
 
-Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click |SUBMIT| to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``. 
+Here you can write comments about activity for the group. To add a comment, click in the comment box and type your comment. Then click |SUBMIT| to submit your comment.  To link to or "at mention" someone, type @[their name]. This section also includes the history of activity, such as when the group status became active. You can filter this section either by ``All``, ``Comments``, or ``Activity``.
 
 Metrics
 -------
 
-The metrics tab is where you can see an overview of stats for the project.  Upon clicking the metrics tab you will be presented with your personal statistics.  If you would like to view overall stats for your project, click ``Project`` to expand the menu. Then click ``Overview`` to view an overview of stats for your project. 
+The metrics tab is where you can see an overview of stats for the project.  Upon clicking the metrics tab you will be presented with your personal statistics.  If you would like to view overall stats for your project, click ``Project`` to expand the menu. Then click ``Overview`` to view an overview of stats for your project.
 
 Filters
 -------
 
-Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about creating custom filters can be found `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/user_step_by_step.html#adding-custom-filters>`_.
+Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about creating custom filters can be found `here <../user_step_by_step.html#adding-custom-filters>`_.
 
 .. note:: You can only have one filter active at a time.
 
-Assigning, Sub-Assigning, Following, and Sharing. 
+Assigning, Sub-Assigning, Following, and Sharing.
 -------------------------------------------------
 
 Contacts can only be assigned to one person and that person is responsible for them. The ``sub-assigned`` field, is usually for those who go out in twos. For example, Sam could be assigned to a contact and Fred goes with him, so he is sub-assigned. Ultimately, Sam is the one responsible for the contact. You can use the |SHARE| button when you want to give someone access so they can see the contact, without giving responsibility.

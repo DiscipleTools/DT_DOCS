@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Disciple Tools'
-copyright = '2019, Disciple Tools'
+copyright = '2020, Disciple Tools'
 author = 'Disciple Tools'
 
 # The short X.Y version
-version = ''
+version = '0.1.1'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'c1912'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,7 +39,7 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.todo',
+    'sphinx.ext.todo', 'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -51,11 +51,12 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 from recommonmark.parser import CommonMarkParser
 
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+# source_parsers = {
+#     '.md': CommonMarkParser,
+# }
+# app.add_source_suffix('.md', CommonMarkParser)
 
-source_suffix = ['.rst', '.md']
+add_source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
@@ -107,6 +108,7 @@ html_favicon = './Disciple_Tools_Theme/images/dt-favicon.png'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+# html_static_path = ['html']
 
 def setup(app):
         app.add_stylesheet("css/custom.css")
