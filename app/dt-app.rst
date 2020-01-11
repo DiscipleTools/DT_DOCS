@@ -1,9 +1,11 @@
-How to use D.T app
-==================
+How to use D.T apps
+===================
 
 .. _how_to_use_dt_app:
 
 .. NOTE:: You can use the app with any instance of Disciple Tools, but that instance needs to have the `mobile app Wordpress Plugin extension <https://github.com/DiscipleTools/disciple-tools-mobile-app-plugin>`_ installed on activated on your DT instance. Read :ref:`how to install the app plugin <app_plugin>`.
+
+.. _app_login:
 
 Login
 -----
@@ -12,10 +14,12 @@ Login
 
     #. Enter the URL eg. myinstance.disciple.tools (no need to use https:// etc. before the URL)
     #. Enter your Username
-    #. Enter you Password
+    #. Enter your Password
     #. Click ``Log In``
 
 #. Use and enjoy the app!
+
+.. _app_help:
 
 I need more help
 ================

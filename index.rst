@@ -41,9 +41,8 @@ This is the index page for the documentation referencing the `Disciple Tools The
 	:caption: Disciple Tools Mobile App
 	:name: app
 
-	44About D.T app <./app/index>
-	45How to use D.T app <./app/dt-app>
-..	App Feedback <./app/index>
+	About D.T app <./app/index>
+	How to use D.T app <./app/dt-app>
 
 .. toctree::
 	:caption: For Developers
