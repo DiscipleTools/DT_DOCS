@@ -1,5 +1,5 @@
-Disciple.Tools software
-=======================
+Disciple.Tools
+==============
 
 `Disciple.Tools <http://disciple.tools/>`_ is a customized WordPress installer (and a `mobile app <https://github.com/DiscipleTools/disciple-tools-mobile-app>`_ for iOS and Android) that will have the following components:
 
