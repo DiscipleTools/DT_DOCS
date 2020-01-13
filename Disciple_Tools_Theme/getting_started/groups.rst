@@ -139,7 +139,7 @@ Adding Custom Filters
 
 If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-groups-button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Groups``, that Custom Filter option will appear with the word ``Save`` next to it.
 
-.. note::  To cancel these Custom Filters, refresh the page
+.. note::  To cancel these ``Custom Filters``, refresh the page.
 
 **Save**
 

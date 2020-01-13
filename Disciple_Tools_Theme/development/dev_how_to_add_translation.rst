@@ -24,7 +24,7 @@ Disciple.Tools is currently available in the following languages. Please note th
 
 How to contribute
 -----------------
-We are using on online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either.
+We are using an online tool called POEditor. No downloading, changing, or uploading of files necessary. No coding skills needed either.
 
 To get started click this link to join the Disciple.Tools translation project: https://poeditor.com/join/project/KcPvw3oaKD
 
@@ -33,15 +33,13 @@ Enter your email and name and then click "Join this project"
 
 We will receive your request and approve your account as soon as possible. Once approved you will be free to start translating.
 
-
 Your translations will become available to everyone when we push a release for the theme.
-
 
 
 What are those wonky characters?
 --------------------------------
 
-You will see some strings that look like this:
+In POEditor, you will see some strings that look like this:
 
 :code:`Sorry, you don't have permission to view the %1$s with id %2$s.`
 

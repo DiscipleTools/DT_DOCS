@@ -21,7 +21,6 @@ This is the index page for the documentation referencing the `Disciple Tools The
 	:name: dt-general
 
 	Frequently Asked Questions  <./Disciple_Tools_Theme/general/faq>
-	D.T app <./app/index>
 ..	General Questions  <./Disciple_Tools_Theme/archive/index>
 
 
@@ -37,6 +36,13 @@ This is the index page for the documentation referencing the `Disciple Tools The
   	Users <./Disciple_Tools_Theme/getting_started/users>
    	Roles <./Disciple_Tools_Theme/getting_started/roles>
 	Demo <./Disciple_Tools_Theme/getting_started/demo>
+
+.. toctree::
+	:caption: Disciple Tools Mobile App
+	:name: app
+
+	About D.T app <./app/index>
+	How to use D.T app <./app/dt-app>
 
 .. toctree::
 	:caption: For Developers
