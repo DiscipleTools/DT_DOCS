@@ -77,7 +77,7 @@ Notifications that are toggled on for ``Email`` will arrive in your email inbox.
 * Contact Info Changed
     Web: Optional
     Email: Optional
-* Contact Milestones and Group Heath metrics
+* Contact Milestones and Group Health metrics
     Web: Optional
     Email: Optional
 

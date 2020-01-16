@@ -15,7 +15,7 @@ Groups List Page
 3. Group Filters Tile
 4. Group List Tile
 
-------------------
+-------------------
 
 1. Website Menu Bar
 -------------------
@@ -25,7 +25,7 @@ The Website Menu Bar will remain at the top of every page of Disciple.Tools.
 
 See `Website Menu Bar`_
 
------------------
+----------------------
 
 2. Groups List Toolbar
 ----------------------
@@ -151,7 +151,7 @@ To edit a filter, click on the ``pencil icon`` next to a saved filter.  This wil
 
 **Delete**
 
-To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
+To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to confirm.
 
 ------------------
 

@@ -26,7 +26,7 @@ author = 'Disciple Tools'
 # The short X.Y version
 version = '0.1.1'
 # The full version, including alpha/beta/rc tags
-release = 'c1912'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------

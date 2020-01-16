@@ -5,8 +5,10 @@ This is the wp-admin or backend of Disciple.Tools. Only certain roles within you
 
 To open up the admin backend, click on the |gear| on the top right and then click ``Admin``
 
-To see what each role has access to, click `here <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html#roles>`_
+To see what each role has access to, click `here <roles>`_
 
+
+.. _wpadmin_contacts:
 
 Contacts
 ========
@@ -14,13 +16,20 @@ Contacts
 |Contacts-wpadmin|
 
 **Description**
- These are the backend records of the contacts that can be found in the `Contact List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them. We recommend you edit every `Contact Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#contacts-record-page>`_ on the front end.
+ These are the backend records of the contacts that can be found in the `Contact List Page <contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them.
+
+.. note::
+    We recommend you edit every `Contact Record <contacts-record-page>`_ on the front end and not in the WP Admin area.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Contacts``
 
-Note: You can delete a contact record by hovering over their name and clicking ``Trash``.
+.. note::
+    You can delete a contact record by hovering over their name and clicking ``Trash``.
+
+
+.. _wpadmin_groups:
 
 Groups
 ======
@@ -28,33 +37,30 @@ Groups
 |Groups-wpadmin|
 
 **Description**
- These are the backend records of the groups that can be found in the `Groups List Page <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#groups-list-page>`_. We recommend you edit every `Group Record <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/groups.html#group-record-page>`_ on the front end.
+ These are the backend records of the groups that can be found in the `Groups List Page <groups-list-page>`_. We recommend you edit every `Group Record <group-record-page>`_ on the front end and not in the WP Admin area.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Groups``.
 
-Note: You can delete a group record by hovering over their name and clicking ``Trash``.
+.. Note::
+ You can delete a group record by hovering over their name and clicking ``Trash``.
 
-Locations
-=========
-
-Locations has been migrated to the section called Mapping as of June 3rd, 2019.
-
-
-
+.. _wpadmin_mapping:
 
 Mapping
 =======
 
 |Mapping-wpadmin|
 
-This section replaces the former Locations section.
+.. Note::
+ This section replaces the former Locations section that was migrated as of June 3rd, 2019.
 
+
+.. _locations_migrate:
 
 How to migrate old locations
 ----------------------------
-
 
 **Step 1:** Make sure you have a back-up before doing a large data migration!
 
@@ -62,8 +68,7 @@ How to migrate old locations
 
 **Step 3:** Once you’re viewing the ``Admin`` back end of your site, select |Mapping-wpadmin| in the menu on the left.
 
-
-You will see several tabs starting with "General Settings" and "Mapping Focus" and "Migrating from Locations".  "Mapping Focus" and "`Migrating from Locations" are the two you need for now.
+You will see several tabs starting with "General Settings" and "Mapping Focus" and "Migrating from Locations". "Mapping Focus" and "Migrating from Locations" are the two you need for now.
 
 **Step 4** Click the ``Mapping Focus`` tab.
 
@@ -87,7 +92,7 @@ If you have many locations, you can convert and save in batches, but you must cl
 
 Only locations that are selected on contact and group records will be listed, so do not worry if several locations within your focus area do not appear in the list needing to be migrated.  You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
 
-
+.. _wpadmin_people_groups:
 
 People Groups
 =============
@@ -116,24 +121,38 @@ When you hover over the name of a people group, the following options appear:
 - Trash
 - View
 
+.. _people-group-filter:
+
+Filter and Search
+~~~~~~~~~~~~~~~~~
+
+There is a people groups ``Filter`` facility at the top of the people groups list that can be used to find people groups. The filter uses the date the listing was added to your instance of DT.
+
+You can also use the ``Search People Groups`` field on the top right side of this screen to find a people group that has already been added.
+
+.. _people-group-edit:
+
 Edit People Group
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 Click on the name of the people group or hover over it and click ``Edit``
 
-The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB. When you import or link a people group with this ROP3 code, it will import data labels used by these two organizations for that people group. When select a contact's people group in their Contact Record Details Tile, it will give the potential for reporting key metrics on the status of their people group. What God does among your people as noted in Disciple.Tools will be very helpful data for updating Joshua Project and IMB's databases on the status of the Great Commission.
+The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB. When you import or link a people group with this ROP3 code, it will import data labels used by these two organizations for that people group. When you select a contact's people group in their Contact Record Details Tile, it will give the potential for reporting key metrics on the status of their people group. What God does among your people as noted in Disciple.Tools will be very helpful data for updating Joshua Project and IMB's databases on the status of the Great Commission.
 
+.. _people-group-add:
 
 Add New
 -------
 
-**Note:** We recommend importing rather than adding.
+.. Note:: We recommend importing rather than individually adding each people group one-by-one.
 
-1. Name the People Group (E.g. Bambara, France)
-2. Under ``Add/Update People Group``, select a country to view its people groups and click ``Search`` (E.g. France)
-3. Next to the people groups you want to add, click the ``link`` button. (e.g. Bambara)
-4. A note will appear that says "The current people group data has been updated with this info! Refresh to see data"
-5. Click ``Publish``
+#. Name the People Group where it says ``Enter the people group title here`` (E.g. Bambara, France)
+#. Under ``Add/Update People Group``, select a country to view its people groups and click ``Search`` (E.g. France) or if you know the **ROP3 Code**, then enter that in the other field, and then click ``Search``
+#. Next to the people groups you want to add, click the ``link`` button. (e.g. Bambara)
+#. A note will appear that says "The current people group data has been updated with this info! Refresh to see data".
+#. Click ``Publish``
+
+.. _people-group-import:
 
 Import
 ------
@@ -147,16 +166,22 @@ For a faster build of your people groups, import rather than add.
 Note: The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB.
 
 
+.. _wpadmin_extensions_dt:
+
 Extensions (DT)
 ===============
 
 |Extensions-wpadmin|
 
 **Description**
- The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+
+.. _dt-plugins:
 
 Plugins
-----------
+-------
+
+.. _dt-plugins-install:
 
 How to Install
 ~~~~~~~~~~~~~~
@@ -165,6 +190,8 @@ How to Install
 2. In the left hand column, select ``Plugins``.
 3. To install a plugin, click on ``Install`` under the ``Actions`` section.
 4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
+
+.. _dt-plugins-ours:
 
 Our Plugins
 ~~~~~~~~~~~
@@ -175,6 +202,8 @@ These are plugins we built for Disciple.Tools.  Currently, we have the following
 * ``Disciple Tools Demo Content`` - This extends the Disciple Tools system for rapid content addition for training purposes.
 * ``Disciple Tools Webform`` - This extends the Disciple Tools system with a web form leads collection.
 
+.. _dt-plugins-recommended:
+
 Recommended Plugins
 ~~~~~~~~~~~~~~~~~~~
 
@@ -184,7 +213,8 @@ The are plugins we recommend, but did not develop:
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms
 * ``Inactive Logout`` - Inactive logout provides functionality to log out any idle users defined specified time showing a message. This works for the frontend as well.
 
-.. _settings-dt-wpadmin:
+.. _wpadmin_settings_dt:
+
 Settings (DT)
 =============
 
@@ -196,6 +226,8 @@ Settings (DT)
  2. In the left hand column, select ``Settings (DT)``.
 
 Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance.
+
+.. _settings-dt-general:
 
 General Settings (DT)
 ---------------------
@@ -213,11 +245,13 @@ Base User
  4. To change the Base User, click the dropdown box and select a different user, then click ``Update``
 
 
+.. _settings-dt-general-email:
+
 Email Settings
 ~~~~~~~~~~~~~~
 
 **Description**
- When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recoginze what kind of email it is.
+ When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recognize what kind of email it is.
 
 **How to access**
 
@@ -230,6 +264,7 @@ In this example, the chosen beginning subject line is "D.T CRM". If you work in 
 
 |System Email Subject Line|
 
+.. _settings-dt-general-notifications:
 
 Site Notifications
 ~~~~~~~~~~~~~~~~~~
@@ -283,6 +318,19 @@ An update constitutes as any change to the Group Record that would be recorded i
 Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message.
 
 
+Group Tile Preferences
+~~~~~~~~~~~~~~~~~~~~~~
+
+Here you can choose if you want come tiles to be displayed or not. The current tiles that are optional are:
+
+    - Church Metrics
+    - Four Fields
+
+If you make changes, by ticking or un-ticking the option, ensure you click the ``Save`` button on the right side to ensure the changes are implemented.
+
+
+.. _settings-dt-custom-lists:
+
 Custom Lists
 ------------
 
@@ -290,14 +338,12 @@ Custom Lists
  This page allows you to customize the following pre-existing fields
 
 - User (Worker) Contact Profile
-- Contact Communication Channels aka Social Media
+- Contact Communication Channels
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings (DT)``.
  3. Click the tab titled ``Custom Lists``.
-
-
 
 
 User (Worker) Contact Profile
@@ -335,29 +381,6 @@ Has the actions:
  3. Click the tab titled ``Custom Lists``.
  4. Locate section titled ``User (Worker) Contact Profile``
 
-Sources
-~~~~~~~
-
-**Description**
-
-The sources are a list of places that potential contacts could come from (i.e. Facebook, English Club)
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-* ``Enabled`` - Whether it is enabled or not.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-**How to access:**
- 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
- 2. In the left hand column, select ``Settings (DT)``.
- 3. Click the tab titled ``Custom Lists``.
- 4. Scroll down to section titled ``Sources``
 
 Contact Communication Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -392,10 +415,56 @@ Has the actions:
  3. Click the tab titled ``Custom Lists``.
  4. Scroll down to section titled ``Contact Communication Channels``
 
+.. _settings-dt-custom-tiles:
+
+Custom Tiles
+------------
+
+**Description**
+ This page allows you to create a new tile or modify existing tiles.
 
 
-Custom Tiles and Fields
------------------------
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+ 3. Click the tab titled ``Custom Tiles``.
+
+
+Modify an existing tile
+~~~~~~~~~~~~~~~~~~~~~~~
+.. note:: The dropdown list will be empty if no custom tiles have been created for your instance of DT. Once one or more tiles have been created, then they will listed here and then be modifiable.
+
+Choose an existing tile from the dropdown list (which are sorted into Contact Tiles and Group Tiles) then click ``Select``.
+
+**Tile Settings**
+
+* Change the name of the tile then click ``Save``
+* Click ``Hide the tile on page`` if you do not want the tile to appear in the frontend.
+
+**Tile Fields**
+
+If there is more than one field in the custom tile you are modifying, then you will be able to change the order that the fields appear in. Use the |arrows-up-down| buttons to modify the order of the fields.
+
+Create a new tile
+~~~~~~~~~~~~~~~~~
+
+#. Click the ``Add new tile`` button.
+#. Select what type of page the tile will appear on: Contact or Group
+#. Give the tile a name in the empty field next to ``New Tile Name``
+#. Click ``Create tile``
+
+
+.. _settings-dt-custom-fields:
+
+Custom Fields
+-------------
+
+This page allows you to create a new field or modify existing fields.
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+ 3. Click the tab titled ``Custom Fields``.
 
 **Description**
  A Tile is a section within the Contact/Group Record Pages (i.e. Details tile). A Tile is made up of Fields.
@@ -403,7 +472,6 @@ Custom Tiles and Fields
 **Example Tile and Fields**
 
 |English Club Tile|
-
 
 This English Club Tile is made up of the following fields:
 
@@ -418,6 +486,8 @@ The Interests field, for example, is made up of the following options:
 - Discuss Christianity
 - Join a Bible Study
 - Put on Newsletter List
+
+.. _build-a-tile:
 
 Build a Complete Tile
 ~~~~~~~~~~~~~~~~~~~~~
@@ -459,7 +529,7 @@ Build a Complete Tile
 
 **Preview Tile**
 
-Preview your Tile within the Contact or Group Record by returning to the frontend. Cick the |House| icon to return.
+Preview your tile within the Contact or Group Record by returning to the frontend. Click the |House| icon to return.
 
 To modify the tile, fields, and options, click the |gear| icon and Admin to return to the backend.
 
@@ -486,7 +556,7 @@ Under Custom Fields, next to ``Modify an existing field``, select the name of th
 - Rename the field by changing the Label name under ``Field Settings``
 
 
-**Note:** You do not have the ability to modify every Disciple.Tools field. You, however, can modify any new field you create. The other default fields you can currently modify are:
+.. Note:: You do not have the ability to modify every Disciple.Tools field. You, however, can modify any new field you create. The other default fields you can currently modify are:
 
 Contact Fields:
 
@@ -503,34 +573,70 @@ Group Fields:
 - Church Health
 
 
+.. _settings-sources:
+
+Sources
+~~~~~~~
+
+**Description**
+ The sources are a list of places that potential contacts could come from (i.e. Facebook, English Club)
+
+Has the fields:
+
+* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
+* ``Enabled`` - Whether it is enabled or not.
+
+Has the actions:
+
+* ``Reset`` - Resets to the defaults.
+* ``Delete`` - Clicking this deletes the field.
+* ``Add`` - Adds a new field.
+* ``Save`` - Saves the current changes.
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+ 3. Click the tab titled ``Custom Lists``.
+ 4. Select from the dropdown menu section titled ``Sources``
+
+
+
+.. _wpadmin_site_link_system:
 
 Site Link System
 ----------------
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
- 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
- 2. In the left hand column, select ``Settings (DT)``.
- 3. Click the tab titled ``Site Link System``.
+ #. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ #. In the left hand column, select ``Settings (DT)``.
+ #. Click the tab titled ``Site Link System``.
+
+
+
+.. _wpadmin_network_dashboard:
 
 Network Dashboard
 -----------------
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings (DT)``.
  3. Click the tab titled ``Network Dashboard``.
 
+
+.. _wpadmin_critical_path:
+
 Critical Path
 -------------
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -538,6 +644,7 @@ Documentation Coming Soon
  3. Click the tab titled ``Critical Path``.
 
 
+.. _wpadmin_utilities_dt:
 
 Utilities (DT)
 ==============
@@ -545,12 +652,14 @@ Utilities (DT)
 |Utilities-wpadmin|
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Utilities (DT)``.
 
+
+.. _wpadmin_appearance:
 
 Appearance
 ==========
@@ -558,11 +667,14 @@ Appearance
 |Appearance-wpadmin|
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Appearance``.
+
+
+.. _wpadmin_users:
 
 Users
 =====
@@ -571,17 +683,22 @@ Users
 
 Refer to the `Users <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/users.html#users>`_ section under Getting Started.
 
+
+.. _wpadmin_tools:
+
 Tools
 =====
 
 |tools-wpadmin|
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Tools``.
+
+.. _wpadmin_settings:
 
 Settings
 ========
@@ -589,15 +706,17 @@ Settings
 |Settings-wpadmin|
 
 **Description**
-Documentation Coming Soon
+ Documentation Coming Soon
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings``.
 
+
+.. _wpadmin_site_links:
+
 Site Links
 ===========
-
 
 The purpose of this is to link two Disciple Tools sites together in order to transfer contacts and share stats between the sites.
 
@@ -682,3 +801,4 @@ Phase 2: Setup Link from Site 2
 .. |Site-2-Link| image:: /Disciple_Tools_Theme/images/site-2-link.png
 .. |Mapping-wpadmin| image:: /Disciple_Tools_Theme/images/Mapping-wpadmin.png
 .. |locations-conversion| image:: /Disciple_Tools_Theme/images/locations-conversion.png
+.. |arrows-up-down| image:: /Disciple_Tools_Theme/images/arrows-up-down.png
