@@ -16,7 +16,9 @@ You can use the app with any instance of Disciple Tools, but that instance needs
 How to activate the app plugin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A person with an administration role of your DT instance will need to `download the Wordpress Plugin extension <https://github.com/DiscipleTools/disciple-tools-mobile-app-plugin>`_ and install then activate it. Once activated, you will be able to user you normal user logins for DT to have access via the app.
+Install or activate the mobile app plugin on the Extensions menu tab of your instance's wp-admin backend.
+You can also `download the Wordpress Plugin extension <https://github.com/DiscipleTools/disciple-tools-mobile-app-plugin>`_ and install then activate it. 
+Once activated, you will be able to log in to the app with the same credentials as the website.
 
 .. _app_download:
 
