@@ -17,6 +17,8 @@ How to activate the app plugin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Install or activate the mobile app plugin on the Extensions menu tab of your instance's wp-admin backend.
+On a multisite please network activate the plugin from the network plugin settings.
+
 You can also `download the Wordpress Plugin extension <https://github.com/DiscipleTools/disciple-tools-mobile-app-plugin>`_ and install then activate it. 
 Once activated, you will be able to log in to the app with the same credentials as the website.
 
