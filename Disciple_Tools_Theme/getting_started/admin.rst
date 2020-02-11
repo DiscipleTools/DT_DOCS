@@ -5,7 +5,7 @@ This is the wp-admin or backend of Disciple.Tools. Only certain roles within you
 
 To open up the admin backend, click on the |gear| on the top right and then click ``Admin``
 
-To see what each role has access to, click `here <roles>`_
+To see what each role has access to, click :ref:`here <roles>`
 
 
 .. _wpadmin_contacts:
