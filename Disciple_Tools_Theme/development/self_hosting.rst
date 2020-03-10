@@ -9,7 +9,6 @@ Log in to wp-admin and go to Settings > Permalinks. You don't need to change any
 **Special Note for hosting on Windows servers:** If you receive a 404 error message when trying to preview or run DT after installing WordPress and the DT theme, check the root WordPress folder ''(e.g., C:\inetpub\wwwroot\wordpress)'' , and verify the web.config file exists.  If not, create a text file named "web.config," and include the following default code in the file:
 
 .. code-block::
-    :linenos:
     <?xml version="1.0" encoding="UTF-8"?>
         <configuration>
             <system.webServer>
