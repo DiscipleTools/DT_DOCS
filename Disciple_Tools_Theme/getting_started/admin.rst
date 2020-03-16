@@ -1,14 +1,17 @@
+.. _gs-admin:
+
 Admin
 *****
 
 This is the wp-admin or backend of Disciple.Tools. Only certain roles within your Disciple.Tools instance will be able to access this and depending on their role, access will vary.
 
+
 To open up the admin backend, click on the |gear| on the top right and then click ``Admin``
 
-To see what each role has access to, click :ref:`here <roles>`
+To see what each role has access to, click :ref:`here <gs-roles>`
 
 
-.. _wpadmin_contacts:
+.. _wpadmin-contacts:
 
 Contacts
 ========
@@ -16,10 +19,10 @@ Contacts
 |Contacts-wpadmin|
 
 **Description**
- These are the backend records of the contacts that can be found in the `Contact List Page <contacts-list-page>`_. Every Disciple.Tools user will also have a Contact Record made for them.
+ These are the backend records of the contacts that can be found in the :ref:`Contact List Page <Contacts List Page>`. Every Disciple.Tools user will also have a Contact Record made for them.
 
 .. note::
-    We recommend you edit every `Contact Record <contacts-record-page>`_ on the front end and not in the WP Admin area.
+    We recommend you edit every :ref:`Contact Record <Contacts Record Page>` on the front end and not in the WP Admin area.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -29,7 +32,8 @@ Contacts
     You can delete a contact record by hovering over their name and clicking ``Trash``.
 
 
-.. _wpadmin_groups:
+
+.. _wpadmin-groups:
 
 Groups
 ======
@@ -37,7 +41,10 @@ Groups
 |Groups-wpadmin|
 
 **Description**
- These are the backend records of the groups that can be found in the `Groups List Page <groups-list-page>`_. We recommend you edit every `Group Record <group-record-page>`_ on the front end and not in the WP Admin area.
+ These are the backend records of the groups that can be found in the :ref:`Groups List Page <Groups List Page>`.
+
+.. note::
+ We recommend you edit every :ref:`Group Record <Group Record Page>` on the front end and not in the WP Admin area.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -46,7 +53,7 @@ Groups
 .. Note::
  You can delete a group record by hovering over their name and clicking ``Trash``.
 
-.. _wpadmin_mapping:
+.. _wpadmin-mapping:
 
 Mapping
 =======
@@ -57,7 +64,7 @@ Mapping
  This section replaces the former Locations section that was migrated as of June 3rd, 2019.
 
 
-.. _locations_migrate:
+.. _wpadmin-locations-migrate:
 
 How to migrate old locations
 ----------------------------
@@ -92,7 +99,7 @@ If you have many locations, you can convert and save in batches, but you must cl
 
 Only locations that are selected on contact and group records will be listed, so do not worry if several locations within your focus area do not appear in the list needing to be migrated.  You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
 
-.. _wpadmin_people_groups:
+.. _wpadmin-people-groups:
 
 People Groups
 =============
@@ -166,7 +173,7 @@ For a faster build of your people groups, import rather than add.
 Note: The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB.
 
 
-.. _wpadmin_extensions_dt:
+.. _wpadmin-extensions-dt:
 
 Extensions (DT)
 ===============
@@ -213,7 +220,7 @@ The are plugins we recommend, but did not develop:
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms
 * ``Inactive Logout`` - Inactive logout provides functionality to log out any idle users defined specified time showing a message. This works for the frontend as well.
 
-.. _wpadmin_settings_dt:
+.. _wpadmin-settings-dt:
 
 Settings (DT)
 =============
@@ -386,7 +393,7 @@ Contact Communication Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Description**
- These options represent the Social Media channels that can be found in the `Contact Record Details Tile <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/contacts.html#details-tile>`_. Add channels significant to the contacts in your field of work.
+ These options represent the Social Media channels that can be found in the :ref:`Contact Record Details Tile <c-details-tile>`. Add channels significant to the contacts in your field of work.
 
 
 Has the fields:
@@ -601,7 +608,7 @@ Has the actions:
 
 
 
-.. _wpadmin_site_link_system:
+.. _wpadmin-site-link-system:
 
 Site Link System
 ----------------
@@ -616,7 +623,7 @@ Site Link System
 
 
 
-.. _wpadmin_network_dashboard:
+.. _wpadmin-network-dashboard:
 
 Network Dashboard
 -----------------
@@ -630,7 +637,7 @@ Network Dashboard
  3. Click the tab titled ``Network Dashboard``.
 
 
-.. _wpadmin_critical_path:
+.. _wpadmin-critical-path:
 
 Critical Path
 -------------
@@ -644,7 +651,7 @@ Critical Path
  3. Click the tab titled ``Critical Path``.
 
 
-.. _wpadmin_utilities_dt:
+.. _wpadmin-utilities-dt:
 
 Utilities (DT)
 ==============
@@ -659,7 +666,7 @@ Utilities (DT)
  2. In the left hand column, select ``Utilities (DT)``.
 
 
-.. _wpadmin_appearance:
+.. _wpadmin-appearance:
 
 Appearance
 ==========
@@ -674,17 +681,17 @@ Appearance
  2. In the left hand column, select ``Appearance``.
 
 
-.. _wpadmin_users:
+.. _wpadmin-users:
 
 Users
 =====
 
 |Users-wpadmin|
 
-Refer to the `Users <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/users.html#users>`_ section under Getting Started.
+Refer to the :ref:`Users <gs-users>` section under Getting Started.
 
 
-.. _wpadmin_tools:
+.. _wpadmin-tools:
 
 Tools
 =====
@@ -698,7 +705,7 @@ Tools
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Tools``.
 
-.. _wpadmin_settings:
+.. _wpadmin-settings:
 
 Settings
 ========
@@ -713,7 +720,7 @@ Settings
  2. In the left hand column, select ``Settings``.
 
 
-.. _wpadmin_site_links:
+.. _wpadmin-site-links:
 
 Site Links
 ===========
@@ -730,7 +737,7 @@ Add New Site Link
 
 |Site-Links-wpadmin|
 
-Before you get started, you need to be in the `admin backend <https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/admin.html#admin>`_ and have clicked on ``Site Links``.
+Before you get started, you need to be in the :ref:`admin backend <gs-admin>` and have clicked on ``Site Links``.
 
 Phase 1: Setup Link from Site 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

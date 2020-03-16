@@ -1,3 +1,5 @@
+.. _gs-profile-settings:
+
 Profile Settings
 ****************
 

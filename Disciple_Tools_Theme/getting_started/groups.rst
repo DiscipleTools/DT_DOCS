@@ -1,3 +1,5 @@
+.. _gs-groups:
+
 Groups
 ******
 
@@ -17,13 +19,16 @@ Groups List Page
 
 -------------------
 
+
+
+.. _g-website-menu-bar:
+
 1. Website Menu Bar
 -------------------
 
 |Website-Menu-Bar|
 The Website Menu Bar will remain at the top of every page of Disciple.Tools.
 
-See `Website Menu Bar`_
 
 ----------------------
 
@@ -35,7 +40,7 @@ See `Website Menu Bar`_
 **Create New Group**
 ~~~~~~~~~~~~~~~~~~~~
 
-The |Create-new-group-button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of Admin and Dispatcher can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels.
+The |Create-new-group-button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of Admin and Dispatcher can see them. Learn more about the Disciple.Tools :ref:`gs-roles` and their varying permission levels.
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
 
@@ -160,6 +165,8 @@ To delete a filter, click on the ``trashcan icon`` next to a saved filter. It wi
 
 |groups-tile|
 
+.. _glt-groups:
+
 Groups
 ~~~~~~
 
@@ -211,8 +218,10 @@ Click |Share| to share a Group Record with another user. This user will be able 
 
 ----------------
 
-2. Group Details
-----------------
+.. _g-details-tile:
+
+2. Group Details Tile
+---------------------
 
 |Group-Record-Details|
 
@@ -334,10 +343,6 @@ This tile shows the relationships between multiplying groups and provides a way 
 
 
 
-.. target-notes::
-
-.. _`Website Menu Bar`: https://github.com/DiscipleTools/DT_DOCS/blob/master/Disciple_Tools_Theme/getting_started/contacts.rst#1-website-menu-bar
-.. _`roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
 
 
 .. |Website-Menu-Bar| image:: /Disciple_Tools_Theme/images/Website-Menu-Bar-Groups.png

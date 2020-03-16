@@ -1,3 +1,5 @@
+.. _gs-contacts:
+
 Contacts
 ********
 
@@ -20,12 +22,15 @@ Contacts List Page
 
 -------------------
 
+.. _c-website-menu-bar:
+
 1. Website Menu Bar
 -------------------
 The Website Menu Bar will remain at the top of every page of Disciple.Tools.
 |Website-Menu-Bar|
 
 **Disciple.Tools Beta Logo**
+
 Disciple.Tools has not been publicly released. Beta means that this software is still in
 development and is rapidly evolving. Expect to see changes. We ask for your grace and
 patience as you utilize this software.
@@ -81,7 +86,7 @@ By clicking on the settings gear |Gear|, you will be able to:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
-responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools `roles`_ and their varying permission levels..
+responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools :ref:`gs-roles` and their varying permission levels.
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
 
@@ -364,6 +369,8 @@ To delete a filter, click on the ``trashcan icon`` next to a saved filter. It wi
 
 |Example-Contacts|
 
+.. _clt-contacts:
+
 Contacts
 ~~~~~~~~
 
@@ -490,8 +497,12 @@ This is someone working alongside of the main person assigned to the contact. Yo
 
 ---------------
 
-3. Details Tile
----------------
+
+
+.. _c-details-tile:
+
+3. Contact Details Tile
+-----------------------
 
 |Details|
 
@@ -589,12 +600,6 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 **Tags:** Add tags to contacts to help yourself quickly find contacts associated with noteworthy characteristics.
 
 
-
-
-
-.. target-notes::
-
-.. _`roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/dt_manual/roles.html
 
 
 
