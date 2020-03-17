@@ -225,7 +225,7 @@ The are plugins we recommend, but did not develop:
 Settings (DT)
 =============
 
-|DT-Settings-wpadmin|
+|Settings-DT-wpadmin|
 
 
 **How to access:**
@@ -233,6 +233,7 @@ Settings (DT)
  2. In the left hand column, select ``Settings (DT)``.
 
 Only Admin, DT Amin, and Dispatcher roles have access to ``Settings (DT)``. What one changes in this section, changes settings for the all users within your Disciple.Tools instance.
+
 
 .. _settings-dt-general:
 
@@ -312,7 +313,7 @@ You can edit the frequency (by number of days) that this message will automatica
 
 For example, a user has completed a first meeting with a contact and notes that within the Contact Record. If the user doesn't update this record after the chosen number of days, then the user will receive an alert within the Contact Record. Also, this Contact Record will be listed in the Filters section under ``Update Needed``. This will help Multipliers prioritize their contacts and provide a sense of accountability. The Dispatcher or the DT Admin can oversee the accountability piece to make sure that Multipliers are updating their Contact Records to the agreed upon time frame.
 
-An update constitutes as any change to the Contact Record that would be recorded in the Comment/Activity Tile.
+An update constitutes as any change to the :ref:`Contact Record <c-contacts-record-page>` that would be recorded in the :ref:`Comment/Activity Tile <c-comments-activity-tile>`.
 
 Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message.
 
@@ -320,7 +321,7 @@ Be sure to click the box ``Update needed triggers enabled`` if you want users to
 
 You can edit the frequency (by number of days) that this message will automatically be triggered since the last time a Group Record was updated. You an also change the comment that will appear in the message.
 
-An update constitutes as any change to the Group Record that would be recorded in the Comment/Activity Tile.
+An update constitutes as any change to the :ref:`Group Record <g-group-record-page>` that would be recorded in the :ref:`Comment/Activity Tile <g-group-comments-and-activity-tile>`.
 
 Be sure to click the box ``Update needed triggers enabled`` if you want users to receive this alert message.
 
@@ -328,7 +329,7 @@ Be sure to click the box ``Update needed triggers enabled`` if you want users to
 Group Tile Preferences
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Here you can choose if you want come tiles to be displayed or not. The current tiles that are optional are:
+Here you can choose if you want some tiles to be displayed or not. The current tiles that are optional are:
 
     - Church Metrics
     - Four Fields
@@ -342,7 +343,7 @@ Custom Lists
 ------------
 
 **Description**
- This page allows you to customize the following pre-existing fields
+ This page allows you to customize the following pre-existing fields.
 
 - User (Worker) Contact Profile
 - Contact Communication Channels
@@ -357,7 +358,7 @@ User (Worker) Contact Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Description**
- This represent fields the user's profile information that can be found under Profile by clicking the |gear| icon.
+ This represents fields the user's profile information that can be found under ``Profile`` by clicking the |gear| icon.
 
 Has the fields:
 
@@ -368,8 +369,10 @@ Has the fields:
 
   - Phone
   - Email
-  - Social
   - Address
+  - Phone work
+  - Email work
+  - Social
   - Other
 
 * ``Description`` - A description of the field.
@@ -400,6 +403,7 @@ Has the fields:
 
 * ``Label`` - Is the name of the field.
 * ``Type`` - Is the type of the field.
+* ``Icon link`` - link to where an icon file is stored.
 
   Field types:
 
@@ -415,6 +419,8 @@ Has the actions:
 * ``Delete`` - Clicking this deletes the field.
 * ``Add New Channel`` - Adds a new field.
 * ``Save`` - Saves the current changes.
+* ``Enabled`` - Will be used/offered it box is selected.
+* ``Hide domain if a url`` - Will truncate the URI to remove the domain.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -441,7 +447,7 @@ Modify an existing tile
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. note:: The dropdown list will be empty if no custom tiles have been created for your instance of DT. Once one or more tiles have been created, then they will listed here and then be modifiable.
 
-Choose an existing tile from the dropdown list (which are sorted into Contact Tiles and Group Tiles) then click ``Select``.
+Choose an existing tile from the dropdown list (which are sorted into Contact Tiles and Group Tiles and People Group Tiles) then click ``Select``.
 
 **Tile Settings**
 
@@ -456,7 +462,7 @@ Create a new tile
 ~~~~~~~~~~~~~~~~~
 
 #. Click the ``Add new tile`` button.
-#. Select what type of page the tile will appear on: Contact or Group
+#. Select what type of page the tile will appear on: Contacts or Groups or People Groups.
 #. Give the tile a name in the empty field next to ``New Tile Name``
 #. Click ``Create tile``
 
@@ -614,7 +620,11 @@ Site Link System
 ----------------
 
 **Description**
- Documentation Coming Soon
+ Site links are configured through the :ref:`Site Links System admin menu <wpadmin-site-links>`. The purpose of this is to link two Disciple Tools sites together in order to transfer contacts and share stats between the sites.
+
+.. note:: The site link system is built to easily connect Disciple Tools systems together, but can be extended to provide token validation for other system integrations. Please refer to our `developer wiki <https://github.com/DiscipleTools/disciple-tools-theme/wiki/Site-to-Site-Link>`_ for more information.
+
+
 
 **How to access:**
  #. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -635,6 +645,37 @@ Network Dashboard
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings (DT)``.
  3. Click the tab titled ``Network Dashboard``.
+
+
+.. _wpadmin-security:
+
+Security
+--------
+
+**Description**
+ Here you can set some security headers for the Theme.
+
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Settings (DT)``.
+ 3. Click the tab titled ``Security``.
+
+
+Enable and Configure Security Headers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note:: These are enabled by default. We recommend leaving them enabled unless you run into any issues.
+
+
+X-XSS-Protection
+        Enable cross-site scripting filters.
+Referrer-Policy
+        Set Referrer Policy to "same-origin" to avoid leaking D.T activity.
+X-Content-Type-Options
+        Stops a browser from trying to MIME-sniff the content type.
+Strict-Transport-Security
+        Enforce the use of HTTPS.
 
 
 .. _wpadmin-critical-path:
@@ -731,6 +772,8 @@ For example, a team in Spain receives a contact from Germany. The team in Spain 
 
 The visualization of the stats is still being developed. (Coming Soon!)
 
+.. note:: The site link system is built to easily connect Disciple Tools systems together, but can be extended to provide token validation for other system integrations. Please refer to our `developer wiki <https://github.com/DiscipleTools/disciple-tools-theme/wiki/Site-to-Site-Link>`_ for more information.
+
 
 Add New Site Link
 -----------------
@@ -745,13 +788,15 @@ Phase 1: Setup Link from Site 1
 |Site-1-Link|
 
 
-1. **Click Add New**
+1. **Click "Add New":** Next to the title **Site Links** click the ```Add New`` button.
 2. **Enter the title here:** Enter the name of the site you are linking to yours here.
 3. **Token:** Copy the token code and securely send it to administrators of Site 2.
 4. **Site 1:** Click ``add this site`` to add your site
 5. **Site 2:** Add the url of the other site you are wanting to link with yours.
 6. **Connection Type:**  Select the type of connection you (Site 1) wish to have with Site 2
 
+- Create contacts
+- Create and Update Contacts
 - Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
 - Contact Transfer Sending Only: Site 1 will only send contacts to Site 2 but will not receive any contacts.
 - Contact Transfer Receiving Only: Site 1 will only receive contacts from Site 2 but will not send any contacts.
@@ -774,6 +819,8 @@ Phase 2: Setup Link from Site 2
 5. **Site 2:** Click ``add this site`` to add your site (Site 2)
 6. **Connection Type:**  Select the type of connection you wish to have with Site 1
 
+- Create contacts
+- Create and Update Contacts
 - Contact Transfer Both Ways: Both sites with send and receive contacts from each other.
 - Contact Transfer Sending Only: Site 2 will only send contacts to Site 1 but will not receive any contacts.
 - Contact Transfer Receiving Only: Site 2 will only receive contacts from Site 1 but will not send any contacts.
@@ -794,7 +841,7 @@ Phase 2: Setup Link from Site 2
 .. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
 .. |Appearance-wpadmin| image:: /Disciple_Tools_Theme/images/Appearance-wpadmin.png
 .. |Contacts-wpadmin| image:: /Disciple_Tools_Theme/images/Contacts-wpadmin.png
-.. |DT-Settings-wpadmin| image:: /Disciple_Tools_Theme/images/DT-Settings-wpadmin.png
+.. |Settings-DT-wpadmin| image:: /Disciple_Tools_Theme/images/Settings-DT-wpadmin.png
 .. |Extensions-wpadmin| image:: /Disciple_Tools_Theme/images/Extensions-wpadmin.png
 .. |Groups-wpadmin| image:: /Disciple_Tools_Theme/images/Groups-wpadmin.png
 .. |Locations-wpadmin| image:: /Disciple_Tools_Theme/images/Locations-wpadmin.png

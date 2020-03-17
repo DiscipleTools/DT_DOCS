@@ -396,6 +396,8 @@ If you can’t find your answer there, click this question mark to submit a tick
 
 --------------------
 
+.. _c-contacts-record-page:
+
 Contacts Record Page
 ====================
 
@@ -510,6 +512,7 @@ These are the details about a contact. You can change the information here by cl
 
 -----------------------------
 
+.. _c-comments-activity-tile:
 
 4. Comments and Activity Tile
 -----------------------------
