@@ -1,3 +1,5 @@
+.. _faqs:
+
 Frequently Asked Questions
 ==========================
 
@@ -25,16 +27,16 @@ In the wp-admin backend area is where a contact or group can be deleted.
 How do I add other users to my Disciple Tools site?
 ---------------------------------------------------
 
-Refer to the :ref:`Users section <Users>` of this help guide.
+Refer to the :ref:`Users section <gs-users>` of this help guide.
 
 How do I add custom tiles and fields?
 -------------------------------------
 
 Refer to the :ref:`Custom Tiles and Fields <Custom Tiles>` section of this help guide.
 
-For other customizations such as Email Settings, Site Notifications, Custom Lists, etc. you can modify these in the DT Settings found the backend of the site. Learn more from the :ref:`DT Settings <settings-dt-wpadmin>` section of this help guide.
+For other customizations such as Email Settings, Site Notifications, Custom Lists, etc. you can modify these in the DT Settings found the backend of the site. Learn more from the :ref:`DT Settings <wpadmin-settings-dt>` section of this help guide.
 
 How do I link my Disciple Tools site with another site?
 -------------------------------------------------------
 
-Refer to the :ref:`Site Links <Site Links>` section of this help guide.
+Refer to the :ref:`Site Links <wpadmin-site-links>` section of this help guide.

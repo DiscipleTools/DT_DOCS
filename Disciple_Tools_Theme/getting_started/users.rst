@@ -1,7 +1,9 @@
+.. _gs-users:
+
 Users
 =====
 
-Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site. To learn more about User Roles, see `Roles`_.
+Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site. To learn more about User Roles, see :ref:`gs-roles`.
 
 The only way a user can be added to Disciple.Tools is if the site DT admin role invites him or her.
 
@@ -32,7 +34,7 @@ If you want to add an existing user from another site, enter the user's email.
 
 **2. Role**
 
-The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see `Roles`_.
+The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see :ref:`gs-roles`.
 
 
 **3. Corresponds to Contact**
@@ -102,7 +104,7 @@ Make sure this is checked in order to send the new user his/her information abou
 
 **8. Role**
 
-The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see `Roles`_.
+The default role is "Registered." You will need to change the role according to the level of access you want to give the user. To learn more about User Roles, see :ref:`gs-roles`.
 
 
 **9. Corresponds to Contact**
@@ -144,9 +146,6 @@ If you realize that you have a contact that should be linked with a user account
 
 |actions|
 
-.. target-notes::
-
-.. _`Roles`: https://disciple-tools.readthedocs.io/en/latest/Disciple_Tools_Theme/getting_started/roles.html
 
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
 .. |newuser| image:: /Disciple_Tools_Theme/images/Add_New_User.png
