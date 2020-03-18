@@ -39,9 +39,3 @@ App Feedback
 ============
 
 If the app crashes or you think there is "a bug" in the software, or you have an idea that you wanted to share with the people responsible of this app, then please `contact the developers <https://disciple.tools/#contact>`_ using an online form.
-
-
-.. toctree::
-    :caption: Mobile App Instructions
-..    :name: app-instructions
-    toctree 42 of app/index How to use the app <./dt-app>
