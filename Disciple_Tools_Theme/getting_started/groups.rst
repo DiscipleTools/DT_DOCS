@@ -160,6 +160,8 @@ To delete a filter, click on the ``trashcan icon`` next to a saved filter. It wi
 
 ------------------
 
+
+
 4. Group List Tile
 ------------------
 
@@ -182,6 +184,8 @@ You can sort your groups by newest, oldest, most recently modified, and least re
 If you have a long list of groups they will not all load at once, so clicking this button will allow you to load more. This button will always be there even if you do not have any more groups to load.
 
 -----------------
+
+.. _g-group-record-page:
 
 Group Record Page
 =================
@@ -239,6 +243,8 @@ In this area is the following set of data:
 * Locations - A more general idea of locations (e.g., South_City or West_Region).
 
 -----------------------------------
+
+.. _g-group-comments-and-activity-tile:
 
 3. Group Comments and Activity Tile
 -----------------------------------
@@ -339,7 +345,6 @@ This tile shows the relationships between multiplying groups and provides a way 
 **Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
 
----------------------------
 
 
 

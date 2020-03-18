@@ -19,7 +19,7 @@ The |CREATE| button is located at the top of the ``Contacts`` page, found under 
   + Linkedin
   + Referral
   + Advertisment
-  
+
 * **Location:** Where the contact lives. Clicking this will bring up a list of saved locations. Optionally, you can type a new location instead.
 * **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the comments section of the contact on their page.
 
@@ -34,33 +34,33 @@ Once found click on their name.  The ``Status`` section should change to active,
 Edit a Contact
 --------------
 
-Each section of the contact can be edited.  
+Each section of the contact can be edited.
 The details section can be edited by clicking the ``Edit`` button located on the top right off the panel.
 The other panels, such as the ``Connections`` panel, can be edited by clicking on the field that you want to edit.
 
 Delete a Contact
 ----------------
 
-There are two ways to delete a contact. The first way is to go to the contacts page and click the drop-down menu under ``Status``. 
+There are two ways to delete a contact. The first way is to go to the contacts page and click the drop-down menu under ``Status``.
 Then, select ``Closed``. Doing this will bring up a menu asking for the reason you are closing the contact. Once that is filled out the contact will be closed.
 Note, you can re-open a contact since it's not deleted from the database.
 
 The second way to delete a contact is from within the WordPress admin. You can go there either by going to https://[your_url]/wp-admin/ or by clicking on the ``Settings`` icon
-located at the top right of your screen. Once clicked, click the ``Admin`` button from the options presented. Then at the admin page click on the option ``Contacts`` located to the left of the screen. You can find the contact either by searching with the ``Search`` bar at the top right of the screen. 
+located at the top right of your screen. Once clicked, click the ``Admin`` button from the options presented. Then at the admin page click on the option ``Contacts`` located to the left of the screen. You can find the contact either by searching with the ``Search`` bar at the top right of the screen.
 Alternatively, you can search for it through the pages manually.  Once you have found your contact, click on their name. This will go to the contact's database page.
-Find the panel called ``Publish``, which is usually on the upper right. Click on the panel to expand and show all the options.  
+Find the panel called ``Publish``, which is usually on the upper right. Click on the panel to expand and show all the options.
 Find the option ``Move to Trash`` and click it. This deletes the contact from the database and can not be recovered.
 
 Share a Contact
 ---------------
 
-On the contact's page that you want to share, there is a button on the top right of the screen with the word ``Share``. 
+On the contact's page that you want to share, there is a button on the top right of the screen with the word ``Share``.
 Clicking on this button will show you with whom it is currently shared. If you want to share this contact, click on the ``Search Users`` field and begin typing their name. Then, click on the name of the person you want to share that contact with.
 
 Follow a Contact to Get Notifications
 -------------------------------------
 
-On the contact's page that you want to follow there is a slider on the top right called ``Follow`` with the options next to it being ``No``, and ``Yes``.  Clicking on the slider will toggle it between following (Yes) and not follwoing (No) the contact.
+On the contact's page that you want to follow there is a slider on the top right called ``Follow`` with the options next to it being ``No``, and ``Yes``.  Clicking on the slider will toggle it between following (Yes) and not following (No) the contact.
 
 Create a Group
 --------------
@@ -86,7 +86,7 @@ To edit a filter, click on the ``pencil icon`` next to a saved filter.  This wil
 
 Delete
 ~~~~~~
-To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to comfirm.
+To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to confirm.
 
 
 Contacts Filter Options
@@ -112,7 +112,7 @@ Contacts Filter Options
 * This tab will allow you to filter based on a contact's overall status.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Status filters are as follows:
-  
+
   - Unassigned
   - Assigned
   - Active
@@ -125,7 +125,7 @@ Contacts Filter Options
 * This tab will allow you to filter based on a contact's seeker path.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Seeker path filters are as follows:
-  
+
   - Contact Attempt Needed
   - Contact Attempted
   - Contact Established
@@ -133,13 +133,13 @@ Contacts Filter Options
   - First Meeting Complete
   - Ongoing Meetings
   - Being Coached
-  
+
 **Faith milestones**
 
 * This tab will allow you to filter based on a contact's faith milestones.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * Faith milestone filters are as follows:
-  
+
   - Has Bible
   - Reading Bible
   - States Belief
@@ -149,16 +149,16 @@ Contacts Filter Options
   - Baptizing
   - In Church/Group
   - Starting Churches
-  
+
 **Requires Update**
 
 * This tab will allow you to filter based on if a contact requires an update.
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * There are two options:
 
-  - Yes 
-  - No 
-  
+  - Yes
+  - No
+
 Groups Filter Options
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -173,8 +173,8 @@ Groups Filter Options
 * To add a filter option click on the checkbox next to the filter options you want to add.
 * There is two options:
 
-  - Yes 
-  - No 
+  - Yes
+  - No
 
 **Group Type**
 
@@ -184,8 +184,8 @@ Groups Filter Options
 
   - Pre-Group
   - Group
-  - Church 
-  
+  - Church
+
 **Locations**
 
 * This tab will allow you to add locations of groups to filter for.
@@ -206,17 +206,17 @@ Go to create_custom_lists_ page for the step by step of doing this.
 Mass Contacts CSV Import
 ------------------------
 
-To import contacts with a CSV file you must first have a CSV file to import.  
+To import contacts with a CSV file you must first have a CSV file to import.
 For the csv file the format is as follows; [``Name``], [``Contact Phone``], [``Contact Email``], [``Contact Address``], [``Gender``], [``Notes``].
 If you can't fill a space then leave it blank. ``Notes`` will take all of the remaining columns after gender.
 
 Note: UTF-8 is the recommended file format, to guarantee all contacts import correctly.
 
-Once you have the file, go to your ``admin page``. Next,  click on ``Extensions`` on the left menu. Then click on the ``Tools`` tab. 
+Once you have the file, go to your ``admin page``. Next,  click on ``Extensions`` on the left menu. Then click on the ``Tools`` tab.
 You will then see the option for CSV import. Click ``upload file``, then upload your file. Select your ``delimiter`` (by default ``,``), ``header`` (if the first line has contact info or not), and which source all these contacts are coming from. Then choose a user to assign it to.
 
-Clicking  ``submit`` will bring you to a validation page. This will show you the first contact that you will create 
-(Note that the notes tab will only show the first note). If it looks correct, click ``Yes``. Then your contacts will be created. 
+Clicking  ``submit`` will bring you to a validation page. This will show you the first contact that you will create
+(Note that the notes tab will only show the first note). If it looks correct, click ``Yes``. Then your contacts will be created.
 
 Note: Depending on the size of the import, it may take some time.
 
@@ -230,6 +230,6 @@ Note: Depending on the size of the import, it may take some time.
     Create Contact <./user_create_contact>
     Group <./user_group>
     Custom Filters <./user_custom_filters.rst>
-    
+
 .. |CREATE| image:: /Disciple_Tools_Theme/images/create.PNG
 .. |SAVE| image:: /Disciple_Tools_Theme/images/save.PNG

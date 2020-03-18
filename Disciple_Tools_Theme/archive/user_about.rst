@@ -2,7 +2,7 @@ About Users
 ===========
 
 Roles
-----------
+-----
 
 In Disciple Tools there are many different types of roles. Each role is assigned upon account creation and can be changed later in the admin area.
 
@@ -17,9 +17,9 @@ In Disciple Tools there are many different types of roles. Each role is assigned
 * **Subscriber/Registered**: A default WordPress role.
 
 Contacts
-----------
+--------
 
-A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. See the step-by-step guide to `Creating new contacts <../user_step_by_step.html#create-a-contact>`_. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. See the step-by-step guide if you want to do a  `mass CSV import for contacts <../user_step_by_step.html#mass-contacts-csv-import>`_.
+A contact is someone that you are trying to reach. You can create new contacts and edit existing ones. See the step-by-step guide to :ref:`Creating new contacts <Create a New Contact>`. On the ``Contacts`` page you will be able to search contacts based off of filters. The default filter is your personal contacts. Other filters include ``All contacts`` and ``Contacts shared with me``. You can also create your own filters by pressing the |ADD-FILTER| button. See the step-by-step guide if you want to do a  :ref:`mass CSV import for contacts <Mass Contacts CSV Import>`.
 
 Groups
 ------
@@ -105,7 +105,7 @@ The metrics tab is where you can see an overview of stats for the project.  Upon
 Filters
 -------
 
-Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about creating custom filters can be found `here <../user_step_by_step.html#adding-custom-filters>`_.
+Filters are a way to search for contacts in either the ``Contacts`` page or groups in the ``Groups`` page. There are several default filters included by default. The filter options are located on the left of the page under the heading ``Filters``. If the default filters do not fit your needs you can create your own. More information about creating custom filters can be found :ref:`here <Adding Custom Filters>`.
 
 .. note:: You can only have one filter active at a time.
 
