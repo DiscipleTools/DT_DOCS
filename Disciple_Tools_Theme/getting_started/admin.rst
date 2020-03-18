@@ -580,44 +580,23 @@ Under Custom Fields, next to ``Modify an existing field``, select the name of th
 
 Contact Fields:
 
-- Overall Status
+- Contact Status
 - Seeker Path
-- Milestones
+- Faith Milestones
 - Reason Not Ready
 - Reason Paused
 - Reason Closed
+- Sources
 
 Group Fields:
 
 - Group Type
 - Church Health
 
+People Groups Fields: (coming soon!)
 
-.. _settings-sources:
 
-Sources
-~~~~~~~
 
-**Description**
- The sources are a list of places that potential contacts could come from (i.e. Facebook, English Club)
-
-Has the fields:
-
-* ``Label`` - Is the name of the field. Clicking on it allows you to edit it.
-* ``Enabled`` - Whether it is enabled or not.
-
-Has the actions:
-
-* ``Reset`` - Resets to the defaults.
-* ``Delete`` - Clicking this deletes the field.
-* ``Add`` - Adds a new field.
-* ``Save`` - Saves the current changes.
-
-**How to access:**
- 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
- 2. In the left hand column, select ``Settings (DT)``.
- 3. Click the tab titled ``Custom Lists``.
- 4. Select from the dropdown menu section titled ``Sources``
 
 
 
