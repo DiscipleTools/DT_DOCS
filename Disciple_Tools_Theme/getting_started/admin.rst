@@ -16,7 +16,7 @@ To see what each role has access to, click :ref:`here <gs-roles>`
 Contacts
 ========
 
-|Contacts-wpadmin|
+|Contacts menu item|
 
 **Description**
  These are the backend records of the contacts that can be found in the :ref:`Contact List Page <Contacts List Page>`. Every Disciple.Tools user will also have a Contact Record made for them.
@@ -38,7 +38,7 @@ Contacts
 Groups
 ======
 
-|Groups-wpadmin|
+|Groups menu item|
 
 **Description**
  These are the backend records of the groups that can be found in the :ref:`Groups List Page <Groups List Page>`.
@@ -50,7 +50,7 @@ Groups
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Groups``.
 
-.. Note::
+.. note::
  You can delete a group record by hovering over their name and clicking ``Trash``.
 
 .. _wpadmin-mapping:
@@ -58,7 +58,7 @@ Groups
 Mapping
 =======
 
-|Mapping-wpadmin|
+|Mapping menu item|
 
 .. Note::
  This section replaces the former Locations section that was migrated as of June 3rd, 2019.
@@ -73,7 +73,7 @@ How to migrate old locations
 
 **Step 2:** From the front end of the system, click the |gear| in the upper right hand corner and select ``Admin``.
 
-**Step 3:** Once you’re viewing the ``Admin`` back end of your site, select |Mapping-wpadmin| in the menu on the left.
+**Step 3:** Once you’re viewing the ``Admin`` back end of your site, select |Mapping menu item| in the menu on the left.
 
 You will see several tabs starting with "General Settings" and "Mapping Focus" and "Migrating from Locations". "Mapping Focus" and "Migrating from Locations" are the two you need for now.
 
@@ -83,7 +83,7 @@ You will want to limit the mapping scope from “World” to your focus area, an
 
 **Step 5** Now click on the tab ``Migrating from Locations``.
 
-|locations-conversion|
+|Locations conversion|
 
 Here, you will see a list of your existing locations and each will have ``World`` selected and a dropdown field next to it.  Under the column ``Select a Location`` click the dropdown and select the country that your location represents or the country the location would be found within.
 
@@ -104,7 +104,7 @@ Only locations that are selected on contact and group records will be listed, so
 People Groups
 =============
 
-|People-Groups-wpadmin|
+|People Groups menu item|
 
 **Description**
  Various people groups will not automatically show up in the frontend when editing a Contact or Group Record. You must first add the people groups in the Admin backend for them to show up as options for the frontend.
@@ -178,10 +178,11 @@ Note: The numbers at the end of the people group such as the Bambara ( France | 
 Extensions (DT)
 ===============
 
-|Extensions-wpadmin|
+|Extensions (DT) menu item|
 
 **Description**
-The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+ The Extensions page allows you to download our plugins and plugins we recommend but did not build.
+
 
 .. _dt-plugins:
 
@@ -198,6 +199,8 @@ How to Install
 3. To install a plugin, click on ``Install`` under the ``Actions`` section.
 4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
+.. note:: Each pulgin/extension that is installed and activated will often have a menu item added to the list of ``Extensions``. Some but not all extensions will need configuring.
+
 .. _dt-plugins-ours:
 
 Our Plugins
@@ -205,9 +208,12 @@ Our Plugins
 
 These are plugins we built for Disciple.Tools.  Currently, we have the following:
 
-* ``Disciple Tools Facebook Integration`` - This extends the Disciple Tools system with Facebook integration.
-* ``Disciple Tools Demo Content`` - This extends the Disciple Tools system for rapid content addition for training purposes.
-* ``Disciple Tools Webform`` - This extends the Disciple Tools system with a web form leads collection.
+* ``Disciple.Tools Genmapper`` - extends the Disciple.Tools system with visual generation mapping for groups and baptisms.
+* ``Disciple.Tools Facebook Integration`` - This extends the Disciple Tools system with Facebook integration.
+* ``Disciple.Tools Webform`` - This extends the Disciple Tools system with a web form leads collection.
+* ``Disciple.Tools Demo Content`` - This extends the Disciple Tools system for rapid content addition for training purposes.
+* ``Disciple.Tools Mobile App Extension`` - This lets you use the Disciple.Tools instances with the :ref:`DT mobile app <about-dt-app>`.
+
 
 .. _dt-plugins-recommended:
 
@@ -220,12 +226,14 @@ The are plugins we recommend, but did not develop:
 * ``Two Factor Authentication`` - Secure your WordPress login forms with two-factor authentication, including WooCommerce login forms
 * ``Inactive Logout`` - Inactive logout provides functionality to log out any idle users defined specified time showing a message. This works for the frontend as well.
 
+
+
 .. _wpadmin-settings-dt:
 
 Settings (DT)
 =============
 
-|Settings-DT-wpadmin|
+|Settings (DT) menu item|
 
 
 **How to access:**
@@ -262,7 +270,6 @@ Email Settings
  When your Disciple.Tools instance sends out system emails to users, such as "Update on Contact #231" it will include the same beginning subject line for every email. This is so your users will be able to quickly recognize what kind of email it is.
 
 **How to access**
-
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings (DT)``.
  3. Scroll down to the section titled ``Email Settings``.
@@ -456,7 +463,7 @@ Choose an existing tile from the dropdown list (which are sorted into Contact Ti
 
 **Tile Fields**
 
-If there is more than one field in the custom tile you are modifying, then you will be able to change the order that the fields appear in. Use the |arrows-up-down| buttons to modify the order of the fields.
+If there is more than one field in the custom tile you are modifying, then you will be able to change the order that the fields appear in. Use the |Arrows up and down| buttons to modify the order of the fields.
 
 Create a new tile
 ~~~~~~~~~~~~~~~~~
@@ -655,27 +662,25 @@ Security
 **Description**
  Here you can set some security headers for the Theme.
 
-
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
  2. In the left hand column, select ``Settings (DT)``.
  3. Click the tab titled ``Security``.
 
 
+.. note:: These security settings are enabled by default. We recommend leaving them enabled unless you run into any issues.
+
+
 Enable and Configure Security Headers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: These are enabled by default. We recommend leaving them enabled unless you run into any issues.
+-    **X-XSS-Protection**:         Enable cross-site scripting filters.
+-    **Referrer-Policy**:         Set Referrer Policy to "same-origin" to avoid leaking D.T activity.
+-    **X-Content-Type-Options**:        Stops a browser from trying to MIME-sniff the content type.
+-    **Strict-Transport-Security**:         Enforce the use of HTTPS.
 
 
-X-XSS-Protection
-        Enable cross-site scripting filters.
-Referrer-Policy
-        Set Referrer Policy to "same-origin" to avoid leaking D.T activity.
-X-Content-Type-Options
-        Stops a browser from trying to MIME-sniff the content type.
-Strict-Transport-Security
-        Enforce the use of HTTPS.
+
 
 
 .. _wpadmin-critical-path:
@@ -692,15 +697,58 @@ Critical Path
  3. Click the tab titled ``Critical Path``.
 
 
+
+
+
+
+
+
+.. _wpadmin-reports-dt:
+
+Reports (DT)
+==============
+
+|Reports (DT) menu item|
+
+**Description**
+ In this area of ``Reports (DT)`` you can access via tabs the areas of:
+
+    Report List
+        View reports or create a new report.
+
+    Sources and Fields
+        Add or Edit Custom metrics to track.
+
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Reports (DT)``.
+
+
+
 .. _wpadmin-utilities-dt:
+
 
 Utilities (DT)
 ==============
 
-|Utilities-wpadmin|
+|Utilities (DT) menu item|
 
 **Description**
- Documentation Coming Soon
+ In this area of ``Utilities (DT)`` you can access via tabs the areas of:
+
+    Overview
+        A summary of your WordPress version and PHP version.
+
+    Field Explorer
+        A list of all the fields available on this Instance.
+
+    Import contacts
+        Import contacts using the CSV file format.
+
+    Import People groups
+        Add a People Group using the country they are found in.
+
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -712,10 +760,12 @@ Utilities (DT)
 Appearance
 ==========
 
-|Appearance-wpadmin|
+|Appearance menu item|
 
 **Description**
- Documentation Coming Soon
+ In this area you can change the Theme, customize the theme, and edit the theme files.
+
+.. note:: It is very unlikely that you will need to do anything in this area.
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -727,17 +777,24 @@ Appearance
 Users
 =====
 
-|Users-wpadmin|
+|Users menu item|
 
-Refer to the :ref:`Users <gs-users>` section under Getting Started.
+**Description**
+ In this area you can view all the users in the system, add a new user, and access your profile.
 
+
+.. note:: Refer to the :ref:`Users <gs-users>` section under Getting Started to learn how to use this area.
+
+**How to access:**
+ 1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
+ 2. In the left hand column, select ``Users``.
 
 .. _wpadmin-tools:
 
 Tools
 =====
 
-|tools-wpadmin|
+|Tools menu item|
 
 **Description**
  Documentation Coming Soon
@@ -751,10 +808,18 @@ Tools
 Settings
 ========
 
-|Settings-wpadmin|
+|Settings menu item|
 
 **Description**
- Documentation Coming Soon
+ In this area you can view and edit the settings for WordPress.
+
+ #. General
+ #. Writing
+ #. Reading
+ #. Discussion
+ #. Media
+ #. Permalinks
+ #. Privacy
 
 **How to access:**
  1. Access the admin backend by clicking on the |gear| on the top right and then click ``Admin``.
@@ -778,14 +843,14 @@ The visualization of the stats is still being developed. (Coming Soon!)
 Add New Site Link
 -----------------
 
-|Site-Links-wpadmin|
+|Site Links menu item|
 
 Before you get started, you need to be in the :ref:`admin backend <gs-admin>` and have clicked on ``Site Links``.
 
 Phase 1: Setup Link from Site 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|Site-1-Link|
+|Site 1 link|
 
 
 1. **Click "Add New":** Next to the title **Site Links** click the ```Add New`` button.
@@ -809,7 +874,7 @@ Phase 1: Setup Link from Site 1
 Phase 2: Setup Link from Site 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|Site-2-Link|
+|Site 2 link|
 
 
 1. **Click Add New**
@@ -839,20 +904,22 @@ Phase 2: Setup Link from Site 2
 .. |gear| image:: /Disciple_Tools_Theme/images/Gear.png
 .. |English Club Tile| image:: /Disciple_Tools_Theme/images/English-Club-Tile.png
 .. |House| image:: /Disciple_Tools_Theme/images/House_Icon.png
-.. |Appearance-wpadmin| image:: /Disciple_Tools_Theme/images/Appearance-wpadmin.png
-.. |Contacts-wpadmin| image:: /Disciple_Tools_Theme/images/Contacts-wpadmin.png
-.. |Settings-DT-wpadmin| image:: /Disciple_Tools_Theme/images/Settings-DT-wpadmin.png
-.. |Extensions-wpadmin| image:: /Disciple_Tools_Theme/images/Extensions-wpadmin.png
-.. |Groups-wpadmin| image:: /Disciple_Tools_Theme/images/Groups-wpadmin.png
-.. |Locations-wpadmin| image:: /Disciple_Tools_Theme/images/Locations-wpadmin.png
-.. |People-Groups-wpadmin| image:: /Disciple_Tools_Theme/images/People-Groups-wpadmin.png
-.. |Site-Links-wpadmin| image:: /Disciple_Tools_Theme/images/Site-Links-wpadmin.png
-.. |Settings-wpadmin| image:: /Disciple_Tools_Theme/images/Settings-wpadmin.png
-.. |Users-wpadmin| image:: /Disciple_Tools_Theme/images/Users-wpadmin.png
-.. |Utilities-wpadmin| image:: /Disciple_Tools_Theme/images/Utilities-wpadmin.png
-.. |tools-wpadmin| image:: /Disciple_Tools_Theme/images/tools-wpadmin.png
-.. |Site-1-Link| image:: /Disciple_Tools_Theme/images/Site-1-Link.png
-.. |Site-2-Link| image:: /Disciple_Tools_Theme/images/site-2-link.png
-.. |Mapping-wpadmin| image:: /Disciple_Tools_Theme/images/Mapping-wpadmin.png
-.. |locations-conversion| image:: /Disciple_Tools_Theme/images/locations-conversion.png
-.. |arrows-up-down| image:: /Disciple_Tools_Theme/images/arrows-up-down.png
+.. |Site 1 link| image:: /Disciple_Tools_Theme/images/Site-1-Link.png
+.. |Site 2 link| image:: /Disciple_Tools_Theme/images/site-2-link.png
+.. |Locations conversion| image:: /Disciple_Tools_Theme/images/locations-conversion.png
+.. |Arrows up and down| image:: /Disciple_Tools_Theme/images/arrows-up-down.png
+
+
+.. |Contacts menu item| image:: /Disciple_Tools_Theme/images/Contacts-wpadmin.png
+.. |Groups menu item| image:: /Disciple_Tools_Theme/images/Groups-wpadmin.png
+.. |Mapping menu item| image:: /Disciple_Tools_Theme/images/Mapping-wpadmin.png
+.. |People Groups menu item| image:: /Disciple_Tools_Theme/images/People-Groups-wpadmin.png
+.. |Extensions (DT) menu item| image:: /Disciple_Tools_Theme/images/Extensions-wpadmin.png
+.. |Settings (DT) menu item| image:: /Disciple_Tools_Theme/images/Settings-DT-wpadmin.png
+.. |Reports (DT) menu item| image:: /Disciple_Tools_Theme/images/Reports-wpadmin.png
+.. |Utilities (DT) menu item| image:: /Disciple_Tools_Theme/images/Utilities-wpadmin.png
+.. |Appearance menu item| image:: /Disciple_Tools_Theme/images/Appearance-wpadmin.png
+.. |Users menu item| image:: /Disciple_Tools_Theme/images/Users-wpadmin.png
+.. |Tools menu item| image:: /Disciple_Tools_Theme/images/Tools-wpadmin.png
+.. |Settings menu item| image:: /Disciple_Tools_Theme/images/Settings-wpadmin.png
+.. |Site Links menu item| image:: /Disciple_Tools_Theme/images/Site-Links-wpadmin.png
