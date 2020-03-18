@@ -1,22 +1,21 @@
-========================
 Custom Filters
-========================
+==============
 
 Add
-===
+---
 To add a filter, go to either the ``contacts`` page or the ``groups`` page.  Located on the bottom left is the ``Add new filter`` button, which is under the words ``Custom Filters``.  Clicking on ``Add new filter`` will bring up the filter creation options (full list of options below). You will see multiple options on the left side of the ``New Filter`` modal. Clicking one of them will show you the corresponding options for that tab. Some fields have a search button to find data. Other fields have checkboxes to check next to the options you want. There is no limit on the number of options. To unselect an option, find the option under the correct tab and either unselect it or press the ``x`` next to its name. Once you're finished adding options, click ``Filter Contacts`` to start using the new filter.
 
 Save
-====
+------
 
 To save a filter, click on the ``Save`` button next to the filter name. This will bring up a popup asking for you to name it. Type in the name of your filter and click ``Save Filter``.
 
 Edit
-====
+------
 To edit a filter, click on the ``pencil icon`` next to a saved filter.  This will bring up the filter options tab. The process for editing the filter options tab is the same as adding new filters.
 
 Delete
-=======
+------
 To delete a filter, click on the ``trashcan icon`` next to a saved filter. It will ask for confirmation, click ``Delete Filter`` to confirm.
 
 
@@ -96,7 +95,6 @@ Contacts
 Groups
 ------
 
-
 **Assigned To**
 
 * This tab will allow you to add names of people that have been assigned to a group.
@@ -110,7 +108,6 @@ Groups
 
   - Yes
   - No
-
 
 **Group Type**
 

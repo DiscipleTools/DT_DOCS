@@ -1,10 +1,11 @@
 Archive
 =======
 
-Archive documents explaining all sorts of things.
+Archived documents explaining all sorts of things.
 
 .. toctree::
    :maxdepth: 2
+   :name: dt-archive
 
 
    user_about </Disciple_Tools_Theme/archive/user_about>
