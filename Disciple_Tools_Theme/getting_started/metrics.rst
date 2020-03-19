@@ -5,7 +5,8 @@ Metrics
 
 In the Metrics area of Disciple Tools, you can is where you can see an overview of statistics for the project and your personal statistics.
 
-**Metrics Menu Headings**
+Metrics Menu Headings
+=====================
 
     * Personal
     * Critical Path
@@ -22,16 +23,17 @@ In the Metrics area of Disciple Tools, you can is where you can see an overview 
         * Overall Pace
         * Follow-up Pace
 
-    * Mapping
-
-        * Map
-        * List
-
     * Contacts
 
         * Milestones Map
         * Milestones
         * Sources
+        * Facebook metrics (if plugin is installed)
+
+    * Mapping
+
+        * Map
+        * List
 
     * Gen Mapper
 

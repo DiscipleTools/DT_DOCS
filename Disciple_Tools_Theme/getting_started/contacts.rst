@@ -13,21 +13,21 @@ You can create new contacts and edit existing ones. If you need to do a mass CSV
 Contacts List Page
 ==================
 
-|Contacts-List-Page-Numbers|
+|Contacts List Page Numbers|
 
 1. Website Menu Bar
 2. Contacts List Toolbar
-3. Filters Tile
+3. Contacts Filters Tile
 4. Contacts List Tile
 
 -------------------
 
 .. _c-website-menu-bar:
 
-1. Website Menu Bar
--------------------
+1. Website Menu Bar (Contacts)
+------------------------------
 The Website Menu Bar will remain at the top of every page of Disciple.Tools.
-|Website-Menu-Bar|
+|Website Menu Bar|
 
 **Disciple.Tools Beta Logo**
 
@@ -37,15 +37,15 @@ patience as you utilize this software.
 
 **Contacts**
 
-By clicking this, you will arrive to the Contacts List Page.
+By clicking this, you will arrive to the :ref:`Contacts List Page <Contacts List Page>`.
 
 **Groups**
 
-This will take you to the Groups List Page.
+This will take you to the :ref:`Groups List Page <Groups List Page>`.
 
 **Metrics**
 
-This will take you to the Metrics Page.
+This will take you to the :ref:`Metrics Page <gs-metrics>`.
 
 **User** |User|
 
@@ -79,13 +79,13 @@ By clicking on the settings gear |Gear|, you will be able to:
 2. Contacts List Toolbar
 ------------------------
 
-|Contact-List-Toolbar|
+|Contact list toolbar|
 
 
 **Create New Contact**
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The |CREATE| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
+The |Create| button is located at the top of the ``Contacts List`` page. This button allows you to add a new contact record to Disciple.Tools. Other multipliers can’t see contacts you add, but those with the roles of of Admin and Dispatcher (the one
 responsible for assigning new contacts to be coached) can see them. Learn more about the Disciple.Tools :ref:`gs-roles` and their varying permission levels.
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
@@ -111,7 +111,7 @@ Clicking this button will open up a modal. Within this modal you will be present
 * **Location:** This is where the contact lives. Clicking this will bring up a list of locations that were previously created in the wp-admin backend by the DT Admin Role. You cannot add a new location here. You will have to add new locations in the wp-admin backend of your Disciple.Tools instance first.
 * **Initial comment:** This is for any other info you need to put about the contact. It will be saved under the Activity and Comments Tile in the Contact's Record.
 
-After filling out the options click on |SAVE|
+After filling out the options click on |Save|
 
 
 
@@ -119,7 +119,7 @@ After filling out the options click on |SAVE|
 ~~~~~~~~~~~~~~~~~~~
 
 
-After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click |Filter-Button| to begin. On the left hand side are the Filter Options. You can select multiple options for one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
+After a while, you may end up with a pretty long list of contacts all progressing at different points. You will want to be able to filter and search for who you need quickly. Click |Filter button| to begin. On the left hand side are the Filter Options. You can select multiple options for one filter (i.e. baptized contacts in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Contacts`` to apply the filter.
 
 
 .. note:: You can only have one filter active at a time.
@@ -130,7 +130,7 @@ After a while, you may end up with a pretty long list of contacts all progressin
 Contacts Filter Options
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-|New-Filter|
+|New filter|
 
 **Assigned To**
 
@@ -305,9 +305,8 @@ Contacts Filter Options
 
 
 
-Search
-~~~~~~
-
+Search Contacts
+~~~~~~~~~~~~~~~
 Type a contact's name to quickly search for him or her. This will search all the contacts you have access to. If there is a name that matches, it will show in the list.
 |Search|
 
@@ -316,8 +315,8 @@ Type a contact's name to quickly search for him or her. This will search all the
 
 
 
-3. Filters Tile
----------------
+3. Contacts Filters Tile
+------------------------
 
 
 The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of contacts will change.
@@ -340,12 +339,12 @@ The default filter options are located on the left of the page under the heading
 * **Contacts shared with me:** These are all contacts who other users have shared with you. You do not have responsibility for these contacts but you can access them and comment if needed.
 
 
-Adding Custom Filters
-~~~~~~~~~~~~~~~~~~~~~
+Adding Custom Filters (Contacts)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Add**
 
-If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-Button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Contacts``, that Custom Filter option will appear with the word ``Save`` next to it.
+If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter button| or |Add filter| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Contacts``, that Custom Filter option will appear with the word ``Save`` next to it.
 
 .. note::  To cancel these ``Custom Filters``, refresh the page.
 
@@ -364,16 +363,17 @@ To delete a filter, click on the ``trashcan icon`` next to a saved filter. It wi
 ---------------------
 
 
+.. _c-clt:
+
 4. Contacts List Tile
 ---------------------
 
-|Example-Contacts|
+|Example contacts|
 
 .. _clt-contacts:
 
-Contacts
-~~~~~~~~
-
+Contacts List
+~~~~~~~~~~~~~
 Your list of contacts will show up here. Whenever you filter contacts, the list will also be changed
 in this section too. Below are fake contacts to give you an idea of what it will look like.
 
@@ -390,7 +390,7 @@ If you have a long list of contacts they will not all load at once, so clicking 
 
 If you have an issue with the Disciple.Tools system, first try to find your answer in the Documentation How to Guide (found by clicking Help under Settings).
 
-|Question-Mark|
+|Question mark|
 
 If you can’t find your answer there, click this question mark to submit a ticket about your issue. Please explain your issue with as much detail as possible.
 
@@ -401,7 +401,7 @@ If you can’t find your answer there, click this question mark to submit a tick
 Contacts Record Page
 ====================
 
-|Contact-Record|
+|Contact record|
 
 1. Contact Record Toolbar
 2. Status and Assignment Tile
@@ -417,16 +417,16 @@ Additional: Other Tile
 1. Contact Record Toolbar
 -------------------------
 
-|Contact-Record-Toolbar|
+|Contact record toolbar|
 
 **Update Needed**
 ~~~~~~~~~~~~~~~~~
 
-This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on |Update-Needed-Toggle| when they are wanting an update on a specific contact.
+This option only shows up for certain roles (i.e. DT Admin, Dispatcher). Usually a Dispatcher will toggle this on |Update needed toggle| when they are wanting an update on a specific contact.
 
 After toggling this on, the user who is assigned to this contact will see this message:
 
-|Update-Needed-Alert|
+|Update needed alert|
 
 
 **Dispatcher actions**
@@ -434,7 +434,7 @@ After toggling this on, the user who is assigned to this contact will see this m
 
 This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
 
-|Dispatcher-Actions|
+|Dispatcher actions|
 
 * **Make a user from this contact:** This option will take a regular contact and make them into a Disciple.Tools user. (E.g.A contact becomes a local partner and Multiplier.)
 
@@ -442,18 +442,20 @@ This option only shows up for certain roles (i.e. DT Admin, Dispatcher).
 
 * **Merge with another contact:** If there are multiple Contact Records for the same contact, you can use this option to merge them together.
 
-**Follow**
-~~~~~~~~~~
+.. _c-follow:
 
+**Follow Contact**
+~~~~~~~~~~~~~~~~~~
 Following a contact means that you are actively receiving notifications about activity in their contact record. If you are assigned to a user, you must follow them. If you are sub-assigned or have been shared the contact, you can choose to follow or not follow the contact by toggling on or off the follow button
 
-Following: |Follow-On| vs.
-Not Following: |Follow-Off|
+Following: |Follow on| vs.
+Not Following: |Follow off|
 
 
-**Share**
-~~~~~~~~~
+.. _c-share:
 
+**Share Contact**
+~~~~~~~~~~~~~~~~~
 Click |Share| to share a contact record with another user. This user will be able to view, edit, and comment on your contact’s record.  Clicking on this button will show you with whom it is currently shared.
 
 -----------------------------
@@ -485,11 +487,11 @@ This describes the status of the contact in relationship to the Disciple.Tools s
 
 This is the user assigned to the contact. They are the ones responsible for the contact and updating the contact’s profile. When the Dispatcher assigns you a new contact, you will see this message pop up within the Contact Record:
 
-|Assignment-Needed|
+|Assignment needed|
 
 To assign a user to this contact, begin typing the name of the user and when it appears, select it.
 
-|Assigned-To|
+|Assigned to|
 
 
 **Sub-assigned to**
@@ -517,30 +519,30 @@ These are the details about a contact. You can change the information here by cl
 4. Comments and Activity Tile
 -----------------------------
 
-|Comments-Activity-Tile|
+|Comments activity tile|
 
 
-Making a Comment
-~~~~~~~~~~~~~~~~
+Making a Comment (Contact)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This tile is where you will want to record important notes from meetings and conversations with a contact.
 
-|At-Mention|
+|At mention|
 
 Type @ and the name of a user to mention them in a comment. This user will then receive a notification.
 
 
-Quick actions:
-~~~~~~~~~~~~~~
+Quick actions  (Contact)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are designed to help multipliers record their activity quickly when they are interacting with several contacts.
 
-|Quick-Action|
+|Quick action|
 
 
 
-Comments and Activity Feed
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Comments and Activity Feed (Contact)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Contact Record and conversations between users about the contact.
 
@@ -560,12 +562,12 @@ You can filter the feed by clicking on one or more of the following:
 
 This tile give you the ability to quickly navigate between groups and other contacts connected to this specific contact.
 
-|Connections|
+|Connections tile|
 
 
 **Groups:** Quickly navigate to contact’s group or church record
 
-To add a new group or church, click |Add-Group|
+To add a new group or church, click |Add group|
 
 **Baptized By:** Add the individual(s) who were involved with baptizing the contact.
 
@@ -583,7 +585,7 @@ To add a new group or church, click |Add-Group|
 
 This tile helps a multiplier to keep track of a contact’s spiritual journey.
 
-|Progress|
+|Progress tile|
 
 **Seeker Path:** These are the steps that happen in a specific order to help a contact move forward.
 
@@ -598,7 +600,7 @@ Other Tile
 
 As Disciple.Tools develops, tiles will change and new ones will become accessible. If you have a need or request, contact your Zúme Disciple.Tools Admin who has the ability to edit and create custom tiles.
 
-|Other|
+|Other tile|
 
 **Tags:** Add tags to contacts to help yourself quickly find contacts associated with noteworthy characteristics.
 
@@ -611,38 +613,38 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 
 
 
-.. |ADD-FILTER| image:: /Disciple_Tools_Theme/images/add-filter.PNG
-.. |CREATE| image:: /Disciple_Tools_Theme/images/create.PNG
-.. |SAVE| image:: /Disciple_Tools_Theme/images/save.PNG
-.. |Contacts-List-Page-Numbers| image:: /Disciple_Tools_Theme/images/Starting_Contacts_Page_numbers.jpg
-.. |Website-Menu-Bar| image:: /Disciple_Tools_Theme/images/website_menu_bar.png
-.. |Contact-List-Toolbar| image:: /Disciple_Tools_Theme/images/Middle-Multiplier-Banner.png
+.. |Add filter| image:: /Disciple_Tools_Theme/images/add-filter.PNG
+.. |Create| image:: /Disciple_Tools_Theme/images/create.PNG
+.. |Save| image:: /Disciple_Tools_Theme/images/save.PNG
+.. |Contacts List Page Numbers| image:: /Disciple_Tools_Theme/images/Starting_Contacts_Page_numbers.jpg
+.. |Website Menu Bar| image:: /Disciple_Tools_Theme/images/website_menu_bar.png
+.. |Contact list toolbar| image:: /Disciple_Tools_Theme/images/Middle-Multiplier-Banner.png
 .. |User| image:: /Disciple_Tools_Theme/images/User.png
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
-.. |New-Filter| image:: /Disciple_Tools_Theme/images/New-Filter.png
+.. |New filter| image:: /Disciple_Tools_Theme/images/New-Filter.png
 .. |Search| image:: /Disciple_Tools_Theme/images/search.png
 .. |Filters| image:: /Disciple_Tools_Theme/images/Filters_blank.png
-.. |Example-Contacts| image:: /Disciple_Tools_Theme/images/Example_Contacts.png
+.. |Example contacts| image:: /Disciple_Tools_Theme/images/Example_Contacts.png
 .. |Settings| image:: /Disciple_Tools_Theme/images/Gear-Options.png
-.. |Filter-Button| image:: /Disciple_Tools_Theme/images/Filter-contacts-button.png
+.. |Filter button| image:: /Disciple_Tools_Theme/images/Filter-contacts-button.png
 .. |Notifications| image:: /Disciple_Tools_Theme/images/Notification-bell.png
-.. |Question-Mark| image:: /Disciple_Tools_Theme/images/Question-mark.png
-.. |Contact-Record| image:: /Disciple_Tools_Theme/images/Contact_Record_Admin_labeled.jpg
-.. |Follow-Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
-.. |Follow-On| image:: /Disciple_Tools_Theme/images/Follow-On.png
+.. |Question mark| image:: /Disciple_Tools_Theme/images/Question-mark.png
+.. |Contact record toolbar| image:: /Disciple_Tools_Theme/images/Contact-Record-Toolbar-Admin.png
+.. |Contact record| image:: /Disciple_Tools_Theme/images/Contact_Record_Admin_labeled.jpg
+.. |Follow off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
+.. |Follow on| image:: /Disciple_Tools_Theme/images/Follow-On.png
 .. |Share| image:: /Disciple_Tools_Theme/images/share.PNG
-.. |Update-Needed-Alert| image:: /Disciple_Tools_Theme/images/Update-Needed.png
-.. |Update-Needed-Toggle| image:: /Disciple_Tools_Theme/images/update-needed-toggle.png
-.. |Dispatcher-Actions| image:: /Disciple_Tools_Theme/images/Dispatcher-Actions.png
+.. |Update needed alert| image:: /Disciple_Tools_Theme/images/Update-Needed.png
+.. |Update needed toggle| image:: /Disciple_Tools_Theme/images/update-needed-toggle.png
+.. |Dispatcher actions| image:: /Disciple_Tools_Theme/images/Dispatcher-Actions.png
 .. |Status-Assignment-Tile| image:: /Disciple_Tools_Theme/images/status-assignment-tile.png
-.. |Assignment-Needed| image:: /Disciple_Tools_Theme/images/Assignment.png
-.. |Assigned-To| image:: /Disciple_Tools_Theme/images/Blank-Assigned-To.png
+.. |Assignment needed| image:: /Disciple_Tools_Theme/images/Assignment.png
+.. |Assigned to| image:: /Disciple_Tools_Theme/images/Blank-Assigned-To.png
 .. |Details| image:: /Disciple_Tools_Theme/images/Details.png
-.. |Comments-Activity-Tile| image:: /Disciple_Tools_Theme/images/Comments-Activity-Tile.png
-.. |At-Mention| image:: /Disciple_Tools_Theme/images/at-mention.png
-.. |Quick-Action| image:: /Disciple_Tools_Theme/images/Quick_Actions.png
-.. |Connections| image:: /Disciple_Tools_Theme/images/Connections.png
-.. |Progress| image:: /Disciple_Tools_Theme/images/Progress.png
-.. |Add-Group| image:: /Disciple_Tools_Theme/images/Add-Group-Button.png
-.. |Other| image:: /Disciple_Tools_Theme/images/Other.png
-.. |Contact-Record-Toolbar| image:: /Disciple_Tools_Theme/images/Contact-Record-Toolbar-Admin.png
+.. |Comments activity tile| image:: /Disciple_Tools_Theme/images/Comments-Activity-Tile.png
+.. |At mention| image:: /Disciple_Tools_Theme/images/at-mention.png
+.. |Quick action| image:: /Disciple_Tools_Theme/images/Quick_Actions.png
+.. |Connections tile| image:: /Disciple_Tools_Theme/images/Connections.png
+.. |Progress tile| image:: /Disciple_Tools_Theme/images/Progress.png
+.. |Add group| image:: /Disciple_Tools_Theme/images/Add-Group-Button.png
+.. |Other tile| image:: /Disciple_Tools_Theme/images/Other.png

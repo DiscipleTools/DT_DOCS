@@ -3,6 +3,8 @@
 Admin
 *****
 
+.. _wpadmin:
+
 This is the wp-admin or backend of Disciple.Tools. Only certain roles within your Disciple.Tools instance will be able to access this and depending on their role, access will vary.
 
 
@@ -99,6 +101,7 @@ If you have many locations, you can convert and save in batches, but you must cl
 
 Only locations that are selected on contact and group records will be listed, so do not worry if several locations within your focus area do not appear in the list needing to be migrated.  You will only need to convert each of your locations once.  Once you’ve completed this step, the Migrating from Locations tab will disappear and you will be fully set up on the new locations structure.
 
+
 .. _wpadmin-people-groups:
 
 People Groups
@@ -116,7 +119,6 @@ People Groups
 
 All People Groups
 -----------------
-
 All of your added people groups will be listed here.
 
 To get started, we recommend clicking ``Import`` for a faster experience. You can also manually add people groups by clicking ``Add New``
@@ -130,9 +132,8 @@ When you hover over the name of a people group, the following options appear:
 
 .. _people-group-filter:
 
-Filter and Search
-~~~~~~~~~~~~~~~~~
-
+Filter and Search People Groups
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 There is a people groups ``Filter`` facility at the top of the people groups list that can be used to find people groups. The filter uses the date the listing was added to your instance of DT.
 
 You can also use the ``Search People Groups`` field on the top right side of this screen to find a people group that has already been added.
@@ -141,15 +142,14 @@ You can also use the ``Search People Groups`` field on the top right side of thi
 
 Edit People Group
 ~~~~~~~~~~~~~~~~~~
-
 Click on the name of the people group or hover over it and click ``Edit``
 
 The numbers at the end of the people group such as the Bambara ( France | 100925 ), represents the ROP3 code. This code is a unique identifier shared between the list of people groups identified by Joshua Project and the IMB. When you import or link a people group with this ROP3 code, it will import data labels used by these two organizations for that people group. When you select a contact's people group in their Contact Record Details Tile, it will give the potential for reporting key metrics on the status of their people group. What God does among your people as noted in Disciple.Tools will be very helpful data for updating Joshua Project and IMB's databases on the status of the Great Commission.
 
 .. _people-group-add:
 
-Add New
--------
+Add New People Group
+--------------------
 
 .. Note:: We recommend importing rather than individually adding each people group one-by-one.
 
@@ -159,11 +159,11 @@ Add New
 #. A note will appear that says "The current people group data has been updated with this info! Refresh to see data".
 #. Click ``Publish``
 
+
 .. _people-group-import:
 
-Import
-------
-
+Import People Groups
+--------------------
 For a faster build of your people groups, import rather than add.
 
 1. In the country drop down list, select a country (e.g. France)
@@ -212,7 +212,7 @@ These are plugins we built for Disciple.Tools.  Currently, we have the following
 * ``Disciple.Tools Facebook Integration`` - This extends the Disciple Tools system with Facebook integration.
 * ``Disciple.Tools Webform`` - This extends the Disciple Tools system with a web form leads collection.
 * ``Disciple.Tools Demo Content`` - This extends the Disciple Tools system for rapid content addition for training purposes.
-* ``Disciple.Tools Mobile App Extension`` - This lets you use the Disciple.Tools instances with the :ref:`DT mobile app <about-dt-app>`.
+* ``Disciple.Tools Mobile App Extension`` - This lets you use the Disciple.Tools instances with the :ref:`DT mobile app <dt-app>`.
 
 
 .. _dt-plugins-recommended:
