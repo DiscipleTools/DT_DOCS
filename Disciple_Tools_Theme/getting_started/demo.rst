@@ -1,7 +1,7 @@
 .. _gs-demo:
 
 Demo
-*****
+****
 
 Setup a Demo Account
 ====================

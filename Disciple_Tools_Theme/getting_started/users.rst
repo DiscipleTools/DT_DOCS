@@ -1,7 +1,7 @@
 .. _gs-users:
 
 Users
-=====
+*****
 
 Disciple.Tools is a collaborative software that can be modified and updated by multiple users at once. Each user has his or her own login and password. Each user is assigned a particular role allowing varying degrees of access to the Disciple.Tools site. To learn more about User Roles, see :ref:`gs-roles`.
 
@@ -55,7 +55,7 @@ The user will then receive an activation email with a link. After the user click
 
 Here is what adding an existing user looks like:
 
-|existinguser|
+|Add existing user|
 
 
 
@@ -127,7 +127,7 @@ The user will then be able to login to your Disciple.Tools site with their usern
 
 Here is what adding a new user looks like on a multisite:
 
-|newuser|
+|New user|
 
 
 
@@ -135,7 +135,7 @@ Inviting a user from a Contact Record
 -------------------------------------
 If there is already a contact record for the user you want to add, there is an easy option. In the Contact Record, click the ``Dispatcher actions`` dropdown menu on the top, left. Then click ``Make a user from this contact``. Add the User's email, change the display name if needed and then click ``Create user``.
 
-|actions|
+|Dispatcher actions|
 
 .. note:: Example: If you follow-up with a seeker online, the system (e.g. Facebook plugin) will have made them a contact record in Disciple.Tools. Only the Admin and Dispatcher roles can see his record as well as the Multiplier assigned to him. Later, you want to train him in how to use Disciple.Tools so he can take new media contacts himself. The DT admin (not the Multiplier) would invite him as a user but attach this user to his already existing contact record. Only the DT admin would see this connection.
 
@@ -144,10 +144,10 @@ Linking an existing contact to a user
 -------------------------------------
 If you realize that you have a contact that should be linked with a user account, then in the Contact Record click the ``Dispatcher actions`` dropdown menu on the top left. Then click ``Link to an existing user``.
 
-|actions|
+|Dispatcher actions|
 
 
 .. |Gear| image:: /Disciple_Tools_Theme/images/Gear.png
-.. |newuser| image:: /Disciple_Tools_Theme/images/Add_New_User.png
-.. |existinguser| image:: /Disciple_Tools_Theme/images/Add_Existing_User.png
-.. |actions| image:: /Disciple_Tools_Theme/images/Dispatcher_Actions.png
+.. |New user| image:: /Disciple_Tools_Theme/images/Add_New_User.png
+.. |Add existing user| image:: /Disciple_Tools_Theme/images/Add_Existing_User.png
+.. |Dispatcher actions| image:: /Disciple_Tools_Theme/images/Dispatcher_Actions.png

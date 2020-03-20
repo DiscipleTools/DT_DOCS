@@ -28,7 +28,8 @@ This is the index page for the documentation referencing the `Disciple Tools The
 	:caption: Getting Started Info
 	:name: dt-user-start
 
-   	Contacts <./Disciple_Tools_Theme/getting_started/contacts>
+	Dashboard <./Disciple_Tools_Theme/getting_started/dashboard>
+	Contacts <./Disciple_Tools_Theme/getting_started/contacts>
    	Groups <./Disciple_Tools_Theme/getting_started/groups>
    	Metrics <./Disciple_Tools_Theme/getting_started/metrics>
 	Profile Settings <./Disciple_Tools_Theme/getting_started/profile_settings>

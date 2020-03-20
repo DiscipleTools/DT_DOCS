@@ -10,7 +10,7 @@ A group is a collection of contacts that are meeting regularly around the Word o
 Groups List Page
 ================
 
-|Group-List-Page|
+|Group list page|
 
 1. Website Menu Bar
 2. Groups List Toolbar
@@ -23,11 +23,10 @@ Groups List Page
 
 .. _g-website-menu-bar:
 
-1. Website Menu Bar
--------------------
-
-|Website-Menu-Bar|
+1. Website Menu Bar (Groups)
+----------------------------
 The Website Menu Bar will remain at the top of every page of Disciple.Tools.
+|Website Menu Bar|
 
 
 ----------------------
@@ -35,12 +34,12 @@ The Website Menu Bar will remain at the top of every page of Disciple.Tools.
 2. Groups List Toolbar
 ----------------------
 
-|Group-list-toolbar|
+|Group list toolbar|
 
 **Create New Group**
 ~~~~~~~~~~~~~~~~~~~~
 
-The |Create-new-group-button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of Admin and Dispatcher can see them. Learn more about the Disciple.Tools :ref:`gs-roles` and their varying permission levels.
+The |Create new group button| button is located at the top of the ``Group List`` page. This button allows you to add a new Group Record to Disciple.Tools. Other multipliers can’t see Group Records that you add, but those with the roles of Admin and Dispatcher can see them. Learn more about the Disciple.Tools :ref:`gs-roles` and their varying permission levels.
 
 .. note:: Disciple.Tools values the security and safety of all users and contacts.
 
@@ -63,7 +62,7 @@ A group' status can only be set to be ``Active`` or ``Inactive``. If you need to
 ~~~~~~~~~~~~~~~~~
 
 
-To be able to find a group quickly, you can use the Group Filter feature. Click |Filter-groups-button| to begin. On the left hand side are the Filter Options. You can select multiple options for one filter (i.e. church in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Groups`` to apply the filter.
+To be able to find a group quickly, you can use the Group Filter feature. Click |Filter groups button| to begin. On the left hand side are the Filter Options. You can select multiple options for one filter (i.e. church in XYZ location). Click ``Cancel`` to stop the filtering process. Click ``Filter Groups`` to apply the filter.
 
 
 .. note:: You can only have one filter active at a time.
@@ -74,7 +73,7 @@ To be able to find a group quickly, you can use the Group Filter feature. Click 
 Groups Filter Options
 ~~~~~~~~~~~~~~~~~~~~~
 
-|group-filter-options|
+|Group filter options|
 
 **Assigned To**
 
@@ -110,9 +109,8 @@ Groups Filter Options
 
 
 
-Search
-~~~~~~
-
+Search Groups
+~~~~~~~~~~~~~
 Type a group's name to quickly search for it. This will search all the groups you have access to. If there is a group name that matches, it will show in the list.
 |Search|
 
@@ -125,7 +123,7 @@ Type a group's name to quickly search for it. This will search all the groups yo
 
 The default filter options are located on the left of the page under the heading ``Filters``. By clicking these, your list of groups will change.
 
-|Group-Filters-Tile|
+|Group filters tile|
 
 **The Default Filters are:**
 
@@ -137,12 +135,12 @@ The default filter options are located on the left of the page under the heading
 * **Groups shared with me:** These are all groups who other users have shared with you. You do not have responsibility for these groups but you can access their records and comment if needed.
 
 
-Adding Custom Filters
-~~~~~~~~~~~~~~~~~~~~~
+Adding Custom Filters (Groups)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Add**
 
-If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter-groups-button| or |ADD-FILTER| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Groups``, that Custom Filter option will appear with the word ``Save`` next to it.
+If the default filters do not fit your needs, you can create your own Custom Filter. As mentioned above, you can click |Filter groups button| or |Add filter| to begin. They will both take you to the ``New Filter`` modal. After clicking ``Filter Groups``, that Custom Filter option will appear with the word ``Save`` next to it.
 
 .. note::  To cancel these ``Custom Filters``, refresh the page.
 
@@ -161,17 +159,17 @@ To delete a filter, click on the ``trashcan icon`` next to a saved filter. It wi
 ------------------
 
 
+.. _g-glt:
 
 4. Group List Tile
 ------------------
 
-|groups-tile|
+|Groups tile|
 
 .. _glt-groups:
 
-Groups
-~~~~~~
-
+Groups List
+~~~~~~~~~~~
 Your list of groups will show up here. Whenever you filter groups, the list will also be changed
 in this section too. Above are fake groups to give you an idea of what it will look like.
 
@@ -190,7 +188,7 @@ If you have a long list of groups they will not all load at once, so clicking th
 Group Record Page
 =================
 
-|group-record-page|
+|Group record page|
 
 1. Group Record Toolbar
 2. Group Details
@@ -201,33 +199,38 @@ Group Record Page
 
 -----------------------
 
+
+
 1. Group Record Toolbar
 -----------------------
 
-|group-record-toolbar|
+|Group record toolbar|
 
-**Follow**
-~~~~~~~~~~
 
+.. _g-follow:
+
+**Follow Group**
+~~~~~~~~~~~~~~~~
 Following a group means that you are actively receiving notifications about activity in their Group Record. If you are assigned to a group, you automatically follow them. If the Group Record has been shared with you, you can choose to follow or not follow the group by toggling on or off the follow button.
 
-Following: |Follow-On| vs.
-Not Following: |Follow-Off|
+Following: |Follow On| vs.
+Not Following: |Follow Off|
 
+.. _g-share:
 
-**Share**
-~~~~~~~~~
-
+**Share Group**
+~~~~~~~~~~~~~~~
 Click |Share| to share a Group Record with another user. This user will be able to view, edit, and comment on your groups’ record.  Clicking on this button will show you with whom it is currently shared.
 
 ----------------
+
 
 .. _g-details-tile:
 
 2. Group Details Tile
 ---------------------
 
-|Group-Record-Details|
+|Group record details|
 
 These are the details about a group. You can change the information here by clicking ``edit``. The information you add here, will also be used to help you filter your groups in the Groups List Page.
 
@@ -249,23 +252,23 @@ In this area is the following set of data:
 3. Group Comments and Activity Tile
 -----------------------------------
 
-|Group-Activity-Comments-Tile|
+|Group activity comments tile|
 
 
-Making a Comment
-~~~~~~~~~~~~~~~~
+Making a Comment (Group)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 This tile is where you will want to record important notes from meetings and conversations with a contact about their group.
 
-|At-Mention|
+|At Mention|
 
 Type @ and the name of a user to mention them in a comment. Note: This will share this Group Record Page with that user. This user will then receive a notification.
 
 
 
 
-Comments and Activity Feed
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Comments and Activity Feed (Group)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below the comment box, there is a feed of information. Recorded here are timestamps of every action that has taken place within this Group Record and conversations between users about the group.
 
@@ -281,7 +284,7 @@ You can filter the feed by clicking on one or more of the following:
 4. Group Members Tile
 ---------------------
 
-|Group-Members-Tile|
+|Group members tile|
 
 This is the area where you list the contacts that are a part of the group. To add members, click on the ``Search Members`` area and click on the name or search them.  To delete a contact click on the ``x`` next to their name. You can also quickly navigate between the Group Records and the members' Contact Records
 
@@ -292,7 +295,7 @@ This is the area where you list the contacts that are a part of the group. To ad
 
 In this tile, you can keep track of the overall health and progress of the group.
 
-|Group-Progress-Tile|
+|Group progress tile|
 
 
 **Group Type**
@@ -334,13 +337,13 @@ The list of elements is as follows:
 This tile shows the relationships between multiplying groups and provides a way to navigate quickly between them.
 
 
-|Parent-Peer-Child-Group-Tile|
+|Parent peer child group tile|
 
 
 **Parent Group:** If this group has multiplied from another group, you can add that group under ``Parent Group``.
 
 **Peer Group:** If this group aren’t parent/child in relationship, you can add that group under ``Peer Group``.
- It might indicate groups that collaborate, are about to merge, recently split, etc.
+It might indicate groups that collaborate, are about to merge, recently split, etc.
 
 **Child Group:** If this group has multiplied into another group, you can add that under ``Child Groups``.
 
@@ -350,24 +353,24 @@ This tile shows the relationships between multiplying groups and provides a way 
 
 
 
-.. |Website-Menu-Bar| image:: /Disciple_Tools_Theme/images/Website-Menu-Bar-Groups.png
-.. |Group-list-toolbar| image:: /Disciple_Tools_Theme/images/Group-List-Toolbar.png
-.. |Filter-groups-button| image:: /Disciple_Tools_Theme/images/Filter-Groups-Button.png
-.. |Create-new-group-button| image:: /Disciple_Tools_Theme/images/Create-New-Group-Button.png
-.. |Group-Filters-Tile| image:: /Disciple_Tools_Theme/images/Group-Filters-Tile.png
+.. |Website Menu Bar| image:: /Disciple_Tools_Theme/images/Website-Menu-Bar-Groups.png
+.. |Group list toolbar| image:: /Disciple_Tools_Theme/images/Group-List-Toolbar.png
+.. |Filter groups button| image:: /Disciple_Tools_Theme/images/Filter-Groups-Button.png
+.. |Create new group button| image:: /Disciple_Tools_Theme/images/Create-New-Group-Button.png
 .. |Search| image:: /Disciple_Tools_Theme/images/search-groups.png
-.. |ADD-FILTER| image:: /Disciple_Tools_Theme/images/add-filter.PNG
-.. |group-filter-options| image:: /Disciple_Tools_Theme/images/Group-Filter-Options.png
-.. |groups-tile| image:: /Disciple_Tools_Theme/images/Groups-Tile.png
-.. |group-record-page| image:: /Disciple_Tools_Theme/images/Group-Record-Page-labeled.jpg
-.. |group-record-toolbar| image:: /Disciple_Tools_Theme/images/Group-Record-Toolbar.png
-.. |Follow-Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
-.. |Follow-On| image:: /Disciple_Tools_Theme/images/Follow-On.png
+.. |Add filter| image:: /Disciple_Tools_Theme/images/add-filter.PNG
+.. |Group filters tile| image:: /Disciple_Tools_Theme/images/Group-Filters-Tile.png
+.. |Group filter options| image:: /Disciple_Tools_Theme/images/Group-Filter-Options.png
+.. |Group list page| image:: /Disciple_Tools_Theme/images/Group-List-Page-labeled.jpg
+.. |Groups tile| image:: /Disciple_Tools_Theme/images/Groups-Tile.png
+.. |Group record page| image:: /Disciple_Tools_Theme/images/Group-Record-Page-labeled.jpg
+.. |Group record toolbar| image:: /Disciple_Tools_Theme/images/Group-Record-Toolbar.png
+.. |Group record details| image:: /Disciple_Tools_Theme/images/Group-Record-Details.png
+.. |Group activity comments tile| image:: /Disciple_Tools_Theme/images/Group-Comments-Activity-Tile.png
+.. |Group members tile| image:: /Disciple_Tools_Theme/images/Group-Members-Tile.png
+.. |Group progress tile| image:: /Disciple_Tools_Theme/images/Group-Progress-Tile.png
+.. |Parent peer child group tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
+.. |Follow Off| image:: /Disciple_Tools_Theme/images/Follow-Off.png
+.. |Follow On| image:: /Disciple_Tools_Theme/images/Follow-On.png
 .. |Share| image:: /Disciple_Tools_Theme/images/share.PNG
-.. |Group-Record-Details| image:: /Disciple_Tools_Theme/images/Group-Record-Details.png
-.. |Group-Activity-Comments-Tile| image:: /Disciple_Tools_Theme/images/Group-Comments-Activity-Tile.png
-.. |At-Mention| image:: /Disciple_Tools_Theme/images/at-mention.png
-.. |Group-Members-Tile| image:: /Disciple_Tools_Theme/images/Group-Members-Tile.png
-.. |Group-Progress-Tile| image:: /Disciple_Tools_Theme/images/Group-Progress-Tile.png
-.. |Parent-Peer-Child-Group-Tile| image:: /Disciple_Tools_Theme/images/Parent-Child-Group-Tile.png
-.. |Group-List-Page| image:: /Disciple_Tools_Theme/images/Group-List-Page-labeled.jpg
+.. |At Mention| image:: /Disciple_Tools_Theme/images/at-mention.png

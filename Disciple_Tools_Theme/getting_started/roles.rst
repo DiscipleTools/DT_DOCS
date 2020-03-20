@@ -1,7 +1,7 @@
 .. _gs-roles:
 
 Roles
-=====
+*****
 
 |Roles|
 
@@ -27,6 +27,7 @@ Roles Training Manuals
 
 
 
+.. _role-registered:
 
 Subscriber/Registered
 ---------------------
@@ -43,6 +44,8 @@ Subscriber/Registered
 **Admin Privileges:**
  None
 
+
+.. _role-strategist:
 
 Strategist
 ----------
@@ -61,6 +64,8 @@ This role is in development.
 **Admin Privileges:**
  None
 
+
+.. _role-multiplier:
 
 Multiplier
 ----------
@@ -84,7 +89,7 @@ Multiplier
 
  Guide 2: :download:`Train and on-board new Multipliers to your Disciple.Tools site. </Disciple_Tools_Theme/images/Disciple-Tools-Multiplier-Guide.pdf>`
 
-
+.. _role-digital:
 
 Digital Responder
 -----------------
@@ -107,6 +112,7 @@ Digital Responder
  Learn more about the `Digital Responder <https://kingdom.training/digital-responder/>`_ role so you can identify the right person or persons for the job.
 
 
+.. _role-dispatcher:
 
 Dispatcher
 ----------
@@ -131,6 +137,8 @@ Dispatcher
 * Edit ``DT Settings``
 
 
+.. _role-dt-admin:
+
 DT Admin
 --------
 
@@ -152,6 +160,8 @@ DT Admin
 * Plus: Modify and add users and their roles
 
 
+.. _role-administrator:
+
 Administrator
 -------------
 
@@ -170,10 +180,15 @@ Administrator
  Users with this role can access ALL functionality, including the WordPress admin interface.
 
 
+.. _role-prayer:
+
 Prayer Supporter
 ----------------
 
 Currently unimplemented.
+
+
+.. _role-supporter:
 
 Project Supporter
 -----------------
