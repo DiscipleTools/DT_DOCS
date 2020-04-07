@@ -20,10 +20,15 @@ Disciple.Tools is currently available in the following languages, for both the W
 - French
 - Spanish
 - Turkish
-- Mandarin
 - Russian
 - Dutch
 - Portuguese
+- Chinese (simplified)
+- Chinese (tranditional)
+- Persian
+- Swahili
+
+
 
 .. Chinese (simplified and traditional)
 
