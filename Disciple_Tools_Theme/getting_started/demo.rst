@@ -3,6 +3,13 @@
 Demo
 ****
 
+Demo Hosting
+============
+
+Disciple.Tools does need to be hosted.  We host the demo sites.  Many organizations have their own IT departments that can “self-host” Disciple.Tools.  We are working with a few other ministries to try to offer Disciple.Tools hosting.  In many parts of the world where Disciple.Tools is being used, there are signification security risks to keeping this type of information, so the hosting for that is complicated and more expensive.  We are trying to get multiple options available for folks all along the spectrum of risk.  These hosting solutions will often have a cost, but we may find a provider that will offer a simple hosting solution free… or in exchange for data instead of money… These options are not yet ready, so we are currently letting users use the demo sites for a longer duration.  At the point that other options are available, we will communicate this and give a time limit to transition from the free demos.  I expect this transition period to be a 2-3 month window when we announce it.
+
+We are hoping for hosting options well under $50/month, my personal aim is less than $25/mo.  Most of the options worked on so far have been for more secure setups and have been estimated at about $100/mo or more.  All set ups will have fairly limitless setups so that you can add as many users and records as you want.
+
 Setup a Demo Account
 ====================
 

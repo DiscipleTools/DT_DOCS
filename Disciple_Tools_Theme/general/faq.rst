@@ -3,6 +3,14 @@
 Frequently Asked Questions
 ==========================
 
+How much does it cost to use Disciple Tools?
+--------------------------------------------
+Disciple.Tools is free to use, but most be hosted. If you are experienced with self hosting, you can do it yourself. If not, you will want to use a demo site for now, which is fully functional.
+
+We are close to having a simple hosting solution offered through a partner non-profit. They hope to have solutions starting at $25/month and increasing depending on your complexity and need - mainly related to security issues.
+
+Check out the demo and you are free to run with it for a while as the hosting stuff is still being developed.  
+
 
 I Don't See All of My Contacts
 ------------------------------
