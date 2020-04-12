@@ -67,7 +67,7 @@ In the *"big empty box"*, type in the translation of *"the string"* (a word or p
 
 On the far right side of each row, there are a few icons that can be used to sort the list.
 
-The ``A`` icon means "automatic translation" when highlighted will be set to orange in colour and means that the *string* was automatically translated. When you make a change to the string, the ``A`` will be unset.
+The ``A`` icon means "automatic translation" when highlighted will be set to orange in colour and means that the *string* was automatically translated. When you make a change to the string, the ``A`` will be unset. When you review a string that was marked as translated automatically, please untick the orange ``A`` icon to indicate that the string is correct.
 
 The ``Comments`` icon (represented by the speech bubbles icon) indicates if a comment has been written by any translators relating to this *string*. If you have a question or comment to make about the string, click the ``Comments`` icon and write your comment (or question) in the popup window. Your comment will be sent to the main editor for the language project who will reply ASAP, if needed.
 
