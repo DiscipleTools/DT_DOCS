@@ -9,7 +9,7 @@ The Disciple Tools dashboard is the homepage. It displays a summary of useful in
 
 Active Contacts Tile
 ====================
-The number of your active contacts is displayed in the circle. There are also a buttons to ``Add a contact`` and ``View Contact List``.
+The number of your active contacts is displayed in the circle. There are also buttons to ``Add a contact`` and ``View Contact List``.
 
 Pending Contacts Tiles
 ======================

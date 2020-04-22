@@ -470,17 +470,18 @@ Click |Share| to share a contact record with another user. This user will be abl
 
 The name of the contact will show up here. You can edit that in the Details section.
 
-**Status**
-~~~~~~~~~~
+**Contact Status**
+~~~~~~~~~~~~~~~~~~
 
 This describes the status of the contact in relationship to the Disciple.Tools system and Multiplier.
 
-* Unassigned: The contact is new in the system and/or has not been assigned to someone.
-* Assigned: The contact has been assigned to someone, but has not yet been accepted by that person.
-* Active: The contact is progressing and/or continually being updated.
-* Paused: This contact is currently on hold (i.e. on vacation or not responding).
-* Closed: This contact has made it known that they no longer want to continue or you have decided not to continue with him/her.
-* Unassignable: There is not enough information to move forward with the contact at this time.
+* New Contact - The contact is new in the system.
+* Not Ready - There is not enough information to move forward with the contact at this time.
+* Dispatch Needed - This contact needs to be assigned to a multiplier.
+* Waiting to be accepted - The contact has been assigned to someone, but has not yet been accepted by that person.
+* Active - The contact is progressing and/or continually being updated.
+* Paused - This contact is currently on hold (i.e. on vacation or not responding).
+* Closed - This contact has made it known that they no longer want to continue or you have decided not to continue with him/her.
 
 **Assigned to**
 ~~~~~~~~~~~~~~~
