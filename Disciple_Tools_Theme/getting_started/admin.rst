@@ -217,8 +217,7 @@ These are plugins we built for Disciple.Tools.  Currently, we have the following
 
 .. _dt-plugins-recommended:
 
-Facebook Plugin
----------------
+**Facebook Plugin**
 
 1. After you activate the Facebook plugin, under Extensions DT, click ``Facebook``. (If you don't see it, try refreshing the page)
 2. Follow the instructions to configure the plugin.
