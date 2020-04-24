@@ -196,7 +196,7 @@ How to Install
 
 1. To access the admin backend, click on the |gear| on the top right and click ``Admin``.
 2. In the left hand column, select ``Plugins``.
-3. To install a plugin, click on ``Install`` under the ``Actions`` section.
+3. To install a plugin, click on ``Install``. (Demo sites, skip to step 4.)
 4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
 .. note:: Each pulgin/extension that is installed and activated will often have a menu item added to the list of ``Extensions``. Some but not all extensions will need configuring.
@@ -209,13 +209,20 @@ Our Plugins
 These are plugins we built for Disciple.Tools.  Currently, we have the following:
 
 * ``Disciple.Tools Genmapper`` - extends the Disciple.Tools system with visual generation mapping for groups and baptisms.
-* ``Disciple.Tools Facebook Integration`` - This extends the Disciple Tools system with Facebook integration.
+* ``Disciple.Tools Facebook Integration`` - This extends the Disciple Tools system with Facebook integration. When Facebook users private message your Facebook page, it automatically imports a contact record with the private message content. 
 * ``Disciple.Tools Webform`` - This extends the Disciple Tools system with a web form leads collection.
 * ``Disciple.Tools Demo Content`` - This extends the Disciple Tools system for rapid content addition for training purposes.
 * ``Disciple.Tools Mobile App Extension`` - This lets you use the Disciple.Tools instances with the :ref:`DT mobile app <dt-app>`.
 
 
 .. _dt-plugins-recommended:
+
+Facebook Plugin
+---------------
+
+1. After you activate the Facebook plugin, under Extensions DT, click ``Facebook``. (If you don't see it, try refreshing the page)
+2. Follow the instructions to configure the plugin.
+
 
 Recommended Plugins
 ~~~~~~~~~~~~~~~~~~~
