@@ -199,7 +199,7 @@ How to Install
 3. To install a plugin, click on ``Install``. (Demo sites, skip to step 4.)
 4. Once this is done, click ``Activate`` to activate the plugin. Once installed, it will show ``Activated`` under the actions section.
 
-.. note:: Each pulgin/extension that is installed and activated will often have a menu item added to the list of ``Extensions``. Some but not all extensions will need configuring.
+.. note:: Each plugin/extension that is installed and activated will often have a menu item added to the list of ``Extensions``. Some but not all extensions will need configuring.
 
 .. _dt-plugins-ours:
 
