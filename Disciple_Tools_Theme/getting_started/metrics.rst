@@ -3,7 +3,7 @@
 Metrics
 *******
 
-In the Metrics area of Disciple Tools, you can is where you can see an overview of statistics for the project and your personal statistics.
+In the Metrics area of Disciple Tools you can see an overview of statistics for the project and your personal statistics.
 
 Metrics Menu Headings
 =====================
