@@ -520,7 +520,7 @@ These are the details about a contact. You can change the information here by cl
 4. Comments and Activity Tile
 -----------------------------
 
-|Comments activity tile|
+|Comments activity type|
 
 
 Making a Comment (Contact)
@@ -531,6 +531,8 @@ This tile is where you will want to record important notes from meetings and con
 |At mention|
 
 Type @ and the name of a user to mention them in a comment. This user will then receive a notification.
+
+Use the comment type field to assign a comment to be a particular type.
 
 
 Quick actions  (Contact)
@@ -643,6 +645,7 @@ As Disciple.Tools develops, tiles will change and new ones will become accessibl
 .. |Assigned to| image:: /Disciple_Tools_Theme/images/Blank-Assigned-To.png
 .. |Details| image:: /Disciple_Tools_Theme/images/Details.png
 .. |Comments activity tile| image:: /Disciple_Tools_Theme/images/Comments-Activity-Tile.png
+.. |Comments activity type| image:: /Disciple_Tools_Theme/images/Comments-Activity-type.png
 .. |At mention| image:: /Disciple_Tools_Theme/images/at-mention.png
 .. |Quick action| image:: /Disciple_Tools_Theme/images/Quick_Actions.png
 .. |Connections tile| image:: /Disciple_Tools_Theme/images/Connections.png
