@@ -129,12 +129,7 @@ Dispatcher
  Users with this role can access the Metrics page
 
 **Admin Privileges:**
- Users with this role has limited admin privileges:
-
-* Modify and add ``Locations``
-* Modify and add ``People Groups``
-* Install and activate ``Plugins``
-* Edit ``DT Settings``
+ None`
 
 
 .. _role-dt-admin:
